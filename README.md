@@ -33,3 +33,15 @@ This project is testing the sentiment analysis capabilities of LLMs and other la
 
 - gpt-3.5-turbo-1106
 - gpt-3.5-turbo (gpt-3.5-turbo-0125)
+
+# Useful Links
+
+[Hugging Face](https://huggingface.co/) - Repo for Language Models, data sets, and machine learning materials.
+
+# Relevant Papers
+
+[Comprehensive review and comparative analysis of transformer models in sentiment analysis](https://link.springer.com/article/10.1007/s10115-024-02214-3) - Excellent introductory to the concepts and terminology
+
+[Optimization Techniques for Sentiment Analysis Based on LLM (GPT-3)](https://arxiv.org/abs/2405.09770)
+
+[Exploring transformer models for sentiment classification: A comparison of BERT, RoBERTa, ALBERT, DistilBERT, and XLNet](https://onlinelibrary.wiley.com/doi/10.1111/exsy.13701)
