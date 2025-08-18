@@ -38,6 +38,10 @@ This project is testing the sentiment analysis capabilities of LLMs and other la
 
 [Hugging Face](https://huggingface.co/) - Repo for Language Models, data sets, and machine learning materials.
 
+[Measuring Fleiss' Kappa](https://arxiv.org/abs/2303.12502)
+
+[Datatab - Fleiss Kappa](https://datatab.net/tutorial/fleiss-kappa)
+
 # Relevant Papers
 
 [Comprehensive review and comparative analysis of transformer models in sentiment analysis](https://link.springer.com/article/10.1007/s10115-024-02214-3) - Excellent introductory to the concepts and terminology
@@ -45,3 +49,7 @@ This project is testing the sentiment analysis capabilities of LLMs and other la
 [Optimization Techniques for Sentiment Analysis Based on LLM (GPT-3)](https://arxiv.org/abs/2405.09770)
 
 [Exploring transformer models for sentiment classification: A comparison of BERT, RoBERTa, ALBERT, DistilBERT, and XLNet](https://onlinelibrary.wiley.com/doi/10.1111/exsy.13701)
+
+[Fleiss' Kappa](https://rave.ohiolink.edu/ejournals/article/318558932)
+
+[National Library of Medicine - Interrater Reliability](https://pmc.ncbi.nlm.nih.gov/articles/PMC9426226/)
