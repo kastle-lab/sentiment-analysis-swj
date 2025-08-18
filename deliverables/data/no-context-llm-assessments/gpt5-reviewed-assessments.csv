@@ -15,7 +15,7 @@ Minor remarks:
 
 - Page 14: ""Table 6 provides an overview of the data quality evaluation. All the assessed repositories obtained a high score, notably the BNB and the BnF."" - Based on Table 6, NLF obtained as high score (mconRelat) as BnF. Mention NLF as well?
 
-- Page 14: ""Regarding the NLF dataset, a common problem is related with the property rdf:langString used for language-tagged string values that are validated against xsd:string"" - rdf:langString is not a property, but a datatype.","gpt-4.1-mini-2025-04-14, Jon Wasky",neutral
+- Page 14: ""Regarding the NLF dataset, a common problem is related with the property rdf:langString used for language-tagged string values that are validated against xsd:string"" - rdf:langString is not a property, but a datatype.","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2801,"This is the second revision of the article “Urban IoT Ontologies for Sharing and Electric Mobility”. 
 
 The paper describes a modular suite of ontologies representing data gathered from Urban IoT devices used in urban mobility, finally producing a conceptual model to harmonize data exchanges between municipalities and service providers, with a specific focus on sharing and electric mobility domains. The paper also describes the methodology followed for the development of the ontology and contains a set of examples and references to additional materials to better understand installation, queries, and evaluation of the model.
@@ -28,7 +28,7 @@ This new paper also complies with all my other suggestions.
 In conclusion, my final recommendation is to accept the paper. Indeed, such an example of integration of ontologies and the use of existing vocabularies meets the needs of the users it refers to and clearly describes the context of reference, resulting in a good quality and relevance model. Moreover, its modularity also allows for future extension. 
 Therefore, although its originality is not extraordinary, I appreciate not only the effort at the technical level, but also the detail and care in organizing heterogeneous data in the repository, and in explaining the problems and challenges faced and the results obtained. In fact, the work is complete and well documented.
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",extremely positive
+","gpt-5-2025-08-07, Jon Wasky",extremely positive
 2804,"Prediction of Adverse Biological Effects of
 Chemicals Using Knowledge Graph Embeddings
 
@@ -61,7 +61,7 @@ Decomposition Models : dismay, complEx, Hole
 Geometic Models: TransE, RotatE, pRotatE, HAKE
 Convolutional Models: Cons KB, ConvE.
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",neutral
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2816,"The manuscript “LegalNERo: A linked corpus for named entity recognition in the Romanian legal domain” is a data description paper. It describes the LegalNERo dataset, which is a manually annotated corpus for named entity recognition in the Romanian legal domain. The dataset is made available through Zenodo and also through a SPARQL endpoint hosted on a server of the research centre in which the dataset was developed. The dataset itself is available in a number of different formats including BRAT, RDF Turtle and CoNLL-U Plus.
 
 The paper follows the typical structure of a dataset paper (Introduction, Related Work, Annotation Process, Corpus Description, Using the RDF Version, Corpus Usage, Conclusions). All in all, the descriptions are sufficient to enable re-use and adaptation of the dataset. 
@@ -96,7 +96,7 @@ Page 3, line 17: The Cohen’s Kappa of 0.87 is surprisingly low given that the 
 
 Page 6: In Section 6 the development of various NER models is mentioned but the evaluation of these models is missing.
 
-Finally, the paper is in need of a thorough round of revisions, there are many typos, missing words etc.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+Finally, the paper is in need of a thorough round of revisions, there are many typos, missing words etc.","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2816,"This manuscript was submitted as 'Data Description' and should be reviewed along the following dimensions: Linked Dataset Descriptions - short papers (typically up to 10 pages) containing a concise description of a Linked Dataset. The paper shall describe in concise and clear terms key characteristics of the dataset as a guide to its usage for various (possibly unforeseen) purposes. In particular, such a paper shall typically give information, amongst others, on the following aspects of the dataset: name, URL, version date and number, licensing, availability, etc.; topic coverage, source for the data, purpose and method of creation and maintenance, reported usage etc.; metrics and statistics on external and internal connectivity, use of established vocabularies (e.g., RDF, OWL, SKOS, FOAF), language expressivity, growth; examples and critical discussion of typical knowledge modeling patterns used; known shortcomings of the dataset. Papers will be evaluated along the following dimensions: (1) Quality and stability of the dataset - evidence must be provided. (2) Usefulness of the dataset, which should be shown by corresponding third-party uses - evidence must be provided. (3) Clarity and completeness of the descriptions. Papers should usually be written by people involved in the generation or maintenance of the dataset, or with the consent of these people. We strongly encourage authors of dataset description paper to provide details about the used vocabularies; ideally using the 5 star rating provided here <http://www.semantic-web-journal.net/content/five-stars-linked-data-vocabulary-use>. Please also assess the data file provided by the authors under “Long-term stable URL for resources”. In particular, assess (A) whether the data file is well organized and in particular contains a README file which makes it easy for you to assess the data, (B) whether the provided resources appear to be complete for replication of experiments, and if not, why, (C) whether the chosen repository, if it is not GitHub, Figshare or Zenodo, is appropriate for long-term repository discoverability, and (4) whether the provided data artifacts are complete. Please refer to the <a href=""/reviewers"" target=""_blank"">reviewer instructions</a> and the <a href=""/faq"" target=""_blank"">FAQ</a> for further information.
 
 
@@ -112,7 +112,7 @@ The idea of NER in the legal domain is interesting, however, there are certain c
 5. However, the end goal of having the data in form of Linked Data is missing. How this data can be used? What kind of interesting insights can we get from the data. The SPARQL queries provided are basic ones and it fails to give any insights into the data.
 
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2819,"In this paper, authors introduce a novel approach which encompasses the aspect of interoperability to quality assessment of RDF data by identifying eleven interoperability dimensions by aligning a list of standardized dimensions regarding data quality to the “I” principles out of other FAIR data principles.
 
  
@@ -155,7 +155,7 @@ Nevertheless, it would be great to see results in real world settings (on existi
 
  
 
-·      Clear statements regarding the limitation for the approach, data used and the developed tool should also be highlighted.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+·      Clear statements regarding the limitation for the approach, data used and the developed tool should also be highlighted.","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2819,"This paper present an approach to quantify interoperability of datasets using metrics that relate to existing frameworks, notably FAIR and related quality measurement (and representation initiative).
 
 The approach is interesting. In particular the authors do a good deal of relation to existing work, making their proposal a nice fit into a series of other proposals. 
@@ -192,7 +192,7 @@ Minor comments:
 - in 3.2 I am not sure it's right to call LDQ the ""linked data version of DQV"". Granted, it introduces some linked data quality aspects, but a lot of its contribution regards assessment processes which are not specifically LD-specific
 - I do not understand how RDFS can be used for ""representing annotations"" in 3.4. RDFS is very generic...
 - I do not understand the real value of using ShEx in 3.6. It looks like the authors use it to control the data that makes a report. But because the authors control the way the report are generated, I don't see how the report data could fail to meet their expectations.
-- in 37 one of the 'synthetic' is written 'synetic'","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+- in 37 one of the 'synthetic' is written 'synetic'","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2830,"This is the first revision of the manuscript I am reviewing.  Therefore, I am judging only the manuscript itself, not the comments on the revision.
 
 This manuscript presents COBRA, an approach for storing RDF archives in a way that supports several versioned query patterns (introduced in Section 2.1).  The authors' previous OSTRICH implemented, which already serves the same purpose, is extended from unidirectional delta chains to bidirectional ones in an attempt to reduce both storage size and ingestion time.  This is measured in a number of evaluations using the BEAR benchmark.  The hypothesis cannot be confirmed universally, but in a majority of situations.
@@ -210,7 +210,7 @@ The following aspects need improvement  (cf. the annotated PDF at https://www.dr
 * In Section 5.3.1, what do you mean by ""ingesting a raw representation""?
 * Regarding Figure 3: Before reading your reminder about the reverse order of ingestion on the next page, it's hard to understand that we have a zero value in the middle. You could facilitate understanding by showing an arrow that indicates the order of ingestion.
 * clarity of phrasing (cf. PDF annotations and comments)
-* multiple minor linguistic issues (cf. PDF)","gpt-4.1-mini-2025-04-14, Jon Wasky",neutral
+* multiple minor linguistic issues (cf. PDF)","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2832,"The application report systematizes the findings from more almost two decades of research on the Sampo portals, which focus on the domains of cultural heritage (CH) and the digital humanities (DH). As the main conceptual contribution, the author proposes (1) a set of design principles for semantic portals and (2) a description of three technology generations. The article also provides an excellent entry point to the literature on the Sampo portals. 
 
 The article extends a short paper published in the DH Nordic conference proceedings. There is little overlap with this prior publication, however. Both texts present an overview of selected Sampo projects, but the article covers more projects and gives additional technical details. More importantly, the discussion of the design principles does not appear in the short paper. The submitted article is also sufficiently independent from other publications on the Sampo model to justify its publication.
@@ -259,7 +259,7 @@ page 2, line 41: infra[structure]
 page 4, line 35 : m[o]del
 page 7, line 14, table 2 : Proso[po]grapher
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2833,"Despite the consideration made by the authors in the cover letter, this paper must be reviewed as ""Tools and Systems Report"". The paper is far from a full research paper and does not add relevant scientific contributions to the Semantic Web field; instead, it uses existing tools to create an event-based knowledge graph.
 
 The topic addressed in the paper is very relevant, timely and well- introduced and motivated, inspiring its reading. On the other hand, the related work section is long, does not explain the paper's contributions in relation to the state-of-the-art and is difficult to follow.
@@ -278,7 +278,7 @@ Another main concern about the paper is the evaluation of the tool. The authors 
 
 As previously mentioned, the code is available but not easy to run,  lacks documentation and coding standards are non-existent (https://www.oracle.com/java/technologies/javase/codeconventions-contents.html).
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",strongly negative
+","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2833,"The authors propose a pipeline which, given a set of documents describing legal cases, generates a knowledge graph about the events mentioned in such cases. The different steps of this pipeline - rule-based event extraction, a time ontology, a conversion between XML and the time ontology, and the knowledge graphs are described. While this is an impressive amount of work and a well-thought combination of several approaches (partly already described in the authors' previous work), I see several issues with respect to the motivation, the paper structure and the overuse of technical details. Moreover, the suggested tools are not yet easily ready to use due to missing code documentation.
 
 == Paper ==
@@ -364,7 +364,7 @@ i) The ""QUERY"" part does not work (Error message: ""JSON.parse: unexpected end
 j) The GitHub link on the bottom links to the Annotador repository.
 k) The Pipeline page (footnote 6) is not linked on the website. In general, I like that one can test the whole pipeline, but I don't think the result should be published in the public knowledge graph.
 l) It would be nice to have an introductory paragraph about the whole idea/goal of the website before jumping into the tools (WHENTHEFACT etc).
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2846,"The paper presents a PyTorch implementation of the RGCN model, published in a 2018 paper. The authors replicate several experiments in the original paper to compare the results obtained with the first and the new implementation. Results suggest that the new implementation is a reliable implementation of the model. In addition, while re-implementing the model, the authors propose new approaches to optimize training using PyTorch as well as new variants of node classification and link prediction models based on RGCN
 
 The paper has several merits but also limitations, which are listed below. 
@@ -470,7 +470,7 @@ Page 18
 “Traditional Knowledge Graph Embeddings (KGE) models, such as TransE and DistMult, lack the ability to perform node classification.“ →   Can you support this by pointing to some references? 
 
 “The c-RGCN has several advantages over the regular RGCN link predictor: 1) c-RGCN does not require sampling edges, because it is able to process the entire graph in full-batch “ →  This observation comes too late, while this reason for adding edge sampling was not explained when sampling was introduced. 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2846,"This paper presents and discusses a new implementation of the known Relational Graph Convolutional Networks (RGCNs) with the Deep Learning framework PyTorch. The authors reproduced the experiments of the original paper achieving similar results, released the source code of the new implementation, developed a more efficient algorithm for the message passage layer, developed two new configurations for RGCNs with less parameters and stated useful lessons learnt during this reimplementation.
 
 The paper is well written and clearly shows that this new implementation brings similar results to the original one. Moreover, the authors extended the original version of RGCNs with a new one with less parameters and, therefore, with a faster training time. I also appreciated the lessons learnt about the small dataset and the parameter statistic between the new implementation and the original one. However, this manuscript was submitted as 'full paper' but, as the focus is on the implementation of a known architecture and the originality is limited to the parameters reduction (achieving lower performance with respect to the new implementation) and a new efficient algorithm for the message passing layer, I suggest to submit again the paper as a 'Reports on tools and systems' category. I think that the paper already satisfies the requirements for this category.
@@ -500,7 +500,7 @@ Other concerns:
 [1] Mylavarapu, S., Sandhu, M., Vijayan, P., Krishna, K. M., Ravindran, B., & Namboodiri, A. (2020, January). Towards accurate vehicle behaviour classification with multi-relational graph convolutional networks. In 2020 IEEE Intelligent Vehicles Symposium (IV) (pp. 321-327). IEEE.
 [2] Hu, X., Fan, H., Noskov, A., Wang, Z., Zipf, A., Gu, F., & Shang, J. (2021). Room semantics inference using random forest and relational graph convolutional networks: A case study of research building. Transactions in GIS, 25(1), 71-111.
 [3] Chen, J., Pan, L., Wei, Z., Wang, X., Ngo, C. W., & Chua, T. S. (2020, April). Zero-shot ingredient recognition by multi-relational graph convolutional network. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 34, No. 07, pp. 10542-10550).
-[4] Donadello, I., & Serafini, L. (2019, July). Compensating supervision incompleteness with prior knowledge in semantic image interpretation. In 2019 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+[4] Donadello, I., & Serafini, L. (2019, July). Compensating supervision incompleteness with prior knowledge in semantic image interpretation. In 2019 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE.","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2852,"1. Originality:
 This paper introduces a neural network model where attention mechanisms are exploited to learn common object properties from the OWL2 ontology standard. 
 Similar to what some of the co-authors proposed for the IterE model, this paper exploits axiom properties throughout its learning, but instead of learning rules guided by those properties, it uses those rules to implement an attention mechanism affecting the model embeddings.
@@ -517,7 +517,7 @@ Nevertheless, it truly confirms the validity of the approach and applicability t
 The quality of the writing is very basic, many sentences are missing words or using the wrong word, verb tense, etc., which makes reading unpleasant but does not affect the technical comprehension.
 
 4. Paper Code/Resources:
-The github reference was created but is empty (at least the public branch), which makes it impossible to review the solution code quality, reproduce results and confirm whether artifacts will be available.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+The github reference was created but is empty (at least the public branch), which makes it impossible to review the solution code quality, reproduce results and confirm whether artifacts will be available.","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2854,"This paper is about publishing Public Transport data in a cost-efficient and flexible manner using Semantic Web technologies (Linked Connections approach). The paper studies what are the performance tradeoffs for route query planning when publishing data and compares it with ""traditional"" implementation with a ""fat"" server instead of pushing some computation to intelligent clients.
 
 DISCLAIMER: Is the first time I review this paper, that I see has been previously submitted. In line with what editors of this journal have asked me in similar situations, I read the paper with fresh eyes, without evaluating or assessing changes from previous versions.
@@ -605,7 +605,7 @@ Following on my remark on statistical tests in section 5, I don't think you can 
 
 
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2860,"The paper proposes a methodology for aligning Wikidata statements with natural language sentences from Wikipedia. In general, the paper is well-written, and most parts of the proposed pipeline are clearly described. I also appreciate the authors' effort to offer a mathematical formulation for the entire process of building the resulting dataset. The authors have already made their data openly available at a persistent URL on GitHub (i.e. at https://github.com/tahoangthang/Wikidata2Text). The repository looks in good shape and sufficient documentation about the resources is provided.
 
 My concern regarding the paper is mostly associated: (i) with how it relates to other existing works that seek to generate similarly-minded datasets, and (ii) with how the quality of the resulting corpus is evaluated. The work is introducing a methodology for obtaining high-quality alignments between English Wikipedia sentences and Wikidata quads (i.e. subject-property-object triples along with their corresponding qualifier information). However, I believe the provided Corpus Evaluation section does not offer sufficient evidence about the \textit{closeness} of the resulting quads with their corresponding sentences and their annotations.
@@ -644,7 +644,7 @@ K. Toutanova, D. Chen, P. Pantel, H. Poon, P. Choudhury, and M. Gamon, “Repres
 Y. Mrabet et al., “Aligning Texts and Knowledge Bases with Semantic Sentence Simplification,” in Proceedings of the 2nd International Workshop on Natural Language Generation and the Semantic Web (WebNLG 2016), Edinburgh, Scotland, 2016, pp. 29–36.
 C. Gardent, A. Shimorina, S. Narayan, and L. Perez-Beltrachini, “Creating Training Corpora for NLG Micro-Planners,” in Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), Vancouver, Canada, 2017, pp. 179–188.
 H. Elsahar et al., ""T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples"", in Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan, 2018.
-P. Vougiouklis, E. Maddalena, J. Hare, and E. Simperl, ""Point at the Triple: Generation of Text Summaries from Knowledge Base Triples"", J. Artif. Int. Res., vol. 69, pp. 1–31, 2020, doi: https://doi.org/10.1613/jair.1.11694.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+P. Vougiouklis, E. Maddalena, J. Hare, and E. Simperl, ""Point at the Triple: Generation of Text Summaries from Knowledge Base Triples"", J. Artif. Int. Res., vol. 69, pp. 1–31, 2020, doi: https://doi.org/10.1613/jair.1.11694.","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2861,"Review swj2861
 
 
@@ -699,7 +699,7 @@ In fig. 3, I have hard time making sense of links like this
 id:8e065… (a trajectory) dul:classifies id:18b08.. (a cup)
 Please, add more information on how they should be read.
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2866,"The manuscript was submitted as 'Data Description'. It describes a linked dataset of SPARQL query logs (LSQ), version 2.0. LSQ 2.0 features logs from 27 SPARQL endpoints and describes 43.9 million SPARQL query executions on these endpoints. The paper is an extension to a paper ""LSQ: The Linked SPARQL Queries Dataset"" published on ISWC 2015. The submited extended version has the same structure as the previous paper. Both papers consider the same set of use cases for the LSQ dataset and both introduce the same data model for representing query logs. The reviewed paper describes significant extensions compared to the first version from 2015. This includes a significant extension with more datasets, queries and query executions, and more detailed statistics. Also a broad usage of the dataset is presented in a structured form which transparently shows various recent research works which used LSQ for the evaluation. The paper shows only the usage of LSQ 1.0. However, this clearly proves the usefulness of the dataset. The new version as a significant extension to the first version will undoubtedly find a broad usage as a pool of queries for various benchmarks.
 
 In summary, even though the paper does not bring anything ground breaking compared to the paper from 2015, it shall be published in my opinion. It is necessary to inform the research community about the new version of the dataset. The paper contains all necessary information the readers need to start using the dataset.
@@ -723,14 +723,14 @@ Regarding the LSQ data file
 
 (C) LSQ is not available through a public repository such as GitHub, Figshare or Zenodo. The authors use their own web server which seems appropriate for long-term discoverability. LSQ does not have a DOI.
 
-(D) The provided data artifacts are complete. The LSQ dump is structured to files for individual SPARQL endpoints. The content for each endpoint seems complete.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+(D) The provided data artifacts are complete. The LSQ dump is structured to files for individual SPARQL endpoints. The content for each endpoint seems complete.","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2873,"The paper describes an ontology-based framework for security analysis of industrial systems, which combines several technologies and existing systems and platforms into a complex analysis framework that partially automates the analysis process. The paper is well written language and layout-wise, and easy to understand at a general level, but one of the main shortcomings of the paper is the lack of both definitions and detailed descriptions of the technologies and components, as well as the lack of detail of the associated method, which actually does not in the end allow the reader to fully understand how the approach actually works, nor to make it reproducible or reusable. The linked GitHub repository mainly provides the code and a very brief Readme-file, but no additional documentation or technical details as far as I can tell. I am sure the code is fine, but without additional documentation, datasets etc. it is not so useful. A strength of the paper however, is the separation of the framework itself from the prototype implementation, which is in general a good thing. 
 
 Nevertheless, in addition, the evaluation section has more the character of a discussion rather than a scientific evaluation of the proposed framework and associated method. The evaluation also claims to validate the requirements, but since the requirements are described in a very generic fashion, and are sometimes ambiguous themselves it is not clear that the evaluation is rigorous enough to even establish that the framework supports these requirements. Regarding the requirements in section 3, questions arise like: What is a “high degree” of automation? What is a “flexible” model extension? What does “secure” mean in the context of information extraction, and is it really information extraction as in extraction from natural language text that is referred to in point 2? What is “exchangeable model extension logics” in point 9, does it mean exchangeable rules or exchangeable semantics? What does “analogous” mean in point 10? Etc. Further, several of the figures are very unclear to me. For instance, I have no idea what Figure 13 is trying to express. Is it some kind of evaluation workflow? Relations between datasets and processes of the framework? Or something else? The caption says it is a knowledge base excerpt, but if this is an instantiated ontology, the notation really needs a thorough explanation, to clarify its semantics. 
 
 Taken together, these two aspects (lack of technical detail, and lack of detailed formal evaluation) leaves the paper with very little scientific contribution. The framework is not described in enough technical detail to determine if there is really a novel use of ontologies and/or other semantic technologies there, and the evaluation does not really provide any insight into the contribution of the semantic technologies, nor how this approach compares to related ones. Based on this I unfortunately do not think that this paper, in its current form, fits as a full paper within the SWJ. It could fit better as an “application report”, however, then it would have to be considerably shortened and condensed. Or it might be submitted to and “in-use track” of one of the semantic web conferences, if the framework has been applied in a more realistic industry-scenario (than the lab setup that is discussed in the paper). 
 
-Another problem of the paper is that it is not really targeted at the SWJ audience. It focuses more on the security analysis problem, and also assumes a lot of knowledge regarding that domain from the reader, but it glosses over the problems that would be more interesting to the SWJ audience, such as the development and resulting complexity of the ontologies, how the reasoning is performed using them, how OWL is combined with all the other technologies and formats mentioned, such as SWRL, property graphs (neo4j) etc. One thing that would greatly improve the understandability of the overall problem and the complex framework, for non security-researchers, would be a running example that has the character of a “toy example” so that the reader can follow what happens in each step of the workflow, what the model extensions and reasoning steps produce etc. This would give SWJ readers a more concrete understanding of what this framework actually does. The paper does introduce a working example in section 2, but at a very abstract level, and without considering that many of the tasks are completely unfamiliar to the main part of the SWJ audience. It would be more useful then to show a small excerpt of the actual ontologies representing this, followed by the data that can be generated, the workflows etc., and use that as the basis of a running example. ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+Another problem of the paper is that it is not really targeted at the SWJ audience. It focuses more on the security analysis problem, and also assumes a lot of knowledge regarding that domain from the reader, but it glosses over the problems that would be more interesting to the SWJ audience, such as the development and resulting complexity of the ontologies, how the reasoning is performed using them, how OWL is combined with all the other technologies and formats mentioned, such as SWRL, property graphs (neo4j) etc. One thing that would greatly improve the understandability of the overall problem and the complex framework, for non security-researchers, would be a running example that has the character of a “toy example” so that the reader can follow what happens in each step of the workflow, what the model extensions and reasoning steps produce etc. This would give SWJ readers a more concrete understanding of what this framework actually does. The paper does introduce a working example in section 2, but at a very abstract level, and without considering that many of the tasks are completely unfamiliar to the main part of the SWJ audience. It would be more useful then to show a small excerpt of the actual ontologies representing this, followed by the data that can be generated, the workflows etc., and use that as the basis of a running example. ","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2873,"# Overall assessment 
 
 (1) Originality
@@ -818,7 +818,7 @@ The artifacts published on the GitHub page of the author (referenced as stable U
 
 Note: the provided artifacts are in any case insufficient to replicate the experimental setup from the paper, as the data from the evaluation section is not provided.
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2873,"The paper considers an application of an ontology-based solution for the automated support of a system’s security life cycle and multiple analysis types. The topic is highly relevant nowadays. The authors developed the novel framework implementing the proposed solution. It is open-source and available on GitHub.
 The paper is well-written and well-structured. 
 The paper provides the comprehensive review of the related research and clearly describes the place of the proposed solution.
@@ -842,7 +842,7 @@ Some typos:
 2.	P.10, rows 44-45: Workers listen to the topics of the tasks they can fulfil -> Workers listen to the topics of the tasks they can fulfill
 3.	P. 16, rows 21-23: Thereby the framework focusses on the automation of highly flexible model generation, extension and analysis -> Thereby the framework focuses on the automation of highly flexible model generation, extension and analysis.
 
-The data file provided by the authors under “Long-term stable URL for resources” is available on the GitHub, well organized and contains a README file. The provided resources appear to be complete for replication of experiments. ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+The data file provided by the authors under “Long-term stable URL for resources” is available on the GitHub, well organized and contains a README file. The provided resources appear to be complete for replication of experiments. ","gpt-5-2025-08-07, Jon Wasky",extremely positive
 2885,"""(1) Quality, importance, and impact of the described tool or system (convincing evidence must be provided). ""
 ------------------
 This paper presents TermItUp, a generic architecture integrating multiple state of the art tools with the purpose of providing a one-stop-shop for all terminology extraction needs. 
@@ -920,7 +920,7 @@ P5 l22 right: to developing
 
 P5 l45 right: this translates to a necessity [...]
 
-There are aditionnal small corrections like these to be made, can transmit feedback to authors later as time permits, preferable to delaying the review submission.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+There are aditionnal small corrections like these to be made, can transmit feedback to authors later as time permits, preferable to delaying the review submission.","gpt-5-2025-08-07, Jon Wasky",extremely positive
 2885,"Overall, the updated version of the paper reinforces the high quality and relevance of the work being developed, as well as TermitUp’s potential impact among the linguistic data science community. This enhanced version of the article provides a more thorough description of the tool’s architecture and its underlying methodology, as well as of TermitUp’s contribution to EU-funded projects (e.g. Prêt-a-LLOD, Lynx, and, more recently, SmarTerp) and to other initiatives, such as the collaboration with the DFKI and the work on the Emofinder database. Moreover, the authors managed to further highlight TermitUp’s complementary role when compared with other existing tools currently supporting terminological work. The topic concerning when and how human intervention may occur across the system has also been clarified. In addition, information has been provided by the authors on recent work in the proposal of an Ontolex Terminology module, which can certainly contribute to TermitUp’s evolution while, in turn, also benefitting from the tool’s development. 
 The links to the various repositories (namely GitHub and Zenodo) have been added, and the provided data resources appear to be complete, thereby enabling replication or experiments. Finally, even though most of the spelling issues have been solved, there are still some minor revisions pending:
 p.4|9L: the ‘being’ before ‘half’ has still not been eliminated
@@ -929,7 +929,7 @@ p. 9|48R: “be more suitable than *the* other”
 p. 10|29L: “are divided *into* two parts…”; 43L: “editing platform connected to *the* TermitUp triple store”; 39-43L: The beginning of the sentence “Much as Prêt-à-LLOD…” is odd; please consider rephrasing.
 p. 11|41L: please eliminate one of the “presented”
 p. 13|50R: “similar to *those of TermitUp*;”
-p. 14|11-12L: “community can *improve, contribute to or adapt it* to their specific *use cases*”","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+p. 14|11-12L: “community can *improve, contribute to or adapt it* to their specific *use cases*”","gpt-5-2025-08-07, Jon Wasky",extremely positive
 2894,"The paper is clearly a very significant and major revision of the prior submission. The paper clearly has merits for publication, and there is even more significance and potential impact with the numerous revisions made to the system. As a result, I believe that this paper, with a minor revision, should be accepted, but not as a 'full paper' but as a ‘tools & systems paper’. That is, the type described here: http://www.semantic-web-journal.net/content/special-call-semantic-web-tools-and-systems
 and the impact as per http://www.semantic-web-journal.net/faq#q20 is quite clear with the available system and its incredible performance comparing with state-of-the-art solutions.
 
@@ -946,7 +946,7 @@ Page 2 col 2 line 24-28: “According to Wang et al., they only could” -> “W
 In abstract, remove the mention of CEA, CTA, and CPA and say what they are. That is:
 …to generate annotations with DBpedia in three annotation tasks: 1) Cell-Entity (CEA), 2) Column-Type (CTA), and 3) Column Pair-Property (CPA). 
 ->
-…to generate annotations with DBpedia in three annotation tasks: 1) matching table cells to entities 2) matching columns to types, and 3) matching pairs of columns to properties. ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+…to generate annotations with DBpedia in three annotation tasks: 1) matching table cells to entities 2) matching columns to types, and 3) matching pairs of columns to properties. ","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2898,"The changes made have significantly improved the paper. 
  
 As an addition to my previous suggestions and those of my colleagues, as well to the improvements made by authors, I have only one minor issue, and that is:
@@ -954,7 +954,7 @@ As an addition to my previous suggestions and those of my colleagues, as well to
 The linked_ted-mdb files (@ Long-term Stable Link to Resources) do not open in Microsoft Excel (Mac version 16.52). However, I can open them in LibreOffice. It must be something small. Please give them a second look and improve them. 
 
 Otherwise, the rest fits.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2898,"The authors have exhaustively addressed all previous comments, and I was very happy of the improvements.
 The paper is much clearer and easier to follow. 
 
@@ -966,7 +966,7 @@ Editorial comments:
 - pag 8 line 14: incriminating --> increasing?
 - pag 9 lines 15/18: check for consistency the use of italics for the connectives in the body of the text
 - pg 10 line 20  and following: when presenting the sources of errors, I would use the \paragraph{} command in LaTeX rather than starting the paragraphs with a sentence in italics
-- Table 9 and Table 10: I would anticipate and discuss Table 10 first -move it to where Table 9 now is and then present and discuss Table 9","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+- Table 9 and Table 10: I would anticipate and discuss Table 10 first -move it to where Table 9 now is and then present and discuss Table 9","gpt-5-2025-08-07, Jon Wasky",extremely positive
 2898,"Upon reading the revised draft, I am happy to see that the authors have addressed the points more or less well. A few more (minor) points identified in my second review are listed below:
 
 Page 1, Line 39-41: The way the text reads, it seems that Connective-Lex presents linked data. If so, you should describe how the data in the lexicons under the database are linked.
@@ -984,7 +984,7 @@ Page 4; Line 50: “This design criterion lead to” > leads to/led to
 Page 5; Line 34: “… and their evaluation is provided” > are provided
 
 Page 10, Line 26: “The linking performance… are measured” > is measured
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2904,"As suggested in my earlier review, the paper was now submitted as a Dataset Description. This type is better suited for the paper. The authors do need to draw very close attention to the call for papers for dataset descriptions, though. There are still characteristics of the dataset for its usage missing, e.g., spelling out the name, the URI, the version date and number, licensing, availability. Also, what is still missing is evidence of its use. Also, while datasets in a Government data repository are probably fairly save in their long term availability, a w3id identifier, DOI and availability on Figshare or Zenodo would be advisable.
 
 Beyond the advertisement of the dataset and reporting its importance, a dataset description paper should also serve the purpose of lessons learned in the generation of the dataset. The paper still falls a bit short in this aspect. Two main issues:
@@ -1005,7 +1005,7 @@ There are a few language issues in the paper that need to be addressed, e.g.,
 ""downing the road""
 
 There are also some formatting errors such as ??? for Figures and references.
-The reference list is also ill-formatted and not consistent. See FAQ10","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+The reference list is also ill-formatted and not consistent. See FAQ10","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2904,"
 Overall impression
 -------------------------
@@ -1035,7 +1035,7 @@ The vocabularies and ontologies are vaguely described.
 Interlinking mechanisms are not presented to make 5 stars linked open data.
 The URI scheme used and the other type of specifications such as Shape Expressions (ShEx or SHACL) is not described.
 Although minor, There are typographical and formatting errors, also unfinished paragraphs (example the first paragraph of the conclusions)
-","gpt-4.1-mini-2025-04-14, Jon Wasky",strongly negative
+","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2904,"The paper presents the work to properly publish data under the principles of linked (open) data). To do so, the authors have promoted to the linked data initiative a dataset coming from Nova Scotia. 
 
 The work is interesting and applicable to many domains in which sometimes data is published for the shake of publishing. However, there are some things to improve:
@@ -1060,7 +1060,7 @@ Then, establish the specific technical issues that are preventing a proper data 
 -The quality checking of the dataset seems a bit simple. It would be also nice to see how to consume that information (if it is publicly available).
 
 Finally, authors properly comment the main conclusions and envision some future work.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2911,"The main contribution of this paper is an ontology called the Intelligent Energy Systems Ontology (IESO).
 
 The manuscript was submitted as 'full paper' and should be reviewed along the usual dimensions for research contributions which include (1) originality, (2) significance of the results, and (3) quality of writing. 
@@ -1140,8 +1140,8 @@ The authors should validate the ontologies using some of the existing and well-d
 
 See also the typical review criteria for ontology resources in Semantic Web conferences.
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",strongly negative
-2911,"This paper overviews relevant work regarding PES existing ontologies and presents a new ontology describing its purpose, requirements, development options. The application of the proposed ontology is demonstrated in an agent-based simulation of the local grid. In general, this paper is well written and the proposed ontology makes sense, I will recommend accepting it.","gpt-4.1-mini-2025-04-14, Jon Wasky",extremely positive
+","gpt-5-2025-08-07, Jon Wasky",strongly negative
+2911,"This paper overviews relevant work regarding PES existing ontologies and presents a new ontology describing its purpose, requirements, development options. The application of the proposed ontology is demonstrated in an agent-based simulation of the local grid. In general, this paper is well written and the proposed ontology makes sense, I will recommend accepting it.","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2911,"This manuscript presents the Intelligent Energy Systems Ontology (IESO), which provides semantic interoperability within a society of multi-agent systems (MAS) in the frame of power and energy systems.
 
 The manuscript is very well written, thank you.
@@ -1166,7 +1166,7 @@ Conclusion summarises the developments and demonstrator but is missing a key par
 Minor comments:
 35: unnecessary comma between references 1 & 2.
 80: wording is incorrect, “provides semantic reasoning” should change to “enables semantic reasoning”
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2911,"(1) Originality: 
 The paper describes the Intelligent Energy Systems Ontology (IESO), which aims at supporting an interoperable co-simulation of the power system including market mechanisms. The authors proposed a so-called multi agend system (MAS) society build of different MAS and ontology-based communication. With the ontology the data models of these different MAS are defined and validation and unit conversion are supported. The approach of a ontology-based co-simulation in energy systems context is novel and promising. The used MAS and their ontologies, were already desribed in earlier papers of the authors and are integrated into the IESO. 
 
@@ -1198,7 +1198,7 @@ The provided data seems to be complete to allow reproducing the case study. The 
 The IESO and all of it's modules are hosted on a homepage and have integrated the version number in the URL. Due to not using a repository like GitHub, FigShare or Zenodo, it seems that version management and repository-discoverability is not supported and no DOI is used. 
 
 (4) If applicable, whether created data artifacts appear to be fully included in the file: 
-According to the description of the case study in the paper, the data artifacts seems to be complete for all the described steps of the process. ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+According to the description of the case study in the paper, the data artifacts seems to be complete for all the described steps of the process. ","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2913,"The present paper introduces a new ontology that aims to serve as an agnostic representation of heterogeneous data mapping languages which generate Knowledge Graphs. For this purpouse the authors carried out a deep study of the existing data mapping languages to then produce a kind of meta-language which promise to be able to represent the functionalities of these languages in a language-agnostic way. The objective of this paper is a very valid and strong one, as through the last years more and more data mapping languages have appeared, but unfortunately there are no further convergences, letting alone users to explore this overwhelming field. However, I found somewhat the arguments and motivation used in the paper not strong enough.
 
 It is claimed that the ontology is able to represent all of the languages expresivity, however I would argue that this is a very difficult goal to achieve as the variablity and difference in functionality and expressivity among the languages could be huge. For example, looking to SPARQL-Generate which offer a big functionality and flexibility, it is possible to indicate an iterator (e.g, from 1 to n) to harvest all the data in an API. Looking to the ontology I don't see a way to represent this without loosing the semantics. Additionally, as mentioned in Section 3, xR2RML offers the possibility to push down a value further in a JSON tree-structure in order to cover the inability of JSONPath to get parent nodes. Again, I do not see how this could be represented following the proposed ontology. Therefore, I think that the real scope should be clarified alongside the problem of losing expressivity and how this would enable backwards conversion without losing the original semantics.
@@ -1248,7 +1248,7 @@ the main features included in mapping languages -> the main features included in
 
 General features for Graph Construction:
 Generate feature that apply yo statements -> Generate feature that apply to statements
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2913,"There are some minor grammar errors (in general, I would suggest reviewing the use of the prepositions, they are not always correct) or unfortunate phrasings,
 but overall, the paper is clearly written. However, I think the reproducibility of the method and validation of the result is not fully discussed,
 and I'm having a hard time trying to review the following recommended indicators:
@@ -1315,7 +1315,7 @@ Conclusion and Future Work
 -- spelling/grammar/details
 
 I personally prefer using Oxford comma consistently, for both 'and' and 'or'.
-I tagged some phrases that were unclear in the PDF at link https://www.dropbox.com/s/4hr7lobx1fm006v/swj2913_bdm.pdf?dl=0","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+I tagged some phrases that were unclear in the PDF at link https://www.dropbox.com/s/4hr7lobx1fm006v/swj2913_bdm.pdf?dl=0","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2913,"The paper describes an ontology about mapping languages that captures the commonalities between different mapping languages and technologies like R2RML, XSPARQL, CSVW, ShExML, etc. 
 
 Given that the paper has been submitted as an ontology description, I will use the criteria defined by the journal to assess these papers.
@@ -1358,7 +1358,7 @@ Page 14, listing 9 uses the prefix cmf in, for example, cmf:concat, however, I t
 In the discussion section, the authors say that conceptual mapping can ease the knowledge graph generation process. However, it is not clear why the instances of the conceptual mapping ontology like, for example, the running example in listing 9 and 10, could be more usable than the ShEXML example in listing 3. Maybe, the authors could add some discussion about how to improve the usability of those mapping languages.
 The authors also declare that the GTFS-Madrid-Bench uses mappings in R2RML, RML, CSVW and xR2RML that were created manually and that having tools that allow translation between those languages would facilitate those tasks…however, the current proposal seems to be only an ontology. Are the authors considering creating such translators between the ontology instances to those mappings? If it is still work-in-progress, I am not sure if the authors consider a better approach to use an ontology or if they have considered defining an intermediate language instead of the ontology, which could be easier to manage than ontology instances in RDF. Maybe, some discussion about alternatives to solve this issue could improve the paper.
 Reference 2 contains J. E. L. Gayo, when it should better be J. E. Labra-Gayo and  Reference 10 lack the authors.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",'slightly negative'
 2914,"This manuscript showcases a Stream Reasoning application in the healthcare context. It is well written and appropriately organized. The goal of the research is clear and relevant. The originality is low. The same authors published a similar paper in [1] on September 2021. The significance of the results is also low. The paper presents a use case. It demonstrates that it is possible to solve the problem using Stream Reasoning, but it does not prove that it makes sense. I would expect to see a comparative study that shows advantages and disadvantages compared to a solution purely based on a stream processor engine (e.g., esper, ksqldb, flink, or Spark Structured Streaming). 
 
 The data file provided by the authors under “Long-term stable URL for resources” is well organized and contains a README file. The provided resources are published in their institution GitLab and appear to be complete for replication of experiments. I did not import the project using an IDE, but the artifacts appear complete. 
@@ -1368,7 +1368,7 @@ As a side comment, I invite the authors to stop using c-sparql and use rsp4j [2,
 
 [1] Mathieu Bourgais, Franco Giustozzi, Laurent Vercouter: Detecting Situations with Stream Reasoning on Health Data Obtained with IoT. KES 2021: 507-516
 [2] Riccardo Tommasini, Pieter Bonte, Femke Ongenae, Emanuele Della Valle: RSP4J: An API for RDF Stream Processing. ESWC 2021: 565-581
-[3] https://github.com/streamreasoning/rsp4j","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+[3] https://github.com/streamreasoning/rsp4j","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2914,"While deep learning technologies have been used in many out-of-hospital health monitoring scenarios, they are suffering from the pain of lack of training data. Collecting data from patients is time and resource consuming, and it may also have some ethical issues. This paper provides a novel stream reasoning based approach to overcome the lack of training data, and it is really appreciated that the authors are taking an empirical approach to the problem.
 The paper is well-motivated, well written and well designed. Firstly, the paper clearly identifies the current research gaps on live health IoT data: lack of data interoperability, context consideration and training data. Then, this work proposes an ontology to represent the patient's medical information, activities, events and the sensors observing particular properties of the patient. The paper also illustrates constraints and situations concepts to interpret the values measured by sensors in regard to the patient's static context. The evaluation of the ontology is based on experimental analysis of real body temperature. I suggest the following improvements:
 1. Section 3.4: Consider the subtitle ""ontology validation"" instead of ""ontology evaluation"". Ideally, ontology evaluation for real-world applications focuses more on completeness and expressiveness. OOPS! (OntOlogy Pitfall Scanner!) is a very good tool to detect the ontology pitfalls, but it is designed for validating the structure, architecture and design of the ontology.
@@ -1380,7 +1380,7 @@ Additional comments:
 
 1. Section 3.3: The relationship (i.e., object property) of the ontology can be integrated into Figure 1, which could save some space for other sections.
 2. Be careful about the use of words and punctuations. For example, on Page 4 Line 31, use ""his/her"" or ""their"" instead of ""her""; On Page 1 Line 46, use ``’’ instead of """" (LaTex specific).
-3. Add one short paragraph to discuss the severity of the importance. From a practical perspective, a health monitoring system should be able to distinguish the severity of the importance, such as Critical, Important, Moderate and Low, etc.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+3. Add one short paragraph to discuss the severity of the importance. From a practical perspective, a health monitoring system should be able to distinguish the severity of the importance, such as Critical, Important, Moderate and Low, etc.","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2914,"The authors present a study about how to detect the emergency situations of patients based on data from medical devices using semantic stream processing techniques. Hence, the authors introduced an ontology for semantically annotating data from medical devices using the RDF. After that, they demonstrated how their system can detect the high temperature of a patient during night. 
 
 The quality of research and presentation of this manuscript has not reached the standard of the semantic web journal yet.
@@ -1394,7 +1394,7 @@ Otherwise, the manuscript is essentially a copy of their previous publication[1]
 
 
 
-1. Bourgais, Mathieu, Franco Giustozzi, and Laurent Vercouter. ""Detecting Situations with Stream Reasoning on Health Data Obtained with IoT."" Procedia Computer Science 192 (2021): 507-516.","gpt-4.1-mini-2025-04-14, Jon Wasky",strongly negative
+1. Bourgais, Mathieu, Franco Giustozzi, and Laurent Vercouter. ""Detecting Situations with Stream Reasoning on Health Data Obtained with IoT."" Procedia Computer Science 192 (2021): 507-516.","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2915,"The paper presents the output of the beArchaeo project, which includes the formalization of an ontological structure that extends the capabilities of cultural heritage models associated to CIDOC-CRM, especially CRMSci and CRMArchaeo, to encompass other aspects of the praxis of archaeoogical investigation such as archaometrics, and by extension their reach into other related disciplines such as chemistry. The model is enjoying adoption within the beArchaeo community and alignments with well-known controlled vocabularies like AAT.
 
 There is a prior version of this paper that was reviewed earlier. Compared to that version, it appears that the authors have put a lot of effort into heeding the comments of the reviewers and I agree that the paper is in much better shape right now, therefore I will only highlight the last few changes required and elaborate on the new content.
@@ -1425,20 +1425,20 @@ More detailed things to look into (notation in page:line range)
 * 17:29-30 - ""[...] that are being used for interpretation and will be the basis for the final exhibition.""
 * 17:44 - ""Some interesting issues also rose"" (or ""were also raised"")
 * 18:46 - ""The conceptual model _is_ the outcome"" (or ""was"")
-* 18:32-35 - that this is the first born-Semantic archaeological approach is a rather bold statement: would one argue that prior projects like Pelagios do not apply? I would advise a scrutiny of the state of the art in e.g. the Digital Classicist wiki at https://wiki.digitalclassicist.org/Category:Linked_open_data (by the way, pleae make sure to be there).","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+* 18:32-35 - that this is the first born-Semantic archaeological approach is a rather bold statement: would one argue that prior projects like Pelagios do not apply? I would advise a scrutiny of the state of the art in e.g. the Digital Classicist wiki at https://wiki.digitalclassicist.org/Category:Linked_open_data (by the way, pleae make sure to be there).","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2915,"The paper can be accepted. 
 I have however some recommendations for future work on the subject. 
 1) Obviously it is unlikely that the first version of an ontology is perfect. It will be necessary to refine what at present seems a very complex structure, with some possible redundancy in the class & property definitions. One example: why there is a new class FormationProcess, subclass of A4 Stratigraphic Genesis? Was the latter insufficient? Was this new class strictly necessary and a solution with   ""P2 has type"" not suitable? Thus I would consider the paper a first attempt, requiring further work to be implemented but still worth publishing. In the meantime, implement Occam's razor!
 2) The repository part is still very preliminary. This is acceptable at the present level of development, where the focus is on the theoretical aspects of the ontology and not on its implementation, but it will be necessary to go beyond Google drive (as authors also state). I would not consider this a secondary aspect in the future, nor an easily solvable one.
 3) Same comment for the use of Omeka-S. Is it the appropriate tool with all the required functionalities? I am not sure it is powerful enough. The choice of the package should go hand-in-hand with the repository solution.
-However, such data management aspects (points 2 & 3) can be addressed in future work and it is useful to publish the present one as is, not least to allow a discussion on the matter and compare different solutions.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+However, such data management aspects (points 2 & 3) can be addressed in future work and it is useful to publish the present one as is, not least to allow a discussion on the matter and compare different solutions.","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2915,"With the revised version, I feel that the authors have improved the quality of their paper significantly. More so, all my original points are addressed either completely or close enough, except for the lack of a proper evaluation. 
 
 While I greatly appreciate that the authors have added a whole section on preliminary evaluation, I still find it worrisome that, for a research paper, no proper evaluation with metrics and significance testing has yet been performed. It is comforting to read that there have been discussions with some domain experts, and that these discussion have already led to new insights and possible improvements, it still tells us little about how well the archaeometric domain has been modelled by the authors or how effective the model is for use by its target users, let alone whether any of these results is actually significant. With the seemingly close ties between the authors and the archaeological community, one would assume that doing a workshop with 15 to 20 participants, who would then test and evaluate the model, would not be too difficult to set up in a short amount of time. That the authors decided not to pursue this direction remains a sore spot of the paper in my opinion. That the authors also do not mention the number of experts who partook in these preliminary evaluations, whether they are part of the BeArchaeo project, and what form these discussions took, only increases my scepticism.
 
 As for the PURL link, despite the authors confidence that this link is working correctly, I'm still welcomed by the same 404 page as during my original review: https://www.di.unito.it/errors/404.html. Since PURL is clearly not at fault, I would suggest that the authors check with their own IT department why this might be the case. Also, I suggest that the authors move their ontology from their personal webpage to some more durable repository, like GitHub or Zenodo, to avoid further issues. Since the future of PURL has become a bit uncertain the last few years, the authors might also want to consider using one of the more recent alternatives, like w3id.org.
 
-Finally, I want to stress that I think that the work done by the authors is very relevant to the archaeological domain, and that it deserves a publication, but that, as mentioned, it is the lack of proper evaluation that prevents me from giving it the green light. However, if not here, then I encourage the authors to publish it elsewhere after having done such an evaluation.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+Finally, I want to stress that I think that the work done by the authors is very relevant to the archaeological domain, and that it deserves a publication, but that, as mentioned, it is the lack of proper evaluation that prevents me from giving it the green light. However, if not here, then I encourage the authors to publish it elsewhere after having done such an evaluation.","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2918,"I thank the author for addressing all my previous comments. 
 I tested the newly provided SPARQL endpoint at [1] from my command line and it works fine. Still, I would encourage the authors to provide a working on-line interface for the endpoint at [1] in order to increase the dataset ease of accessibility.
 
@@ -1446,12 +1446,12 @@ I tested the newly provided SPARQL endpoint at [1] from my command line and it w
 All in all,  I would like to accept the paper.
 
 [1] https://linked-maps.isi.edu/sparql
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2918,"The paper describes a method to generate RDF datasets for historical maps, whose topological features change over time. The method was evaluated over a selection of US historical map data.
 
 Having reviewed the previously submitted version of this paper, I may observe that this version contains the necessary improvements without introducing further issues. The authors have addressed my remarks both in the paper itself and in the author response, and have even addressed my ""curiosity"" comment in the concluding section. They have relicensed the data properly, made a release and improved its findability. In the future, they might consider separate releases for the data and for the code, although they will need to keep sharing the GitHub repository so as not to invalidate the stability of the supplied URL.
 
-I have no further recommendation for this paper and believe it is ready for publishing. Good work.","gpt-4.1-mini-2025-04-14, Jon Wasky",extremely positive
+I have no further recommendation for this paper and believe it is ready for publishing. Good work.","gpt-5-2025-08-07, Jon Wasky",extremely positive
 2918,"* Summary: The article describes an approach to convert vector geographic features extracted from multiple historical maps into contextualized Spatio-temporal KGs. The resulting graphs can be easily queried (GeoSPARQL) to understand the changes in different regions over time.  The approach and its evaluation focus on linear and polygonal geographic features.
 
 
@@ -1501,7 +1501,7 @@ There is a novelty in the proposed approach.
 * Minor corrections:
 [A06] Indeed, this (unrotated) box is the required input to the reverse-geocoding service and poses a limitation for us. We have clarified it and described how the calculation is done (section 2.4, paragraph 5).
 [R06] In the manuscript, you didn't mention that is a ""limitation"" of the reverse-geocoding service.  Perhaps, it would be better to mention this part in section 5, paragraph 5, where you described ""several limitations"".
-","gpt-4.1-mini-2025-04-14, Jon Wasky",extremely positive
+","gpt-5-2025-08-07, Jon Wasky",extremely positive
 2920,"## Overall:
 
 The paper presents a ""semantic meta-model"" for the precision agriculture and livestock farming domains. The main motivation the authors provide for this model is the need for data integration from multiple heterogeneous sources. They particularly focus on spatial, temporal and data access metadata. The paper takes for granted that such a meta-model is needed (i.e. is absent from the literature or unavailable) which might be true but given the plethora of existing vocabularies/standards/ontologies in the semantic web and the agrifood sectors needs to be justified a little more carefully. 
@@ -1534,7 +1534,7 @@ Resource: The data model is available on the OGC website and provides a stable U
 	- ""datasets could declare conformance to the proposed model"" -- this is not clear to me because the model basically allows one to describe a data set not to ensure the data model used in the actual data follows this or any other model. e.g. weather data could be in multiple formats/models and its metadata could be described with this model nonetheless. There is limited mention of mapping in this paper but it seems to mostly concerning time and location.
 * Sect 6
 	- ""In order to enable the generation and execution of SQL queries based on the metadata, the label (rdfs:label) of the dimension/measure should be the same as the corresponding field at the database table where the dataset is stored."" --- so if I have understood correctly all the metadata description of the data sets is there to enable an SQL query to be issued. This seems a very non-semantic approach so an explanation of this approach would be in order here.
-	- ""In this dataset the temporal coverage (February 2016) is defined using the reference.data.gov.uk Time Interval vocabulary (the example uses the prefix uk-month)."" --- but in the previous example xsd:dateTime is used, so how does the meta-model actually unify time (mentioned as a key dimension for integrating data sets)? In the next paragraph it says ""Note that the time dimension URI is the same as the one used at listing 5 in order to facilitate the interoperability between datasets."" so this further confuses the reader. Please make clearer what is going on here.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+	- ""In this dataset the temporal coverage (February 2016) is defined using the reference.data.gov.uk Time Interval vocabulary (the example uses the prefix uk-month)."" --- but in the previous example xsd:dateTime is used, so how does the meta-model actually unify time (mentioned as a key dimension for integrating data sets)? In the next paragraph it says ""Note that the time dimension URI is the same as the one used at listing 5 in order to facilitate the interoperability between datasets."" so this further confuses the reader. Please make clearer what is going on here.","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2920,"This paper introduces a meta model to semantically enrich and integrate precision agriculture and livestock farming.  The model reused several widely adopted standards, including DCAT, QB, and PROV-O. The main contribution is the creative linking between DCAT and QB through a SHACL shape so that data measures are associated with datasets. Plus, the paper is well-structured in general and is relatively easy to follow. Below are my major comments:
 
 (1). The meta model is proposed for the domain of precision agriculture and livestock farming. However, even though there are some discussions about the specifications of agricultural metadata requirement, I do not see how these ‘specifications’ are different from other types of domain-specific data and how they are implemented in the model. The discussion in section 4 seems very general. Consequently, I do not see much novelty of the proposed meta model for precision agriculture and livestock farming. 
@@ -1551,7 +1551,7 @@ Resource: The data model is available on the OGC website and provides a stable U
 
 (7). The paper must be proofread carefully. There are many typos. E.g., Page 2 paragraph 1, “… as well as the identification the best harvesting period” --> “identification of the best”. Page 3 right side paragraph 1, “… as the definition of the proposed mode in this is paper” --> delete 'is'. 
 
-In summary, the topic discussed in this paper is trending and the proposed SHACL shape to address the linking between two ontologies is creative. But for a journal paper, this paper should be substantially improved in terms of its methodological originality and result significance. ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+In summary, the topic discussed in this paper is trending and the proposed SHACL shape to address the linking between two ontologies is creative. But for a journal paper, this paper should be substantially improved in terms of its methodological originality and result significance. ","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2920,"This paper proposes a meta model that can integrate various forms of heterogeneous data. The motivation of this model is the author’s claim that data aggregation can improve the predictive power of models learnt from that data.
 
 The paper was well written and easy to read.
@@ -1563,7 +1563,7 @@ The main issue I have with this paper is the exclusion of industry or at least n
 The user requirements are a little light. I would have liked to have known how participants were selected, their profile and how conflicting requirements were dealt with. Without knowing the profile of the users, it is difficult to know if these use cases are relevant or just edge cases.
 
 The rest of the paper is an in depth description of the  model, and I have no real complaints about it. My main concern is that once the project is over, that this model will simply not be used.  If you could give a more robust explanation about the user requirements, and who participated I think that this paper could be a good candidate for acceptance into the journal.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2924,"The paper tackles the problem of knowledge graph (KG) construction. It proposes planning and execution techniques to speed up KG construction pipelines specified using mapping rules in [R2]RML. The proposed method relies on the partition of mapping rules so that the evaluation of the groups in the partition, reduces the duplicated generation of RDF triples and maximizes the parallel execution of the mapping rules. The proposed techniques are implemented in MorphKGC, an RML-compliant engine; the behavior of MorphKGC is assessed in three existing benchmarks. The reported results suggest that the proposed methods can accelerate the execution of mapping rules as the ones composing the studied benchmarks.
 
 Overall, the paper is relatively well-written and presents an efficient solution to a relevant data management problem. The experimental results provide evidence of the benefits that planning the execution of the mapping rules brings to the process of KG construction. Moreover, the outcomes of the empirical evaluation put in perspective the improvements achieved by the proposed planning techniques. However, the current version of this work suffers from several issues that considerably reduce its value. First, the problem is not formally defined, the definitions are not well-formulated and several relevant concepts are idle defined. Second, the complexity and correctness of the proposed algorithms, and the conditions that prerequisite their performance and soundness are not even mentioned. Third, the experimental study is conducted over a limited set of test cases, preventing, thus, the reproducibility of the reported outcomes. Finally, the state of the art is superficially analyzed, and the proposed techniques are not positioned with respect to similar data management techniques. 
@@ -1602,7 +1602,7 @@ Minor comments
 
 [1]  https://github.com/SDM-TIB/SDM-RDFizer
 [2] https://figshare.com/articles/dataset/SDM-Genomic-Datasets/14838342/1
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2924,"The paper presents a method for materialization of triples that are used for knowledge graph construction. Two different algorithms are presented for mapping partitions, which group mapping rules that create triples. The presented algorithms are evaluated on three benchmark datasets and compared against four existing systems. The experimental results suggest that the presented sequential and parallel processing solutions perform better than the compared systems in terms of memory usage and execution time, respectively.
 
 Originality: the paper addresses an important problem of reducing memory usage and execution time for knowledge graph construction. The novelty aspect of the paper lies in the presented two ways of using mapping partitions: parallel or sequential execution.
@@ -1614,7 +1614,7 @@ Also, five different configurations of Morph-KGC are mentioned but only three ar
 Quality of writing: The paper is written very well with clear structure and adequate language.
 
 Overall: The results section and conclusion about the drawbacks of each highlighted configuration needs to be mentioned as well, where one can see them from the results sections. Besides this point, the paper has addressed an important challenge, presented significant contributions.
- ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+ ","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2925,"Thanks to the authors for providing a color-coded paper and a thorough cover letter. I do really appreciate your effort! The paper got significantly improved and thus, hopefully will achieve a significant impact in the DH community. 
 
 # Long-term stable URL for resources assess:
@@ -1638,7 +1638,7 @@ The new version of the chapter reads really well!
 The experimental design section is also well-written and easy to follow. 
 
 ## Results
-The results section is quite easy to understand and up to par. An ablation study was performed on the input parameter (degree).","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+The results section is quite easy to understand and up to par. An ablation study was performed on the input parameter (degree).","gpt-5-2025-08-07, Jon Wasky",extremely positive
 2926,"The Nagoya protocol on Access and Benefit Sharing defines the legal processes constraining both the collection and reuse of data in Biodiversity studies. To find information regarding the existing studies and the administrative processes to collect and reuse the data requires to retrieve information from various heterogeneous databases and documents. It becomes particularly complex if you consider studies in regions of the world for which sovereignty is unclear as in the case of the United Kingdom and their external territories. 
 The authors are presenting in this paper a proof-of-principle ontology designed to improve the current situation by supporting the implementation of the FAIR principles. The NagO ontology is a cross domain ontology which aggregates ontologies for biodiversity, geography together with additional terms describing organizational and legal aspects of the Nagoya protocol and the different stakeholders involved. The ontology follows the OBO Foundry principles making it interoperable with the biodiversity relevant ontologies and some geographical ontologies. These various ontologies are aligned under the Basic Formal Ontology which provide a consistent semantic and logical framework. 
 	
@@ -1675,7 +1675,7 @@ o	Page 6 – column 2 line 16 – “Rather than creating BFO roles for terms”
 o	Page 7 – table 1 – The table is not mentioned in the article. It can be removed. 
 -	Section 5 – Usage scenarios 
 -	Section 9 – Annex: the list of concept seems to be incomplete.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2926,"
 The goal of this article is the development of an ontology NagO. NagO is a domain ontology focused on terms regarding the United Kingdom and its external territories and their link to the Nagoya Protocol policy framework, processes and people involved.
 
@@ -1711,7 +1711,7 @@ Review comments:
 4.I think the authors can extend the usage scenario, for example with finding role capacities of people involved. This will more fully present the potential of the NagO ontology.
 
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",extremely positive
 2932,"Overall Comments
 
 This paper proposes a complex framework for solving the contextual commonsense inference problem. Specifically, it contains three major components: (1) hinting; (2) Joint inference from multiple knowledge graphs; (3) adversarial training. In general, I think this paper still needs significant revision to meet the standard of this journal. Please see my detailed comments below.
@@ -1764,7 +1764,7 @@ Seems so
 4. whether the provided data artifacts are complete
 
 It was not analyzed.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",strongly negative
 2932,"Overall, I find the paper clearly written. This paper studies an important problem: contextualized commonsense reasoning, and it proposed 3 key contributions. 1. a hinting method that better guides the commonsense inference. 2. An embedding-based method for grounding commonsense assertions to stories. 3. A GAN architecture for inferring assertions from stories. 
 However, there are some weaknesses in the proposed methods:
 1. The hinting method is not fully explained and only a paper reference is given
@@ -1776,7 +1776,7 @@ Questions to the authors:
 2. In table 1, is the no hint setup referring to the original setup proposed by the GLUCOSE paper? 
 3. In section 3.6, the automated metrics seem to suggest that hinting is good. With hinting, the joint model is able to achieve comparable results as individual models, and overall results are much better than the no-hinting setting. But for human evaluation, the joint model with no hinting is getting the best results? which seem to contradict with the automatic evaluation?  
 4. Overall, I think it would be better to compare with previous systems, e.g. BART/GPT2 trained on ATOMIC2020. 
-I think the paper can be improved by addressing the aforementioned weaknesses and questions. ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+I think the paper can be improved by addressing the aforementioned weaknesses and questions. ","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2949,"The paper suggests an ontology called MOntCS (Modular Ontology for Common Sense) to represent knowledge with a goal to resolve some issues in other knowledge bases. In particular they target two issues they identify in ConceptNet's ontology, relation ambiguity and lack of structure.
 
 The paper has a careful discussion of many of the aspects that influence the choice of relations and entity representation, and lands on a set of relations trying to strike a good balance. There is also good comparisons to various other approaches (although AMR could also have been discussed?).
@@ -1797,7 +1797,7 @@ However, the utility of this ontology is not so convincing with the current evid
 
 
 In summary, while the motivation of the paper is good, the current proposal does not seem all that convincing. Still, there are worthwhile ideas and suggestions throughout, and it could be more convincing with more concrete evidence from applying to other KBs or showing promise in generating useful explanations.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2949,"
 The paper describes the authors' effort to define a modular ontology for common sense analysis. Their ultimate goal is to increase the density of the final knowledge graph by structuring and lowering the complexity. The have utilized the relation in WorldTree and created structured relations over those. Their ontology contains relations such as: structured relations, Verbal relations, Taxonomic relations, Affective relations, and grammatical exceptional relations. The paper carefully defines the relation type included in each category. Afterward they have described the annotation procedure to be combination of manual and automatic procedures and provided comparison of statistics of their KG with other common-sense knowledge-bases. Finally for comparing the quality of the ontology and collected KG, the paper describes the experiments over the task of QA and an ablation study to show the quality of every category of relations.
 
@@ -1837,7 +1837,7 @@ Minor Comments:
 * It might make the paper more readable if the authors can add the outline of the paper of what to be expected in each section and the overflow of the paper. 
 * In page 7, line 18: base classes are combined in  --> to be combined
 * In page 8 line 31 there are 2 ""cause"" words.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2949,"The authors propose MOntCS, a new ontology for structuring commonsense knowledge bases (KBs. MOntCS aims to address several shortcomings of popular KBs like ConceptNet, including the inconsistent granularity of the events and redundancy of relations. The design guidelines include restricting the nodes to verb and noun phrases (to control specificity) and introducing structural relations to connect compound nodes to their constituents. In addition, the proposed ontology contains four classes of relations, including verbal (semantic), taxonomic, and affective relations, to cover a broad category of commonsense relations. The authors instantiate MOntCS on the Worldtree factors corpus ([1]) using semi-automated annotation. Experiments on Worldtree QA show that the KB obtained using MOntCS marginally improves over ConceptNet.
  
 Commonsense reasoning is an increasingly popular area of research, and resources like new KBs and Ontologies can be valuable to make progress. The proposed work highlights some important shortcomings of the existing KBs, like the inconsistency in granularity and redundant relations. The new contribution, MOntCS, takes promising steps towards achieving these goals. However, grounding some of the claims in experiments and analysis, and clarifying parts of the paper will make it stronger. 
@@ -1917,7 +1917,7 @@ Q5: Page 15, L27: ""The design of QA-GNN does not ensure that the graph…diffic
 
 
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2957,"If I recall, I accepted this paper with minor revisions when it was submitted as a tools paper. However, it is difficult to accept this as rising to the level of research for a full paper. In particular, while the level of usability research is sufficient to demonstrate the tool, it does not compare that tool to other approaches for inputing structured data.
 
 On the other hand, if the focus were either the EPOS-DCAT-AP or the publication pipeline, the attention to the SHAPEness interface distracts from the evaluation of a pipeline that consists of a standard ontology for harmonization (EPOS-DCAT-AP), a structured editor (SHAPEness), and some governance for admitting edits.
@@ -1980,7 +1980,7 @@ notifications about constraint violations of invalid
 portions of the graph.""
 
 This brings up the spectre of readable diffs. It's probably worth menting if e.g. Jena emits a graph that's pretty consistent, and whether adding a blank node (with no co-refs) results in extra noisy diffs.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2957,"* Summary: the article describes SHAPEness, an open-source Java-based desktop software application that is a SHACL-driven visual editor for creating and validating RDF graphs.
 It combines in a single user interface, 3 different types of views (graph-based, form-based, and tree-based).  The paper describes the application's features, architecture, and usability in the context of the European Plate Observing System.
 
@@ -2065,7 +2065,7 @@ replacements: ""web"" ==> ""Web""; ""Schimatos"" ==> ""Schímatos"";
 + pag. 13-15 / sec. 6.3: The analysis presented is based only on six different users.  For sure, more users would be suitable for a proper user testing analysis.
 Based on reference [20], it seems that the software has been used at least since 2019.  It is recommended to broader the usability analysis by considering more users, especially for the other 2 missing user groups. Although this is explained/covered in section 7, the authors should've considered broader the usability analysis before submitting the paper.
 }
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2964,"In this paper the authors describe the ExaMode ontology and some of its applications. ExaMode includes a few hundred terms for disease, diagnosis, patients, tests, test results, procedures, etc. focused on histopathology, and specifically on four diseases: colon cancer, lung cancer, uterine cervix cancer, and celiac disease. The system has been used to automatically extract annotations from case reports in Italian and Dutch, and the results can be visualized as a graph.
 
 This work is valuable and difficult. The authors are to be commended for building a working system from many disparate parts, and for making good use of existing ontologies to improve interoperability of their systems and data. They provide a good ontology description in this paper, detailed ontology documentation at <http://examode.dei.unipd.it/ontology/index.html> and open code <https://github.com/ExaNLP/sket/>. I encourage the authors to continue this work.
@@ -2119,7 +2119,7 @@ Although the authors do make good reuse of many existing ontology terms, I belie
 - I do not understand why MONDO:0002271 'Colon Adenocarcinoma' is an owl:Class, but MONDO:0002032 'colon carcinoma' is an owl:Individual.
 - `https://hpo.jax.org/app/browse/term/HP:0003584` is not the correct identifier for ann HPO term. It should be `http://purl.obolibrary.org/obo/HP_0003584`
 - The paper refers to `exa:Gender` but the OWL file uses `NCIT:C17357`.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2984,"The authors present the Helio framework for building and
 publishing KGs as Linked Data. The framework sets its pillars on top of several requirements that establish the life-cycle of the KGs, meeting these requirements and also allowing practitioners
 to publish KGs following the Linked Data principles.
@@ -2137,7 +2137,7 @@ Finally, although the authors explain the lack of experimentation, I would like 
 
 The long-term stable link to resources is adequate from what I have been able to see. 
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2984,"
 TL;DR:
 
@@ -2196,7 +2196,7 @@ There is an important part missing though: use cases. Use case descriptions are 
 
 ## (C) whether the chosen repository, if it is not GitHub, Figshare, or Zenodo, is appropriate for long-term repository discoverability,  
 
-GitHub is used.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+GitHub is used.","gpt-5-2025-08-07, Jon Wasky",slightly negative
 2984,"--------
 Overview
 --------
@@ -2245,7 +2245,7 @@ I stop here, but again my recommendation to the authors would be to have their p
 ----------
 References
 ----------
-1.	Fensel, Dieter, et al. Knowledge graphs. Springer International Publishing, 2020.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+1.	Fensel, Dieter, et al. Knowledge graphs. Springer International Publishing, 2020.","gpt-5-2025-08-07, Jon Wasky",extremely positive
 2990,"
 This manuscript discusses the ontology engineering aspects of an ontology named ROH. It captures the entities and relations in the academic and research domains. ROH reuses concepts and relations from existing vocabularies/ontologies. Competency questions and SHACL rules are used to validate ROH.
 
@@ -2313,7 +2313,7 @@ Typos/grammar issues
 20) Page 26, line 27, the phrase ""particularities of"" can be removed.
 
 In general, please run a grammar checker on the entire document.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2990,"The goal of this article is presenting the development of the Hercules Network of Ontologies (ROH). ROH is a set of ontologies that models the research and academic domain (e.g. projects, researchers, academic articles, universities, courses, organizations, research results and so on). 
 
 The abstract is well-written, since it clearly and concisely presents the purpose of the article. The main goal of the paper is to describe the methodology followed for the development of ROH as well as all the steps for its implementation and continuous validation.
@@ -2332,7 +2332,7 @@ Review comments:
 2. Information about the ontology language and the expressivity of the ontology should be introduced in the paper. 
 3. I expect that the .owl file will be added in the repository. 
 The link https://herculescrue.github.io/ROH/0%20-%20OntologyTutorial.pdf is broken. 
-4. I think the authors should extend the usage scenarios outside the Hercules project. It would be interesting presenting further potential uses of the ROH by giving concrete examples. ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+4. I think the authors should extend the usage scenarios outside the Hercules project. It would be interesting presenting further potential uses of the ROH by giving concrete examples. ","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2990,"This paper presents the ROH modular ontology dedicated to model the academic and research domains (universities, organizations, projects, researchers, papers, etc.), especially in Spain. It is designed to be reusable and extendable to suit any other country specificities. The paper is well written and the key aspects of the ontology are clearly described.
 
 The paper reports an important ontology engineering work, following a precisely described methodology, and resulting in an ontology accessible on GitHub, validated with a base of SPARQL queries implementing competency questions and that can be continuously refined following a CI/CD software development practice.
@@ -2364,14 +2364,14 @@ page 19 focus in -> on
 page 20: competency query -> questions
 page 23: Listing 4 is useless
 page 25: “This task …” These 2 paragraphs should be developed and better explained.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 2997,"Thank authors for considering and addressing most of my previous comments in the prevision review round. The current version includes additional Background section, the search method, the significance in the introduction section, and limitation of the study. Review results table is better presented now and made accessible for other researchers. I think the current manuscript looks suitable to publish and will contribute to the field. However, there are some changes or improvement need to be made:
 
 The quality (resolution) of Fig 1. PRISMA flow diagram is too low to read.
 In the result section, the reviewed papers were presented in detail but I miss the connections. Can they be compared or contrasted with each other (differences or similarities?)
 The General Recommendations will be very helpful for the researchers in the field. In my opinion, it can be more explicit and elaborate on more concrete actions. For example, according to “confidentiality, privacy and provenance mechanisms should coexist in favor of an in-depth privacy compliance solution for health data handling”, what is recommended to do then?
 It would be better if “The limitation of the study” goes to the Discussion section. What are the potential impacts of these limitations? 
-In general, the current manuscript is much more complete and structured after revision. I think it can be published after minor changes. Thanks.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+In general, the current manuscript is much more complete and structured after revision. I think it can be published after minor changes. Thanks.","gpt-5-2025-08-07, Jon Wasky",slightly positive
 3022,"The paper presents a a study of similarity in Wikidata and the impact that retrofitting (subsequent training of embeddings to fit with external information, in this case similarity of entity pairs in Wikidata) can have on both KG and text-based embeddings similarity.
 
 This is a very relevant topic with several interesting applications in multiple domains.
@@ -2419,7 +2419,7 @@ Why is DistilRoberta used for abstract, labels, label+description and BERT-base 
 Minor: it would be better to employ the terminology defined by Lastra-Diaz et al when categorizing the different similarity metrics.
 
 
-In summary, there is an interesting idea in applying retrofitting to concept similarity with KGs. However, the paper does not consider related work appropriately, which limits the value of its contributions (see Lastra-Diaz et al). It also does not afford sufficient detail in the description of the methods and choices, and could be much richer in terms of tested configuration, presented results, and discussion.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+In summary, there is an interesting idea in applying retrofitting to concept similarity with KGs. However, the paper does not consider related work appropriately, which limits the value of its contributions (see Lastra-Diaz et al). It also does not afford sufficient detail in the description of the methods and choices, and could be much richer in terms of tested configuration, presented results, and discussion.","gpt-5-2025-08-07, Jon Wasky",slightly negative
 3022,"In this work, the authors propose a framework for concept similarity in Knowledge Graphs with a focus on Wikidata. The authors focus on studying the impact of different similarity methods, language models, and knowledge graph embeddings for concept similarity. Retrofitting technique is deployed to the embeddings which iteratively updates the node embeddings to bring their connections closer using an external dataset. In this paper, the authors adapt retrofitting to tune embeddings from KGs and Kms to Wikidata and ProBase.
 The framework has been evaluated on three different benchmarks: WD-WordSim353, WD-RG65, and WD-MC30.
 Pros:
@@ -2438,7 +2438,7 @@ However, I have the following concerns about the paper:
 5. There are no detailed details about DBpedia-RG 65, and DBpedia-MC 30. In what ways are they different from WD-RG65, and WD-MC30? 
 6. From where are the abstract/descriptions are extracted for the Wikidata dataset in Table 3? Are they extracted from Wikipedia? If yes, then why the results are not the same as DBpedia in Table 2 because it consists of the same abstracts from Wikipedia?
 7. I would recommend the authors list down the major contributions by the end of the introduction section, to improve the readability. Also to provide the related work at the beginning, so that the research gaps are understood before delving into the contribution made by this paper. 
-8. Minor: The link to google drive is available only after making a request. It would be nice to have it freely accessible without access request. ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+8. Minor: The link to google drive is available only after making a request. It would be nice to have it freely accessible without access request. ","gpt-5-2025-08-07, Jon Wasky",slightly negative
 3024,"(1) originality, 
 
 *** 
@@ -2534,7 +2534,7 @@ Honestly, I don't think that Dropbox is the best repository to chose for long-te
 (4) whether the provided data artifacts are complete.
 
 ***
-The ontology modules look complete to me. The only ""data"" in this case are in the form of individuals contained in the modules themselves. No other kind of data has been provided.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+The ontology modules look complete to me. The only ""data"" in this case are in the form of individuals contained in the modules themselves. No other kind of data has been provided.","gpt-5-2025-08-07, Jon Wasky",slightly negative
 3024,"This manuscript was submitted as 'full paper' and should be reviewed along the usual dimensions for research contributions which include (1) originality, (2) significance of the results, and (3) quality of writing. Please also assess the data file provided by the authors under “Long-term stable URL for resources”. In particular, assess (A) whether the data file is well organized and in particular contains a README file which makes it easy for you to assess the data, (B) whether the provided resources appear to be complete for replication of experiments, and if not, why, (C) whether the chosen repository, if it is not GitHub, Figshare or Zenodo, is appropriate for long-term repository discoverability, and (4) whether the provided data artifacts are complete. Please refer to the <a href=""/reviewers"" target=""_blank"">reviewer instructions</a> and the <a href=""/faq"" target=""_blank"">FAQ</a> for further information.
 
 Originality: good
@@ -2562,7 +2562,7 @@ Many figures (e.g., Fig. 4, Fig.6, Fig. 8, Fig. 10) have rich content but the te
 
 In summary, the paper has overall interesting topic and content, but should be improved in various aspects before it is accepted. Thus, I recommend a ""Major Revision"".
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 3029,"The article proposes an approach to build an I4.0 benchmark dataset by using KG, called I4.0 KG, to integrate data from sensors attached to machines in a production line for the manufacture of soccer balls.
 
 As a general comment, the article lacks of a concise and clear description of the key terms characteristics of the dataset. This does not help to facilitate its usage for different purposes. No information about dataset maintenance, reported usage and known shortcomings or limitations is provided. Furthermore, the article does not demonstrate what is the advantage or the contribution of using a KG in addition to the ontological models that exist in the literature for the integration of heterogeneous data and the access to this data. I think the authors should emphasize this to make it clear to the readers. Also, the authors talk about Industry 4.0 in general but the KG they present is specific to soccer ball manufacturing. I strongly recommend the authors to dedicate a section to discuss the possibilities of adapting their approach and the proposed KG to be used in other manufacturing activities.
@@ -2622,7 +2622,7 @@ It is difficult to see the adaptability of RGOM through this example. The use ca
 In the query of listing 3 it would be helpful to give more details about the status of the engine of a machine. I do not see the concept Status in the model, maybe it should be described how this status is obtained or what it represents (for example, if it can be seen as an abnormal behavior). This would show that the KG offers this kind of semantic information that could be exploited by an operator and even obtain more information associated with this abnormal behavior to determine its causes.
 Furthermore, maybe add third-party uses to provide evidence of the usefulness of the KG dataset. For example, a possible application (and not just say methods and tools) that can make use of KG to demonstrate its usefulness. For example, how KG could help to create suitables datasets to build machine learning models for predictive maintenance.
 
-Can this KG be adapted to another case that is not the manufacture of soccer balls? I think that the authors could make a discussion about this and give some hints on how to do it beyond that they do not fully validate this adaptability.","gpt-4.1-mini-2025-04-14, Jon Wasky",strongly negative
+Can this KG be adapted to another case that is not the manufacture of soccer balls? I think that the authors could make a discussion about this and give some hints on how to do it beyond that they do not fully validate this adaptability.","gpt-5-2025-08-07, Jon Wasky",strongly negative
 3029,"In this “Dataset Description” article, the authors evaluate their previous work on the Reference Generalized Ontological Model with a use case dataset on production line processes in the football manufacturing industry.
 
 In the introduction, the authors identify a lack of openly available knowledge graphs to be used in use cases for Industry 4.0. However, it should be clear that they are specifically targeting open datasets for production line processes – as Industry 4.0 is a very broad term, and for other industries than production lines there might exist datasets which are neither toy examples nor closed-access.
@@ -2641,14 +2641,14 @@ Some last notes:
 - In section 5: is it relevant to mention the used computer system when no performance benchmark is included in the paper?
 - Also please check if all abbreviations are introduced fully on their first occurrence in the text (e.g. CPS, SIB) and check table 1 for consequent usage of punctuation marks in table cells.
 - Finally, I strongly suggest to perform a profound spelling/grammatical check and correct existing typo’s in the text.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
-3029,"The contribution of this paper is potentially significant. The lack of an open dataset for Industry 4.0 research is known and this article provides ontology and KG datasets. The paper is acceptable in general. One suggestion is that it will be clearer if the authors address how this football production case is actually an Industry 4.0 case instead of listing the sequence of the production process. I suggest utilizing Figure 1 to address this. And multiple typos and consistency (e.g., capitalization are noticed. I suggest reading and updating the manuscript thoroughly.  ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",strongly negative
+3029,"The contribution of this paper is potentially significant. The lack of an open dataset for Industry 4.0 research is known and this article provides ontology and KG datasets. The paper is acceptable in general. One suggestion is that it will be clearer if the authors address how this football production case is actually an Industry 4.0 case instead of listing the sequence of the production process. I suggest utilizing Figure 1 to address this. And multiple typos and consistency (e.g., capitalization are noticed. I suggest reading and updating the manuscript thoroughly.  ","gpt-5-2025-08-07, Jon Wasky",slightly positive
 3034,"The author has submitted a thoroughly revised version of the original article, which all the minor issues I had pointed out. 
 
 In particular, the description of the Sampo design principles has been improved considerably by adding futher explanations and by changing the order of presentation. More detail is given on the technology generations and it becomes much clearer how they relate to the design principles. Finally, the SemanticComputing Github, which provides the long-term stable link to the resources, has been updated as asked for to meet the journal's Open Science Data policy. 
 
-I recommend the manuscript for publication.","gpt-4.1-mini-2025-04-14, Jon Wasky",extremely positive
-3034,This is a joint review of Kai Eckert and Benjamin Schnabel. Benjamin Schnabel is a PhD student in the field of Digital Humanities (Jewish Studies). This revised version of the paper has been improved a lot over the previous version. All considerations have been taken into account. We therefore would recommend to accept the paper for publication.,"gpt-4.1-mini-2025-04-14, Jon Wasky",extremely positive
+I recommend the manuscript for publication.","gpt-5-2025-08-07, Jon Wasky",extremely positive
+3034,This is a joint review of Kai Eckert and Benjamin Schnabel. Benjamin Schnabel is a PhD student in the field of Digital Humanities (Jewish Studies). This revised version of the paper has been improved a lot over the previous version. All considerations have been taken into account. We therefore would recommend to accept the paper for publication.,"gpt-5-2025-08-07, Jon Wasky",extremely positive
 3037,"The paper provides an original and credible approach to the definition and population of a ontology for materials. The results of this approach would be of great benefit for the materials community since it would prepare data semantically facilitating further computational investigations. The implementation details in sections 5 (extension) and 6 (database access) clearly describe the power and limits of the approach.
 
 In general, the paper is well written and able to effectively deliver the details of the approach. The suggestion is to accept the paper for publication.
@@ -2661,7 +2661,7 @@ Here is a couple of minor polishing suggestions and comments, leaving to the aut
 
 - page 9-11: as it is now, the connection to the TLO is quite useless since its main concepts are not really used to implement the MDO modules. Unless a stronger commitment to the TLO classes and relations in the MDO core ontology the connection is only a conceptual orientation more than an architectural choice. However, the approach used here is already a relevant step forward and does not prevent future alignments that will provide stronger semantic extension of the MDO thanks to a stronger commitment to the EMMO TLO.
 
-Data are easily accessed and well organized, and primarily based on a GitHub repository.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+Data are easily accessed and well organized, and primarily based on a GitHub repository.","gpt-5-2025-08-07, Jon Wasky",extremely positive
 3037,"(1) originality: The paper provides and important and original contribution to the application of semantic web technologies in the field of materials science. It is very timely since there is a rapid development of databases and resources that could be better harnessed and harvested with ontologies, there is a strong interest in the field in using ontologies for such purposes but still a lack of semantic resources and ontologies available. The approach employed is very methodological and will also serve as s show-case for ontology development to others in the field. The ontology is well described in the paper, provided in github and all entities in the owl file are 'defined' via comments as is appropriate. As mentioned above, the Long-term stable URL included the complete (modular) ontologies  together with Readme etc
 
 Extension of the ontology based on analysing a corpus consisting of journal databases is presentation and discussed in excellent detail. This will be a key step in overcoming current scope limitation of ontologies in the field. 
@@ -2676,7 +2676,7 @@ Given the discussion of ontologies developed within TLO contexts and those indep
 
 
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",extremely positive
 3037,"In this manuscript the Authors present the Materials Design Ontology (MDO), a domain ontology to support interoperability of databases for solid-state calculations.
 
 Next, they address the MDO extension, applying a method (and a tool) that extracts candidates for additional concepts from a corpus of journal abstracts and enables domain experts to evaluate them. Finally, they present a proof-of-concept system using MDO to query multiple databases from the OPTIMADE initiative and evaluate its performance in comparison with other two systems.
@@ -2745,7 +2745,7 @@ transformation [42] that is not covered by MDO."" then later on in the same sect
 
 Note: In Long-term Stable Link to Resources, the Authors provided this link: https://github.com/LiUSemWeb/Materials-Design-Ontology
 Probably also this other link should be given https://github.com/LiUSemWeb/OBG-gen
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 3043,"The paper presents an ontology to support automated manipulation of objects in a 3D environment while taking advantage of virtual applications. The topic is relevant and fitting to the special issue.
 Since the manuscript is a ""full paper"", it is reviewed along the following dimensions.
 
@@ -2795,7 +2795,7 @@ Table 8 is referenced in page 12, but it is not included nearby. There is a Tabl
 
 (C) The authors provided the link to a GitHub repository.
 
-(4) The provided data artifacts are not complete, as commented above.","gpt-4.1-mini-2025-04-14, Jon Wasky",strongly negative
+(4) The provided data artifacts are not complete, as commented above.","gpt-5-2025-08-07, Jon Wasky",strongly negative
 3043,"The authors present a knowledge model for semantic maps that takes into account, and links, items of knowledge from geometric, topological, and ""context"" (ie application dependent) levels. 
 
 I think the model is well presented and interesting, and I am keen to use it or its future developments at some point. I would only recommend minor revisions at this time.
@@ -2820,7 +2820,7 @@ Definition of Axis3D, pg. 9: it is not clear from the definition given in table 
 
 Definition of OrientedBoundingBox, pg. 8 (in Table 3) and pg. 9: it is not clear that the minimum and maximum points are Point3D, what is asserted is they are AxisPlacement3D (which also relates to a point, but may be overkill for specifying the boundaries of the box once the local coordinate system is also known)
 
-Definition of topological graph elements, pgs. 11, 12: I would need some hand holding here to understand how, e.g., two rooms, the corridor between them, and the doors from the rooms into the corridor, become a topological graph. This is because intuitively it should be the borders that are associated to edges (since borders seem to be defined between two places) and the places themselves as vertices in a graph. Nonetheless, the definition in the paper is opposite: the nodes are borders (so can more places than 2 be incident on a border?), and an edge passes through a place: does this mean the edge describes a way to get into the place connected by passing, or out of it? [the figures given later for the evaluation scenarios don't help, I'd really like to have the graph drawn somewhere, with labelled vertices and edges]","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+Definition of topological graph elements, pgs. 11, 12: I would need some hand holding here to understand how, e.g., two rooms, the corridor between them, and the doors from the rooms into the corridor, become a topological graph. This is because intuitively it should be the borders that are associated to edges (since borders seem to be defined between two places) and the places themselves as vertices in a graph. Nonetheless, the definition in the paper is opposite: the nodes are borders (so can more places than 2 be incident on a border?), and an edge passes through a place: does this mean the edge describes a way to get into the place connected by passing, or out of it? [the figures given later for the evaluation scenarios don't help, I'd really like to have the graph drawn somewhere, with labelled vertices and edges]","gpt-5-2025-08-07, Jon Wasky",slightly positive
 3043,"The paper aims at proposing a new ontology, called ENVOn, to represent 3D virtual scenes and to support simulated manipulation task. The use of such ontology can be leveraged to serve a robotic system while planning motions or tasks. The paper provides a rather wide analysis of the state of the art considering works related to semantic information of environments and ontology for robotics. It is argued that past works focus on either domain specific applications or formal geometric descriptions. Also, distinct works have been presented considering topological or semantic map knowledge. Authors underscored that a comprehensive approach seems to be missing and a context-based knowledge structure should be considered. 
 This is the aim of ENVOn with a three-tier knowledge architecture (i.e., geometric, topological and contextual layers) and inter-layers relations/constraints to maintain coherence. The paper provides a detailed presentation for layers and for concepts in each layer. At the end, it proposes two scenarios to validate and verify the ontology. 
 
@@ -2843,7 +2843,7 @@ The resources provided with the paper (in a github repository) are well organize
 
 In general, the paper seems to me worth to be considered for publication but some more work is needed to improve its overall quality. More clear robotic related motivations should be provided, presentation should be enhanced and additional resources description should be improved.
 
-For the above reasons, I would suggest to consider a major revision of the paper before considering it for actual publication. ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+For the above reasons, I would suggest to consider a major revision of the paper before considering it for actual publication. ","gpt-5-2025-08-07, Jon Wasky",slightly positive
 3049,"This submission proposes a new approach for explaining the results of a black-box classifier,
 by providing a user with a query, or a rule, which describes the basic characteristics of the
 resulting class. The approach is based on known techniques from the DL community: computing the
@@ -2901,7 +2901,7 @@ at the end of page 4: after defining rules in general, it is assumed that all ru
 This assumption is mentioned there, and nowhere else, but used throughout the paper. 
 
 There are a few minor comments in addition to these, but at this point I believe that the larger
-comments above justify a major revision of the submission.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+comments above justify a major revision of the submission.","gpt-5-2025-08-07, Jon Wasky",slightly negative
 3049,"It is a very, very interesting paper. Yet, I have the impression that it promises a bit more than what it delivers. Predominantly from two aspects:
 -	No external knowledge graphs are used; a knowledge base is built based on the exemplary datasets, using 'features' extracted from it; it looks (at least based on the examples) that a knowledge bases are built and are fully related to datasets, right?
 -	The examples are a bit disappointing; they should provide some 'exact' results so a reader can derive her own opinion regarding the method's benefits (a bit more below).
@@ -2924,7 +2924,7 @@ Some comments:
 
 Section 5: Experiments
 As much as I enjoy three different datasets used as case studies, I am disappointed you have not provided examples of generated rules/explanations. It would be very interesting to see how we (readers) can ‘evaluate’ these explanations. Among the three datasets, the first two seem (at least for me) quite suitable for showing how classifiers work. For example, I could suggest putting some samples of classified (correctly/or many not) data points and explaining why this happened. The third dataset – MNIST – is very popular, as you indicated, but somehow less attractive for the topic of your paper.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 3052,"In this paper, the authors describe an approach (in 2 variants) to extend a well established chemistry ontology, Chebi, with new classes (more precisely, suggestions for new, atomic ’SubClassOf’ axioms) for un-seen chemicals from their SMILES strings. The approach uses transformers/deep learning models and domain-specific embeddings of the SMILES strings and is trained on the existing Chebi ontology (where the SMILES strings are captured as annotations of classes). The results are promising: on existing Chebi classes, they achieve good F1 scores and outperform the authors’ previous approach, and on those not yet covered in Chebi they look good but exact evaluation is part of future work. The new approach has the potential to be transparent: considering areas of attention of the model on (positive?) classifications can indicate reasons for the classifications. 
 
 The paper reads well and the results are interesting, though I think the presentation can and should be made more clear by addressing the following points. Also some of the claims about this new approach should be made a little more carefully to fit the evidence gathered so far:  
@@ -2971,7 +2971,7 @@ Section 4.3: did you eye-ball the extended ontology? It seems that one could rel
 
 Page 16 line 1: which part of the OWL DL expressivity is relevant for your approach? Isn’t it restricted to /focussed on/working with the (inferred) class hierarchy and treating the rest of the ontology as a black box? 
 
-Page 16 line 32: "" Visualisations such as those in Figs. 9 and 10b can be used to explain decision made by the model, raise trust in the prediction system, a” this looks a bit like an over-statement to me.  ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+Page 16 line 32: "" Visualisations such as those in Figs. 9 and 10b can be used to explain decision made by the model, raise trust in the prediction system, a” this looks a bit like an over-statement to me.  ","gpt-5-2025-08-07, Jon Wasky",slightly negative
 3052,"(1) originality
 
 The paper is reasonably original. It details the application of transformer networks to an ontology extension task in the domain of chemical classification.
@@ -3038,7 +3038,7 @@ Assessment of  “Long-term stable URL for resources”
 
 (C) The chosen repository is Zenodo and appropriate for long-term repository discoverability
 
-(D) Data artifacts seem complete","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+(D) Data artifacts seem complete","gpt-5-2025-08-07, Jon Wasky",slightly negative
 3052,"This submission presents a new approach to automatically extending the ChEBI ontology via deep learning models. 
 
 Overall, this is a very well-written paper that is, I think, a good contribution to the current state-of-the-art in the area. The approach presented by the authors has its drawbacks and limits, which the authors themselves point out while nonetheless making a solid case for the value and potential of their approach. 
@@ -3053,7 +3053,7 @@ Some minor comments follow:
 
 - Page 12: ""Figure 10 illustrates a selection of the attnetion weighs..."" if I'm not mistaken, both Figure 9 and Figure 10 do that, and the following discussion is about both. So I  would say ""Figures 9 and 10 illustrate...""
 
-- Page 16, line 1: ""The system extends the given ontology using the same ontology language that has been used to build it"". This is true, but it does not use all the features of the language that are used by the original ontology: for example, the original ontology makes use of disjointness axioms, but the system cannot introduce novel disjointness axioms but (if I'm not misunderstanding it) merely assigning new molecules to given classes. Despite the approach of the authors being, I think, interesting and valuable, this is a limitation that I think is worth remarking.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+- Page 16, line 1: ""The system extends the given ontology using the same ontology language that has been used to build it"". This is true, but it does not use all the features of the language that are used by the original ontology: for example, the original ontology makes use of disjointness axioms, but the system cannot introduce novel disjointness axioms but (if I'm not misunderstanding it) merely assigning new molecules to given classes. Despite the approach of the authors being, I think, interesting and valuable, this is a limitation that I think is worth remarking.","gpt-5-2025-08-07, Jon Wasky",slightly positive
 3067,"The paper discusses how to improve data quality of maintenance working orders (MWO), through the comparison of the output of a (previously developed) NLP pipeline with the output of an inference process carried out using OWL and SWRL-rules reasoning in the context of an application ontology about maintenance activities.
 
 This topic is appropriate for the journal “Semantic Web Journal”, as it fits the journal’s stated goal of publishing “descriptions of concrete ontologies and applications in all areas”, as well as the topics “Ontologies for knowledge representation and reasoning about topics relevant for industrial engineering” and “Experiences with research and application initiatives” of the Special Issue on Semantic Web for Industrial Engineering: Research and Applications.
@@ -3142,12 +3142,12 @@ We suggest simply removing the two subclasses.
 •	Line 39: “PREFIX bfo:<http://purl.obolibrary.org/obo/>” –> prefix not needed by query
 •	In the first query the prefixes “macr” and “work” are used, while in the paper the same query uses only the prefix “rule”. This works fine, but it is a small inconsistency in notation.
 •	The script runs fine, but it is very slow (about 1 minute per record, on my machine), and the reasoning is even done twice (“There is also some inconsistency in the output occasionally (exact cause is unknown) where the activity classifications are not inferred and so the script will run the pellet reasoner twice if it detects such an occurrence”, as per the authors’ explanation – which is correct, and we also have no idea about the cause). This is not unexpected, but perhaps should be mentioned, for, suppose that a company has, say, 500 machines, each one having a history of 30 records, then, assuming one minute per record, the verification of the 15000 records should take more than 10 full days. Additional records may be verified as they are added, so they shouldn’t be too much of a problem, still, if a company would attempt to use the reasoning algorithm outlined in the paper massively on its records, it may encounter severe computational requirements. Maybe this fact should be mentioned and/or some possible solutions suggested.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 3068,"The article aims to investigate how ontology design patterns for event representation impact the performance of natural language (NL) query interfaces. Given a complex event structure, we can expect that different event modelling patterns with various ontologies, such as those reviewed in Section 2.2, will impact the performance of semantic question answering systems that translate NL-queries into SPARQL. 
 
 However, the article lacks a novel contribution. Evaluation metrics do not directly measure the effect of the event representation on the performance of the NL-2-SPARQL query mapping, which is a central aspect to investigate in this context. Instead, some proxy metrics such as SPARQL execution time are used. However, these proxy metrics refer to the SPARQL rather than NL-queries. 
 
-Furthermore, the authors evaluate different event-modelling design decisions in a specific semantic search framework (SBVR). The discussion is tightly connected to the SBVR framework and limited by it, and experiments are limited to a few particular event types. It is unclear how generalisable the discussion of performance (e.g. SPARQL query execution time) is to other systems and event types. ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+Furthermore, the authors evaluate different event-modelling design decisions in a specific semantic search framework (SBVR). The discussion is tightly connected to the SBVR framework and limited by it, and experiments are limited to a few particular event types. It is unclear how generalisable the discussion of performance (e.g. SPARQL query execution time) is to other systems and event types. ","gpt-5-2025-08-07, Jon Wasky",strongly negative
 3068,"The paper presents an evaluation of different ontology representation patters and how they affect SPARQL query performance, data import operations, the size of a triple store and the size of a query. The results of the evaluations can be helpful to many but are limited to only the GraphDB graph database. I can see the contribution of this work for future research but there are some inconsistency regarding its presentation overall. Although the level of English is good, I found it hard following the content at times. See below for more details.
 
 The introduction can be more consice (i.e. present the main research motivation, research questions and your contribution). It is mentioned that you focus on different events. Later, only the event of ""talking"" and its types is mentioned. It would be good to name the specific types of NLQI systems did your work focused on.
@@ -3172,7 +3172,7 @@ There is a dot after each reference number, which should not be there. Were refe
 The provided GitHub repository is well structured and has a good description.
 
 
-Overall, the proposed paper is interesting but needs improvements if it is to be published.","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+Overall, the proposed paper is interesting but needs improvements if it is to be published.","gpt-5-2025-08-07, Jon Wasky",slightly negative
 3081,"The authors have done very good work in analyzing different perspectives of functions and related concepts in engineering design, and presenting their own contributions in formalizing those notions. This is an important topic in engineering design that could definitely need help from the ontology and Semantic Web communities, as exemplified by the current work. Based on this merit, I think the work is worthy enough for publication. However, I have a few suggestions for improvement as follows. I'd especially request the authors to consider the last point made in this review.  
 
 I have an issue with the phrase ""systemic functions"" because the term ""system"" is also a very broadly used term that is not easy to define nor formalize (as the authors also recognize later on). Hence, by including this term as part of the phrase, the authors are adding more ambiguity. Could the authors think of an alternative phrase? Otherwise, does a screw (typically not considered as a system) not have a ""systemic function""?
@@ -3196,14 +3196,14 @@ I'm a bit concerned that the notion of requirements is not discussed anywhere in
 Understanding that OWL has limited expressiveness, why did the authors choose OWL to implement their ontology? Provide some justification in the paper.
 
 There is a bit of irony in the engineering design practice regarding functions. While many people in academia emphasize the importance of functional modeling and decomposition and teach their students related methods, almost no one in the industry practices them. In fact, most design practices do not start from a blank state where desired functions are thought out, but rather with an initial design from which to improve. I wonder if the authors have thought about how their efforts could resolve this issue or help in any way. One could perform this type of work for the sake of formalizing ""functions"" and related notions, but for what practical benefits does it serve? How do the authors envision that their work could actually improve the engineering design practice? Can the authors identify any use cases, motivating scenarios, or competency questions that their ontology could address in real engineering design practices? I believe this should be addressed to make this type of work much more meaningful and significant to the engineering community.
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 3081,"The paper introduces an ontological description of functions, behavior, capability, and capacity. The proposal extends DOLCE ontology. 
 The article clearly describes the concepts in natural language, formalizes them using first-order logic, and then implements these formalizations using OWL. 
 Although many proposals define functions, the approach that is introduced in the article is original and is well ontologically founded. 
 An interesting issue of the article is that its formalization allows the implementation of the concepts so they can be used in practice.  
 The proposal is general enough to specialize in several domains in a straight fashion.
 The article is well organized, and the quality of writing allows the reader to understand the proposal.
-The authors provide an access to a Github repository with the proposed ontology. It is complete to replicate the queries introduced in the article (I have some problems running the first query).  ","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+The authors provide an access to a Github repository with the proposed ontology. It is complete to replicate the queries introduced in the article (I have some problems running the first query).  ","gpt-5-2025-08-07, Jon Wasky",extremely positive
 3084,"This manuscript was submitted as 'Ontology Description' and should be reviewed along the following dimensions:  (1) Quality and relevance of the described ontology (convincing evidence must be provided). 
 
 This paper provides an ontology for image schema using Framnet semantics. The ontology can be queried from Framnet's endpoint. Image schema is a common and important cognitive instrument for sentence making and creating language expressions. Hence, this newly created ontology can be highly useful and relevant to the readers of this journal. 
@@ -3228,7 +3228,7 @@ and (4) whether the provided data artifacts are complete. Please refer to the <a
 The current work only includes 6 types of image schemas. While there are other types of image schemas, at least we have a clear idea of what is covered. 
 
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 3087,"This paper has made some improvements over its original form. Principally, it added more backgrounds of the way of proposing the model, e.g., involved institutions and survey table, and more technical discussions on interoperability. I read through authors' responses to all reviewers' comments as well as the revised paper. Frankly speaking, I do not think the authors fundamentally addressed my, as well as the other two reviewers'(especially the first reviewer's) comments. Plus, there are many duplicated responses across the letter, and they are very general, even though IMHO the comments asked different things.
 
 More concretely, I am barely satisfied by the response to my comment related to how ""specified/special"" such a model is for precision agriculture and livestock farming. My comment was more to challenge the motivation and innovation of the model. Put differently, if one was asked to create a meta-model for, say urban-related data, I think a very similar model can be proposed. Then what is ""new"" about the proposed meta-model? In my humble opinion, the problem might boil down to the fact that the meta-model is largely a ""merging"" of different ontologies. There is nothing wrong about it. I totally support reusing rather than creating something new if there already exits something we can apply. But I am skeptical about the originality of such a paper if its main contribution is this meta-model. Simply put, I believe this paper can be regarded as (maybe) a ""best practice"" of using DCAT, PROV, and QB for metadata modeling in agriculture and livestock farming, with some minor model modifications (the SHACL shape to connect DCAT and QB for example). Then, the authors might consider to more focus on the use cases rather than the detailed technical modeling. Plus, I believe my concern echoes Reviewer 1's comment. The authors' very general responses using (1) the four categories of metadata (already widely known), (2) the support of ""data alignment"" (did not specifically discuss though), and (3) the support of ""interoperability"" (similar to alignment actually; too general that one can fairly say all semantic models have the same goal), are hardly satisfactory in my opinion.
@@ -3238,7 +3238,7 @@ This concern is also reflected in the fact that many contents (sections) in the 
 Plus, in related work, the four categories of metadata have already been discussed, why in Section 5.1, it is discussed again? Also, I disagree with the author that a diagram of the involved conceptual model is unnecessary and can already be seen from Fig. 2. I believe they should be quite different things. For example, what is the conceptual contribution of this paper rather than merging several different existing models (like Fig 2)? In section 4.3 (line 39-46), aren't the three identified scenario/cases to summarize the benefits/motivations of the proposed model the same (i.e., integrate and query heterogeneous data)?
 
 In summary, this paper introduced many detailed and technical aspects of the project, which is exciting indeed. However, I really encourage the authors to think what they really want to highlight in this one paper and what is the major contribution they want to present to the community of agriculture and livestock farming specifically.  
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly negative
+","gpt-5-2025-08-07, Jon Wasky",strongly negative
 3090,"This document reports the second version of the work on planning and execution techniques for [R2]RML mapping rules. The proposed method relies on the partition of mapping rules. Evaluating the groups in the partition, reduces the duplicated generation of RDF triples and maximizes the parallel execution of the mapping rules. The proposed techniques are implemented in MorphKGC, an RML-compliant engine; the behavior of MorphKGC is assessed in three existing benchmarks. The reported results suggest that the proposed methods can accelerate the execution of mapping rules as the ones composing the studied benchmarks.
 
 Overall, this second version addresses some comments on the previous version. The new experimental results provide evidence of the benefits that planning the execution of the mapping rules brings to the process of KG construction. Moreover, the competitive behavior with other engines puts the critical role played by logical and physical planning into perspective. Despite the improvements, this new version of this work still presents imprecise statements which need to be addressed in a new version of the paper.
@@ -3261,7 +3261,7 @@ Please, include absolute values and explain the impact of the selectivity of the
 
 Minor comments
 SDM-RDFizer v4.1.1 and Chimera v2.1. are interpreters of RML and not only parsers. Please, clarify this point. 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly negative
 3090,"The paper presents a method for materialization of triples that are used for knowledge graph construction. Two different algorithms are presented for mapping partitions, which group mapping rules that create triples. The presented algorithms are evaluated on three benchmark datasets and compared against four existing systems. The experimental results suggest that the presented sequential and parallel processing solutions perform better than the compared systems in terms of memory usage and execution time, respectively.
 
 Originality: the paper addresses an important problem of reducing memory usage and execution time for knowledge graph construction. The novelty aspect of the paper lies in the presented two ways of using mapping partitions: parallel or sequential execution.
@@ -3272,7 +3272,7 @@ Overall, the paper is well written with clear structures, after the requested ch
 
 
 
-","gpt-4.1-mini-2025-04-14, Jon Wasky",slightly positive
+","gpt-5-2025-08-07, Jon Wasky",slightly positive
 3097,"The manuscript introduces an approach for timestamp-based versioning of RDF datasets. The approach uses RDF-star to annotate every triple of the dataset with a 'valid_from' timestamp and a 'valid_to' timestamp, where the latter may be in the far future to cover cases of triples that are ""valid until further notice.""
 
 The authors describe how to insert and update triples with timestamp annotations by using SPARQL-star Update statements and they describe how to retrieve/materialize a version of the dataset at any given timestamp by using SPARQL-star queries. Additionally, as an evaluation of their approach, the authors have done a simple experiment by using a dataset of the BEAR RDF Archiving Benchmark with some triple pattern queries. The main observations of the experiment are i) that the tested systems (Jena TDB and GraphDB) achieve better query performance for some (unspecified) Named Graph representation of the timestamped data than for two variations of the authors' RDF-star approach and ii) that GraphDB achieves better performance than Jena TDB.
@@ -3341,4 +3341,4 @@ RELATED WORK
 
 The ""Related Work"" section needs to be improved as well. Currently, it appears as a semi-organized collection of some related work, mixed up with an introduction of the background of the presented work. Additionally, there is a paper that has two entries in the bibliography (namely, [2] and [17]), and there are entries for which it is not clear where these papers have been published (e.g., [3], [41], [42]).
 
-Finally, I suggest to reference also the W3C Community Group Report about RDF-star and SPARQL-star as this is the most recent document about the approach, and in this context I also suggest to use the terms RDF-star and SPARQL-star instead of RDF* and SPARQL*.","gpt-4.1-mini-2025-04-14, Jon Wasky",strongly negative
+Finally, I suggest to reference also the W3C Community Group Report about RDF-star and SPARQL-star as this is the most recent document about the approach, and in this context I also suggest to use the terms RDF-star and SPARQL-star instead of RDF* and SPARQL*.","gpt-5-2025-08-07, Jon Wasky",strongly negative
