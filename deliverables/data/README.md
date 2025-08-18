@@ -8,6 +8,8 @@ This directory contains data used for assessing a LLM or other language models a
 
 - `non-reviewed-assessments-base.csv` file contains the **NEW** dataset of all the paper reviews that have not been analyzed for sentiment analysis.
 
+- `initial-sample-human-reviewed-assessments.md` is the initial systematic random sample of reviews selected for sentiment analysis for human researchers. These 20 reviews will be assessed by a determined number of human researchers, where the sentiments will be compared using Fleiss’ Kappa interrater reliability.
+
 ## no-context-llm-assessments
 
 Contains the determined sentiments for OpenAI's ChatGPT models with no context given to the sentiment labels.
