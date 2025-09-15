@@ -36,9 +36,7 @@ TBD
 
 [Opinion Polarity Identification through Adjectives](https://arxiv.org/abs/1011.4623) - Has examples of defining sentiment using polarity (adjectives for determing sentiment)
 
-[Classifying Emotion in News Sentences: When
-Machine Classification Meets Human
-Classification ](https://www.researchgate.net/publication/41392153_Classifying_Emotion_in_News_Sentences_When_Machine_Classification_Meets_Human_Classification) - More examples and explanations for using polarity.
+[Classifying Emotion in News Sentences: When Machine Classification Meets Human Classification ](https://www.researchgate.net/publication/41392153_Classifying_Emotion_in_News_Sentences_When_Machine_Classification_Meets_Human_Classification) - More examples and explanations for using polarity.
 
 [Comprehensive review and comparative analysis of transformer models in sentiment analysis](https://link.springer.com/article/10.1007/s10115-024-02214-3) - Excellent introductory to the concepts and terminology
 
