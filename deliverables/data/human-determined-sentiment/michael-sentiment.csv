@@ -442,7 +442,7 @@ Minor Comments:
 * It might make the paper more readable if the authors can add the outline of the paper of what to be expected in each section and the overflow of the paper. 
 * In page 7, line 18: base classes are combined in  --> to be combined
 * In page 8 line 31 there are 2 ""cause"" words.
-",McCain,,,,
+",McCain,Positive,5,0,3
 2964,"In this paper the authors describe the ExaMode ontology and some of its applications. ExaMode includes a few hundred terms for disease, diagnosis, patients, tests, test results, procedures, etc. focused on histopathology, and specifically on four diseases: colon cancer, lung cancer, uterine cervix cancer, and celiac disease. The system has been used to automatically extract annotations from case reports in Italian and Dutch, and the results can be visualized as a graph.
 
 This work is valuable and difficult. The authors are to be commended for building a working system from many disparate parts, and for making good use of existing ontologies to improve interoperability of their systems and data. They provide a good ontology description in this paper, detailed ontology documentation at <http://examode.dei.unipd.it/ontology/index.html> and open code <https://github.com/ExaNLP/sket/>. I encourage the authors to continue this work.
@@ -496,7 +496,7 @@ Although the authors do make good reuse of many existing ontology terms, I belie
 - I do not understand why MONDO:0002271 'Colon Adenocarcinoma' is an owl:Class, but MONDO:0002032 'colon carcinoma' is an owl:Individual.
 - `https://hpo.jax.org/app/browse/term/HP:0003584` is not the correct identifier for ann HPO term. It should be `http://purl.obolibrary.org/obo/HP_0003584`
 - The paper refers to `exa:Gender` but the OWL file uses `NCIT:C17357`.
-",McCain,,,,
+",McCain,Positive,5,1,3
 2990,"
 This manuscript discusses the ontology engineering aspects of an ontology named ROH. It captures the entities and relations in the academic and research domains. ROH reuses concepts and relations from existing vocabularies/ontologies. Competency questions and SHACL rules are used to validate ROH.
 
@@ -564,7 +564,7 @@ Typos/grammar issues
 20) Page 26, line 27, the phrase ""particularities of"" can be removed.
 
 In general, please run a grammar checker on the entire document.
-",McCain,,,,
+",McCain,Positive,3,1,1
 3022,"The paper presents a a study of similarity in Wikidata and the impact that retrofitting (subsequent training of embeddings to fit with external information, in this case similarity of entity pairs in Wikidata) can have on both KG and text-based embeddings similarity.
 
 This is a very relevant topic with several interesting applications in multiple domains.
@@ -612,7 +612,7 @@ Why is DistilRoberta used for abstract, labels, label+description and BERT-base 
 Minor: it would be better to employ the terminology defined by Lastra-Diaz et al when categorizing the different similarity metrics.
 
 
-In summary, there is an interesting idea in applying retrofitting to concept similarity with KGs. However, the paper does not consider related work appropriately, which limits the value of its contributions (see Lastra-Diaz et al). It also does not afford sufficient detail in the description of the methods and choices, and could be much richer in terms of tested configuration, presented results, and discussion.",McCain,,,,
+In summary, there is an interesting idea in applying retrofitting to concept similarity with KGs. However, the paper does not consider related work appropriately, which limits the value of its contributions (see Lastra-Diaz et al). It also does not afford sufficient detail in the description of the methods and choices, and could be much richer in terms of tested configuration, presented results, and discussion.",McCain,Negative,1,3,8
 3029,"The article proposes an approach to build an I4.0 benchmark dataset by using KG, called I4.0 KG, to integrate data from sensors attached to machines in a production line for the manufacture of soccer balls.
 
 As a general comment, the article lacks of a concise and clear description of the key terms characteristics of the dataset. This does not help to facilitate its usage for different purposes. No information about dataset maintenance, reported usage and known shortcomings or limitations is provided. Furthermore, the article does not demonstrate what is the advantage or the contribution of using a KG in addition to the ontological models that exist in the literature for the integration of heterogeneous data and the access to this data. I think the authors should emphasize this to make it clear to the readers. Also, the authors talk about Industry 4.0 in general but the KG they present is specific to soccer ball manufacturing. I strongly recommend the authors to dedicate a section to discuss the possibilities of adapting their approach and the proposed KG to be used in other manufacturing activities.
@@ -672,5 +672,5 @@ It is difficult to see the adaptability of RGOM through this example. The use ca
 In the query of listing 3 it would be helpful to give more details about the status of the engine of a machine. I do not see the concept Status in the model, maybe it should be described how this status is obtained or what it represents (for example, if it can be seen as an abnormal behavior). This would show that the KG offers this kind of semantic information that could be exploited by an operator and even obtain more information associated with this abnormal behavior to determine its causes.
 Furthermore, maybe add third-party uses to provide evidence of the usefulness of the KG dataset. For example, a possible application (and not just say methods and tools) that can make use of KG to demonstrate its usefulness. For example, how KG could help to create suitables datasets to build machine learning models for predictive maintenance.
 
-Can this KG be adapted to another case that is not the manufacture of soccer balls? I think that the authors could make a discussion about this and give some hints on how to do it beyond that they do not fully validate this adaptability.",McCain,,,,
-3034,This is a joint review of Kai Eckert and Benjamin Schnabel. Benjamin Schnabel is a PhD student in the field of Digital Humanities (Jewish Studies). This revised version of the paper has been improved a lot over the previous version. All considerations have been taken into account. We therefore would recommend to accept the paper for publication.,McCain,,,,
+Can this KG be adapted to another case that is not the manufacture of soccer balls? I think that the authors could make a discussion about this and give some hints on how to do it beyond that they do not fully validate this adaptability.",McCain,Negative,0,1,12
+3034,This is a joint review of Kai Eckert and Benjamin Schnabel. Benjamin Schnabel is a PhD student in the field of Digital Humanities (Jewish Studies). This revised version of the paper has been improved a lot over the previous version. All considerations have been taken into account. We therefore would recommend to accept the paper for publication.,McCain,Positive,2,0,0
