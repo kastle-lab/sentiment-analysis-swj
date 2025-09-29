@@ -11,7 +11,7 @@ This new paper also complies with all my other suggestions.
 In conclusion, my final recommendation is to accept the paper. Indeed, such an example of integration of ontologies and the use of existing vocabularies meets the needs of the users it refers to and clearly describes the context of reference, resulting in a good quality and relevance model. Moreover, its modularity also allows for future extension. 
 Therefore, although its originality is not extraordinary, I appreciate not only the effort at the technical level, but also the detail and care in organizing heterogeneous data in the repository, and in explaining the problems and challenges faced and the results obtained. In fact, the work is complete and well documented.
 
-",David Castro,positive,8,2,1.0
+",David Castro,positive,8,2,1
 2819,"In this paper, authors introduce a novel approach which encompasses the aspect of interoperability to quality assessment of RDF data by identifying eleven interoperability dimensions by aligning a list of standardized dimensions regarding data quality to the “I” principles out of other FAIR data principles.
 
  
@@ -54,7 +54,7 @@ Nevertheless, it would be great to see results in real world settings (on existi
 
  
 
-·      Clear statements regarding the limitation for the approach, data used and the developed tool should also be highlighted.",David Castro,negative,0,10,5.0
+·      Clear statements regarding the limitation for the approach, data used and the developed tool should also be highlighted.",David Castro,negative,0,10,5
 2833,"Despite the consideration made by the authors in the cover letter, this paper must be reviewed as ""Tools and Systems Report"". The paper is far from a full research paper and does not add relevant scientific contributions to the Semantic Web field; instead, it uses existing tools to create an event-based knowledge graph.
 
 The topic addressed in the paper is very relevant, timely and well- introduced and motivated, inspiring its reading. On the other hand, the related work section is long, does not explain the paper's contributions in relation to the state-of-the-art and is difficult to follow.
@@ -73,7 +73,7 @@ Another main concern about the paper is the evaluation of the tool. The authors 
 
 As previously mentioned, the code is available but not easy to run,  lacks documentation and coding standards are non-existent (https://www.oracle.com/java/technologies/javase/codeconventions-contents.html).
 
-",David Castro,negative,1,4,12.0
+",David Castro,negative,1,4,12
 2852,"1. Originality:
 This paper introduces a neural network model where attention mechanisms are exploited to learn common object properties from the OWL2 ontology standard. 
 Similar to what some of the co-authors proposed for the IterE model, this paper exploits axiom properties throughout its learning, but instead of learning rules guided by those properties, it uses those rules to implement an attention mechanism affecting the model embeddings.
@@ -90,7 +90,7 @@ Nevertheless, it truly confirms the validity of the approach and applicability t
 The quality of the writing is very basic, many sentences are missing words or using the wrong word, verb tense, etc., which makes reading unpleasant but does not affect the technical comprehension.
 
 4. Paper Code/Resources:
-The github reference was created but is empty (at least the public branch), which makes it impossible to review the solution code quality, reproduce results and confirm whether artifacts will be available.",David Castro,positive,5,0,2.0
+The github reference was created but is empty (at least the public branch), which makes it impossible to review the solution code quality, reproduce results and confirm whether artifacts will be available.",David Castro,positive,5,0,2
 2866,"The manuscript was submitted as 'Data Description'. It describes a linked dataset of SPARQL query logs (LSQ), version 2.0. LSQ 2.0 features logs from 27 SPARQL endpoints and describes 43.9 million SPARQL query executions on these endpoints. The paper is an extension to a paper ""LSQ: The Linked SPARQL Queries Dataset"" published on ISWC 2015. The submited extended version has the same structure as the previous paper. Both papers consider the same set of use cases for the LSQ dataset and both introduce the same data model for representing query logs. The reviewed paper describes significant extensions compared to the first version from 2015. This includes a significant extension with more datasets, queries and query executions, and more detailed statistics. Also a broad usage of the dataset is presented in a structured form which transparently shows various recent research works which used LSQ for the evaluation. The paper shows only the usage of LSQ 1.0. However, this clearly proves the usefulness of the dataset. The new version as a significant extension to the first version will undoubtedly find a broad usage as a pool of queries for various benchmarks.
 
 In summary, even though the paper does not bring anything ground breaking compared to the paper from 2015, it shall be published in my opinion. It is necessary to inform the research community about the new version of the dataset. The paper contains all necessary information the readers need to start using the dataset.
@@ -114,7 +114,7 @@ Regarding the LSQ data file
 
 (C) LSQ is not available through a public repository such as GitHub, Figshare or Zenodo. The authors use their own web server which seems appropriate for long-term discoverability. LSQ does not have a DOI.
 
-(D) The provided data artifacts are complete. The LSQ dump is structured to files for individual SPARQL endpoints. The content for each endpoint seems complete.",David Castro,neutral,13,7,13.0
+(D) The provided data artifacts are complete. The LSQ dump is structured to files for individual SPARQL endpoints. The content for each endpoint seems complete.",David Castro,neutral,13,7,13
 2885,"""(1) Quality, importance, and impact of the described tool or system (convincing evidence must be provided). ""
 ------------------
 This paper presents TermItUp, a generic architecture integrating multiple state of the art tools with the purpose of providing a one-stop-shop for all terminology extraction needs. 
@@ -192,7 +192,7 @@ P5 l22 right: to developing
 
 P5 l45 right: this translates to a necessity [...]
 
-There are aditionnal small corrections like these to be made, can transmit feedback to authors later as time permits, preferable to delaying the review submission.",David Castro,neutral,2,6,2.0
+There are aditionnal small corrections like these to be made, can transmit feedback to authors later as time permits, preferable to delaying the review submission.",David Castro,neutral,2,6,2
 2898,"The authors have exhaustively addressed all previous comments, and I was very happy of the improvements.
 The paper is much clearer and easier to follow. 
 
@@ -204,7 +204,7 @@ Editorial comments:
 - pag 8 line 14: incriminating --> increasing?
 - pag 9 lines 15/18: check for consistency the use of italics for the connectives in the body of the text
 - pg 10 line 20  and following: when presenting the sources of errors, I would use the \paragraph{} command in LaTeX rather than starting the paragraphs with a sentence in italics
-- Table 9 and Table 10: I would anticipate and discuss Table 10 first -move it to where Table 9 now is and then present and discuss Table 9",David Castro,positive,3,0,0.0
+- Table 9 and Table 10: I would anticipate and discuss Table 10 first -move it to where Table 9 now is and then present and discuss Table 9",David Castro,positive,3,0,0
 2904,"The paper presents the work to properly publish data under the principles of linked (open) data). To do so, the authors have promoted to the linked data initiative a dataset coming from Nova Scotia. 
 
 The work is interesting and applicable to many domains in which sometimes data is published for the shake of publishing. However, there are some things to improve:
@@ -229,7 +229,7 @@ Then, establish the specific technical issues that are preventing a proper data 
 -The quality checking of the dataset seems a bit simple. It would be also nice to see how to consume that information (if it is publicly available).
 
 Finally, authors properly comment the main conclusions and envision some future work.
-",David Castro,negative,2,11,3.0
+",David Castro,negative,2,11,3
 2911,"(1) Originality: 
 The paper describes the Intelligent Energy Systems Ontology (IESO), which aims at supporting an interoperable co-simulation of the power system including market mechanisms. The authors proposed a so-called multi agend system (MAS) society build of different MAS and ontology-based communication. With the ontology the data models of these different MAS are defined and validation and unit conversion are supported. The approach of a ontology-based co-simulation in energy systems context is novel and promising. The used MAS and their ontologies, were already desribed in earlier papers of the authors and are integrated into the IESO. 
 
@@ -261,7 +261,7 @@ The provided data seems to be complete to allow reproducing the case study. The 
 The IESO and all of it's modules are hosted on a homepage and have integrated the version number in the URL. Due to not using a repository like GitHub, FigShare or Zenodo, it seems that version management and repository-discoverability is not supported and no DOI is used. 
 
 (4) If applicable, whether created data artifacts appear to be fully included in the file: 
-According to the description of the case study in the paper, the data artifacts seems to be complete for all the described steps of the process. ",David Castro,neutral,6,7,7.0
+According to the description of the case study in the paper, the data artifacts seems to be complete for all the described steps of the process. ",David Castro,neutral,6,7,7
 2914,"This manuscript showcases a Stream Reasoning application in the healthcare context. It is well written and appropriately organized. The goal of the research is clear and relevant. The originality is low. The same authors published a similar paper in [1] on September 2021. The significance of the results is also low. The paper presents a use case. It demonstrates that it is possible to solve the problem using Stream Reasoning, but it does not prove that it makes sense. I would expect to see a comparative study that shows advantages and disadvantages compared to a solution purely based on a stream processor engine (e.g., esper, ksqldb, flink, or Spark Structured Streaming). 
 
 The data file provided by the authors under “Long-term stable URL for resources” is well organized and contains a README file. The provided resources are published in their institution GitLab and appear to be complete for replication of experiments. I did not import the project using an IDE, but the artifacts appear complete. 
@@ -271,13 +271,13 @@ As a side comment, I invite the authors to stop using c-sparql and use rsp4j [2,
 
 [1] Mathieu Bourgais, Franco Giustozzi, Laurent Vercouter: Detecting Situations with Stream Reasoning on Health Data Obtained with IoT. KES 2021: 507-516
 [2] Riccardo Tommasini, Pieter Bonte, Femke Ongenae, Emanuele Della Valle: RSP4J: An API for RDF Stream Processing. ESWC 2021: 565-581
-[3] https://github.com/streamreasoning/rsp4j",David Castro,neutral,4,3,4.0
+[3] https://github.com/streamreasoning/rsp4j",David Castro,neutral,4,3,4
 2915,"The paper can be accepted. 
 I have however some recommendations for future work on the subject. 
 1) Obviously it is unlikely that the first version of an ontology is perfect. It will be necessary to refine what at present seems a very complex structure, with some possible redundancy in the class & property definitions. One example: why there is a new class FormationProcess, subclass of A4 Stratigraphic Genesis? Was the latter insufficient? Was this new class strictly necessary and a solution with   ""P2 has type"" not suitable? Thus I would consider the paper a first attempt, requiring further work to be implemented but still worth publishing. In the meantime, implement Occam's razor!
 2) The repository part is still very preliminary. This is acceptable at the present level of development, where the focus is on the theoretical aspects of the ontology and not on its implementation, but it will be necessary to go beyond Google drive (as authors also state). I would not consider this a secondary aspect in the future, nor an easily solvable one.
 3) Same comment for the use of Omeka-S. Is it the appropriate tool with all the required functionalities? I am not sure it is powerful enough. The choice of the package should go hand-in-hand with the repository solution.
-However, such data management aspects (points 2 & 3) can be addressed in future work and it is useful to publish the present one as is, not least to allow a discussion on the matter and compare different solutions.",David Castro,neutral,2,10,0.0
+However, such data management aspects (points 2 & 3) can be addressed in future work and it is useful to publish the present one as is, not least to allow a discussion on the matter and compare different solutions.",David Castro,neutral,2,10,0
 2918,"* Summary: The article describes an approach to convert vector geographic features extracted from multiple historical maps into contextualized Spatio-temporal KGs. The resulting graphs can be easily queried (GeoSPARQL) to understand the changes in different regions over time.  The approach and its evaluation focus on linear and polygonal geographic features.
 
 
@@ -327,7 +327,7 @@ There is a novelty in the proposed approach.
 * Minor corrections:
 [A06] Indeed, this (unrotated) box is the required input to the reverse-geocoding service and poses a limitation for us. We have clarified it and described how the calculation is done (section 2.4, paragraph 5).
 [R06] In the manuscript, you didn't mention that is a ""limitation"" of the reverse-geocoding service.  Perhaps, it would be better to mention this part in section 5, paragraph 5, where you described ""several limitations"".
-",David Castro,positive,7,3,1.0
+",David Castro,positive,7,3,1
 2924,"The paper tackles the problem of knowledge graph (KG) construction. It proposes planning and execution techniques to speed up KG construction pipelines specified using mapping rules in [R2]RML. The proposed method relies on the partition of mapping rules so that the evaluation of the groups in the partition, reduces the duplicated generation of RDF triples and maximizes the parallel execution of the mapping rules. The proposed techniques are implemented in MorphKGC, an RML-compliant engine; the behavior of MorphKGC is assessed in three existing benchmarks. The reported results suggest that the proposed methods can accelerate the execution of mapping rules as the ones composing the studied benchmarks.
 
 Overall, the paper is relatively well-written and presents an efficient solution to a relevant data management problem. The experimental results provide evidence of the benefits that planning the execution of the mapping rules brings to the process of KG construction. Moreover, the outcomes of the empirical evaluation put in perspective the improvements achieved by the proposed planning techniques. However, the current version of this work suffers from several issues that considerably reduce its value. First, the problem is not formally defined, the definitions are not well-formulated and several relevant concepts are idle defined. Second, the complexity and correctness of the proposed algorithms, and the conditions that prerequisite their performance and soundness are not even mentioned. Third, the experimental study is conducted over a limited set of test cases, preventing, thus, the reproducibility of the reported outcomes. Finally, the state of the art is superficially analyzed, and the proposed techniques are not positioned with respect to similar data management techniques. 
@@ -366,7 +366,7 @@ Minor comments
 
 [1]  https://github.com/SDM-TIB/SDM-RDFizer
 [2] https://figshare.com/articles/dataset/SDM-Genomic-Datasets/14838342/1
-",David Castro,negative,3,0,11.0
+",David Castro,negative,3,0,11
 2926,"
 The goal of this article is the development of an ontology NagO. NagO is a domain ontology focused on terms regarding the United Kingdom and its external territories and their link to the Nagoya Protocol policy framework, processes and people involved.
 
@@ -442,7 +442,7 @@ Minor Comments:
 * It might make the paper more readable if the authors can add the outline of the paper of what to be expected in each section and the overflow of the paper. 
 * In page 7, line 18: base classes are combined in  --> to be combined
 * In page 8 line 31 there are 2 ""cause"" words.
-",David Castro,positive,4,3,3.0
+",David Castro,positive,4,3,3
 2964,"In this paper the authors describe the ExaMode ontology and some of its applications. ExaMode includes a few hundred terms for disease, diagnosis, patients, tests, test results, procedures, etc. focused on histopathology, and specifically on four diseases: colon cancer, lung cancer, uterine cervix cancer, and celiac disease. The system has been used to automatically extract annotations from case reports in Italian and Dutch, and the results can be visualized as a graph.
 
 This work is valuable and difficult. The authors are to be commended for building a working system from many disparate parts, and for making good use of existing ontologies to improve interoperability of their systems and data. They provide a good ontology description in this paper, detailed ontology documentation at <http://examode.dei.unipd.it/ontology/index.html> and open code <https://github.com/ExaNLP/sket/>. I encourage the authors to continue this work.
@@ -496,7 +496,7 @@ Although the authors do make good reuse of many existing ontology terms, I belie
 - I do not understand why MONDO:0002271 'Colon Adenocarcinoma' is an owl:Class, but MONDO:0002032 'colon carcinoma' is an owl:Individual.
 - `https://hpo.jax.org/app/browse/term/HP:0003584` is not the correct identifier for ann HPO term. It should be `http://purl.obolibrary.org/obo/HP_0003584`
 - The paper refers to `exa:Gender` but the OWL file uses `NCIT:C17357`.
-",David Castro,neutral,8,7,8.0
+",David Castro,neutral,8,7,8
 2990,"
 This manuscript discusses the ontology engineering aspects of an ontology named ROH. It captures the entities and relations in the academic and research domains. ROH reuses concepts and relations from existing vocabularies/ontologies. Competency questions and SHACL rules are used to validate ROH.
 
@@ -564,7 +564,7 @@ Typos/grammar issues
 20) Page 26, line 27, the phrase ""particularities of"" can be removed.
 
 In general, please run a grammar checker on the entire document.
-",David Castro,positive,7,0,0.0
+",David Castro,positive,7,0,0
 3022,"The paper presents a a study of similarity in Wikidata and the impact that retrofitting (subsequent training of embeddings to fit with external information, in this case similarity of entity pairs in Wikidata) can have on both KG and text-based embeddings similarity.
 
 This is a very relevant topic with several interesting applications in multiple domains.
@@ -612,7 +612,7 @@ Why is DistilRoberta used for abstract, labels, label+description and BERT-base 
 Minor: it would be better to employ the terminology defined by Lastra-Diaz et al when categorizing the different similarity metrics.
 
 
-In summary, there is an interesting idea in applying retrofitting to concept similarity with KGs. However, the paper does not consider related work appropriately, which limits the value of its contributions (see Lastra-Diaz et al). It also does not afford sufficient detail in the description of the methods and choices, and could be much richer in terms of tested configuration, presented results, and discussion.",David Castro,negative,2,1,11.0
+In summary, there is an interesting idea in applying retrofitting to concept similarity with KGs. However, the paper does not consider related work appropriately, which limits the value of its contributions (see Lastra-Diaz et al). It also does not afford sufficient detail in the description of the methods and choices, and could be much richer in terms of tested configuration, presented results, and discussion.",David Castro,negative,2,1,11
 3029,"The article proposes an approach to build an I4.0 benchmark dataset by using KG, called I4.0 KG, to integrate data from sensors attached to machines in a production line for the manufacture of soccer balls.
 
 As a general comment, the article lacks of a concise and clear description of the key terms characteristics of the dataset. This does not help to facilitate its usage for different purposes. No information about dataset maintenance, reported usage and known shortcomings or limitations is provided. Furthermore, the article does not demonstrate what is the advantage or the contribution of using a KG in addition to the ontological models that exist in the literature for the integration of heterogeneous data and the access to this data. I think the authors should emphasize this to make it clear to the readers. Also, the authors talk about Industry 4.0 in general but the KG they present is specific to soccer ball manufacturing. I strongly recommend the authors to dedicate a section to discuss the possibilities of adapting their approach and the proposed KG to be used in other manufacturing activities.
@@ -672,5 +672,5 @@ It is difficult to see the adaptability of RGOM through this example. The use ca
 In the query of listing 3 it would be helpful to give more details about the status of the engine of a machine. I do not see the concept Status in the model, maybe it should be described how this status is obtained or what it represents (for example, if it can be seen as an abnormal behavior). This would show that the KG offers this kind of semantic information that could be exploited by an operator and even obtain more information associated with this abnormal behavior to determine its causes.
 Furthermore, maybe add third-party uses to provide evidence of the usefulness of the KG dataset. For example, a possible application (and not just say methods and tools) that can make use of KG to demonstrate its usefulness. For example, how KG could help to create suitables datasets to build machine learning models for predictive maintenance.
 
-Can this KG be adapted to another case that is not the manufacture of soccer balls? I think that the authors could make a discussion about this and give some hints on how to do it beyond that they do not fully validate this adaptability.",David Castro,negative,0,2,21.0
-3034,This is a joint review of Kai Eckert and Benjamin Schnabel. Benjamin Schnabel is a PhD student in the field of Digital Humanities (Jewish Studies). This revised version of the paper has been improved a lot over the previous version. All considerations have been taken into account. We therefore would recommend to accept the paper for publication.,David Castro,2,2,0,0.0
+Can this KG be adapted to another case that is not the manufacture of soccer balls? I think that the authors could make a discussion about this and give some hints on how to do it beyond that they do not fully validate this adaptability.",David Castro,negative,0,2,21
+3034,This is a joint review of Kai Eckert and Benjamin Schnabel. Benjamin Schnabel is a PhD student in the field of Digital Humanities (Jewish Studies). This revised version of the paper has been improved a lot over the previous version. All considerations have been taken into account. We therefore would recommend to accept the paper for publication.,David Castro,positive,2,0,0
