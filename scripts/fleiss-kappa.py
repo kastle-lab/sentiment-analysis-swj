@@ -3,6 +3,9 @@ import numpy as np
 from pathlib import Path
 from statsmodels.stats.inter_rater import fleiss_kappa, aggregate_raters
 
+def normalization(string):
+    lcString = string.lower()
+    return lcString
 
 ir1 = Path(__file__).parent.parent / 'deliverables' / 'data' / 'human-determined-sentiment'/ 'michael-sentiment.csv'
 ir2 = Path(__file__).parent.parent / 'deliverables' / 'data' / 'human-determined-sentiment'/ 'alexis-sentiment.csv'
@@ -18,6 +21,10 @@ df5 = pd.read_csv(ir5)
 
 sentiments = np.column_stack([df1['sentiment'].to_numpy(), df2['sentiment'].to_numpy(), df3['sentiment'].to_numpy(), df4['sentiment'].to_numpy(), df5['sentiment'].to_numpy()])
 sentimentsClean =  np.where(pd.isna(sentiments), "missing", sentiments).astype(str)
+
+for row_idx, row in enumerate(sentimentsClean):
+    for col_idx, item in enumerate(row):
+        sentimentsClean[row_idx][col_idx] = normalization(item)     
 
 # print(sentimentsClean)
 counts, cats = aggregate_raters(sentimentsClean) 
