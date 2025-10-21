@@ -271,13 +271,13 @@ As a side comment, I invite the authors to stop using c-sparql and use rsp4j [2,
 
 [1] Mathieu Bourgais, Franco Giustozzi, Laurent Vercouter: Detecting Situations with Stream Reasoning on Health Data Obtained with IoT. KES 2021: 507-516
 [2] Riccardo Tommasini, Pieter Bonte, Femke Ongenae, Emanuele Della Valle: RSP4J: An API for RDF Stream Processing. ESWC 2021: 565-581
-[3] https://github.com/streamreasoning/rsp4j",,,,,
+[3] https://github.com/streamreasoning/rsp4j",,Positive,,,
 2915,"The paper can be accepted. 
 I have however some recommendations for future work on the subject. 
 1) Obviously it is unlikely that the first version of an ontology is perfect. It will be necessary to refine what at present seems a very complex structure, with some possible redundancy in the class & property definitions. One example: why there is a new class FormationProcess, subclass of A4 Stratigraphic Genesis? Was the latter insufficient? Was this new class strictly necessary and a solution with   ""P2 has type"" not suitable? Thus I would consider the paper a first attempt, requiring further work to be implemented but still worth publishing. In the meantime, implement Occam's razor!
 2) The repository part is still very preliminary. This is acceptable at the present level of development, where the focus is on the theoretical aspects of the ontology and not on its implementation, but it will be necessary to go beyond Google drive (as authors also state). I would not consider this a secondary aspect in the future, nor an easily solvable one.
 3) Same comment for the use of Omeka-S. Is it the appropriate tool with all the required functionalities? I am not sure it is powerful enough. The choice of the package should go hand-in-hand with the repository solution.
-However, such data management aspects (points 2 & 3) can be addressed in future work and it is useful to publish the present one as is, not least to allow a discussion on the matter and compare different solutions.",,,,,
+However, such data management aspects (points 2 & 3) can be addressed in future work and it is useful to publish the present one as is, not least to allow a discussion on the matter and compare different solutions.",,Neutral,,,
 2918,"* Summary: The article describes an approach to convert vector geographic features extracted from multiple historical maps into contextualized Spatio-temporal KGs. The resulting graphs can be easily queried (GeoSPARQL) to understand the changes in different regions over time.  The approach and its evaluation focus on linear and polygonal geographic features.
 
 
@@ -327,7 +327,7 @@ There is a novelty in the proposed approach.
 * Minor corrections:
 [A06] Indeed, this (unrotated) box is the required input to the reverse-geocoding service and poses a limitation for us. We have clarified it and described how the calculation is done (section 2.4, paragraph 5).
 [R06] In the manuscript, you didn't mention that is a ""limitation"" of the reverse-geocoding service.  Perhaps, it would be better to mention this part in section 5, paragraph 5, where you described ""several limitations"".
-",,,,,
+",,Positive,,,
 2924,"The paper tackles the problem of knowledge graph (KG) construction. It proposes planning and execution techniques to speed up KG construction pipelines specified using mapping rules in [R2]RML. The proposed method relies on the partition of mapping rules so that the evaluation of the groups in the partition, reduces the duplicated generation of RDF triples and maximizes the parallel execution of the mapping rules. The proposed techniques are implemented in MorphKGC, an RML-compliant engine; the behavior of MorphKGC is assessed in three existing benchmarks. The reported results suggest that the proposed methods can accelerate the execution of mapping rules as the ones composing the studied benchmarks.
 
 Overall, the paper is relatively well-written and presents an efficient solution to a relevant data management problem. The experimental results provide evidence of the benefits that planning the execution of the mapping rules brings to the process of KG construction. Moreover, the outcomes of the empirical evaluation put in perspective the improvements achieved by the proposed planning techniques. However, the current version of this work suffers from several issues that considerably reduce its value. First, the problem is not formally defined, the definitions are not well-formulated and several relevant concepts are idle defined. Second, the complexity and correctness of the proposed algorithms, and the conditions that prerequisite their performance and soundness are not even mentioned. Third, the experimental study is conducted over a limited set of test cases, preventing, thus, the reproducibility of the reported outcomes. Finally, the state of the art is superficially analyzed, and the proposed techniques are not positioned with respect to similar data management techniques. 
@@ -442,7 +442,7 @@ Minor Comments:
 * It might make the paper more readable if the authors can add the outline of the paper of what to be expected in each section and the overflow of the paper. 
 * In page 7, line 18: base classes are combined in  --> to be combined
 * In page 8 line 31 there are 2 ""cause"" words.
-",,,,,
+",,Positive,,,
 2964,"In this paper the authors describe the ExaMode ontology and some of its applications. ExaMode includes a few hundred terms for disease, diagnosis, patients, tests, test results, procedures, etc. focused on histopathology, and specifically on four diseases: colon cancer, lung cancer, uterine cervix cancer, and celiac disease. The system has been used to automatically extract annotations from case reports in Italian and Dutch, and the results can be visualized as a graph.
 
 This work is valuable and difficult. The authors are to be commended for building a working system from many disparate parts, and for making good use of existing ontologies to improve interoperability of their systems and data. They provide a good ontology description in this paper, detailed ontology documentation at <http://examode.dei.unipd.it/ontology/index.html> and open code <https://github.com/ExaNLP/sket/>. I encourage the authors to continue this work.
@@ -496,7 +496,7 @@ Although the authors do make good reuse of many existing ontology terms, I belie
 - I do not understand why MONDO:0002271 'Colon Adenocarcinoma' is an owl:Class, but MONDO:0002032 'colon carcinoma' is an owl:Individual.
 - `https://hpo.jax.org/app/browse/term/HP:0003584` is not the correct identifier for ann HPO term. It should be `http://purl.obolibrary.org/obo/HP_0003584`
 - The paper refers to `exa:Gender` but the OWL file uses `NCIT:C17357`.
-",,,,,
+",,"Jon, why?!",,,
 2990,"
 This manuscript discusses the ontology engineering aspects of an ontology named ROH. It captures the entities and relations in the academic and research domains. ROH reuses concepts and relations from existing vocabularies/ontologies. Competency questions and SHACL rules are used to validate ROH.
 
@@ -564,7 +564,7 @@ Typos/grammar issues
 20) Page 26, line 27, the phrase ""particularities of"" can be removed.
 
 In general, please run a grammar checker on the entire document.
-",,,,,
+",,"Jon, why?!",,,
 3022,"The paper presents a a study of similarity in Wikidata and the impact that retrofitting (subsequent training of embeddings to fit with external information, in this case similarity of entity pairs in Wikidata) can have on both KG and text-based embeddings similarity.
 
 This is a very relevant topic with several interesting applications in multiple domains.
