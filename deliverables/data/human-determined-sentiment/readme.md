@@ -8,3 +8,4 @@
   - If struggling with questions in the form of a critique, consider the perspective of Cogan asking you those questions.
 - Positive hypotheticals are not always positive. Example:"It would be amazing if you changed the paper in x way."
 - Don't naturally assume a passive aggressive voice.
+- Sentences with positive and neutral statments should lean towards the polar in determination.
