@@ -3,9 +3,9 @@ import random
 from pathlib import Path
 
 # Input and output file paths
-names = ["michael", "alexis", "david", "anmol", "jon"]
+names = ["ir1", "ir2", "ir3", "ir4", "ir5"]
 input_file = Path(__file__).parent.parent / 'deliverables' / 'data' / 'non-reviewed-assessments-base.csv'
-
+sampleNum = 2
 
 # Read CSV file 
 df = pd.read_csv(input_file)
@@ -17,9 +17,9 @@ k = P // n          # sampling interval
 
 # Random start between index 0 and 4
 start = random.randint(0, k-1)
-
-# Select every k-th item starting from start
-sampled_indices = list(range(1, start + n * k, k))
+select_start = 0
+# Select every k-th item starting from start (use variable select_start for manually indicating starting index)
+sampled_indices = list(range(select_start, start + n * k, k))
 sampled_df = df.iloc[sampled_indices]
 sampled_df['pos-tally'] = ''
 sampled_df['neutral-tally'] = ''
@@ -27,6 +27,6 @@ sampled_df['neg-tally'] = ''
 
 # Step 3: Save results as a markdown file
 for name in names:
-    output_file = Path(__file__).parent.parent / 'deliverables' / 'data' / 'human-determined-sentiment' /  f'{name}-sentiment.csv' 
+    output_file = Path(__file__).parent.parent / 'deliverables' / 'data' / 'human-determined-sentiment' / "group-interrater" /  f'{name}' / f'{name}-sentiment-{sampleNum}.csv' 
     sampled_df.to_csv(output_file, index=False)
 

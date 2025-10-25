@@ -1,0 +1,647 @@
+paper_id,comment,analyst,sentiment,pos-tally,neutral-tally,neg-tally
+2795,"This manuscript was submitted as 'full paper' and should be reviewed along the usual dimensions for research contributions which include (1) originality, (2) significance of the results, and (3) quality of writing. Please also assess the data file provided by the authors under “Long-term stable URL for resources”. In particular, assess (A) whether the data file is well organized and in particular contains a README file which makes it easy for you to assess the data, (B) whether the provided resources appear to be complete for replication of experiments, and if not, why, (C) whether the chosen repository, if it is not GitHub, Figshare or Zenodo, is appropriate for long-term repository discoverability, and (4) whether the provided data artifacts are complete. Please refer to the <a href=""/swj/reviewers"" target=""_blank"">reviewer instructions</a> and the <a href=""/swj/faq"" target=""_blank"">FAQ</a> for further information.
+
+The authors present a compact, focused experiment on applying ShEx validation to libraries' datasets to foster data re-use, with four exemplifying use cases on datasets provided by three individual libraries (and one non-library data). The presented methodology is quite straightforward application of ShEx. From purely technological perspective, the originality and significance of the contribution is not particularly high, but especially for researchers and practitioners working with (linked) data in GLAM institutions the paper would be relevant.
+
+Compared to the previous version of the paper: the authors have made improvements on the paper, extending it sufficiently on sections that needed further discussion. The comments I made in my previous review have been addressed sufficiently. The quality of the writing is good.
+
+The data file provided by the authors under “Long-term stable URL for resources” (A) is well organized and contains a README file, (B) appears to be complete for replication of experiments (based on the README file, file listing, and looking at couple of individual data files), (C) is stored on Zenodo, and (4) appears to provide complete data artifacts (based on the README file, file listing, and looking at couple of individual data files).
+
+I have one comment:
+
+- Page 14 ""Regarding the NLF dataset, a common problem is related with the property rdf:langString used for language-tagged string values that are validated against xsd:string"" - In such cases, why did you constrain the property value's datatype to ""xsd:string"" - instead of ""LITERAL"" (https://shex.io/shex-semantics/index.html#shexc) in the ShEx definition? For example, concerning NLF dataset's class Person, you have constrained the property schema:name's value to xsd:string (https://github.com/hibernator11/ShEx-DLs/blob/1.1/nlf/nlf-person.shex#L12). In the NLF data model the range of schema:name is defined as ""Literal"" (https://www.kiwi.fi/display/Datacatalog/Fennica+RDF+data+model), and in the schema.org vocabulary the range of schema:name is defined loosely: ""schema:name schema:rangeIncludes schema:Text"" (https://schema.org/version/latest/schemaorg-current-https.ttl). I would suggest loosening the constraint.
+
+Minor remarks:
+
+- Page 14: ""Table 6 provides an overview of the data quality evaluation. All the assessed repositories obtained a high score, notably the BNB and the BnF."" - Based on Table 6, NLF obtained as high score (mconRelat) as BnF. Mention NLF as well?
+
+- Page 14: ""Regarding the NLF dataset, a common problem is related with the property rdf:langString used for language-tagged string values that are validated against xsd:string"" - rdf:langString is not a property, but a datatype.",,,,,
+2816,"This manuscript was submitted as 'Data Description' and should be reviewed along the following dimensions: Linked Dataset Descriptions - short papers (typically up to 10 pages) containing a concise description of a Linked Dataset. The paper shall describe in concise and clear terms key characteristics of the dataset as a guide to its usage for various (possibly unforeseen) purposes. In particular, such a paper shall typically give information, amongst others, on the following aspects of the dataset: name, URL, version date and number, licensing, availability, etc.; topic coverage, source for the data, purpose and method of creation and maintenance, reported usage etc.; metrics and statistics on external and internal connectivity, use of established vocabularies (e.g., RDF, OWL, SKOS, FOAF), language expressivity, growth; examples and critical discussion of typical knowledge modeling patterns used; known shortcomings of the dataset. Papers will be evaluated along the following dimensions: (1) Quality and stability of the dataset - evidence must be provided. (2) Usefulness of the dataset, which should be shown by corresponding third-party uses - evidence must be provided. (3) Clarity and completeness of the descriptions. Papers should usually be written by people involved in the generation or maintenance of the dataset, or with the consent of these people. We strongly encourage authors of dataset description paper to provide details about the used vocabularies; ideally using the 5 star rating provided here <http://www.semantic-web-journal.net/content/five-stars-linked-data-vocabulary-use>. Please also assess the data file provided by the authors under “Long-term stable URL for resources”. In particular, assess (A) whether the data file is well organized and in particular contains a README file which makes it easy for you to assess the data, (B) whether the provided resources appear to be complete for replication of experiments, and if not, why, (C) whether the chosen repository, if it is not GitHub, Figshare or Zenodo, is appropriate for long-term repository discoverability, and (4) whether the provided data artifacts are complete. Please refer to the <a href=""/reviewers"" target=""_blank"">reviewer instructions</a> and the <a href=""/faq"" target=""_blank"">FAQ</a> for further information.
+
+
+
+Summary:
+The paper presents a manually annotated corpus LegalNERo for named entity recognition in the Romanian Legal domain. The authors considered classical entity types such as the organizations, persons, locations, time expressions together with legal references to the documents such as laws, government decisions, orders, etc. The corpus consisting of 370 documents are manually annotated by 5 human annotators. Each annotator was assigned 100 documents, out of which 30 documents were shared with two other annotators. Inter-Annotator Agreement (IAA) between each pair of annotator has been calculated using Coehn’s Kappa measure. The corpus is made available as raw text, span-based annotations, token-based annotations, and linked data RDF. 
+The idea of NER in the legal domain is interesting, however, there are certain concerns:
+
+1. The paper lacks a running example which reduces the readability and understandability of the proposed work. I would recommend the authors provide an excerpt from the original document and show the annotated named entities in the text. (Probably, with the corresponding English translation of the sentences and the annotated named entities because the original documents are in Romanian).
+2. The same example or a different example should be used to explain the span-based and token-based annotations.
+3. Since, the authors provide the raw corpus as well it would be recommended to have a comparison of the accuracy, precision and recall measure of the annotations using the existing NER tools. This would further help to motivate the need for manual annotation of Legal corpus.
+4. The RDF linked data needs further explanation along with Fig 1. The domain and range of the RDF schema are not explained. Also, the different classes are not explained well. For e.g., what does powla: Node denote? Give an example which also would explain its properties hasParent, next, etc. Therefore, I would highly recommend adding a section in the paper explaining each class, the properties and hierarchy of the classes. Furthermore, the SPARQL endpoint link provided in the webpage doesn’t work, however, the link with the example SPARQL queries work. The authors might need to cross-check that.
+5. However, the end goal of having the data in form of Linked Data is missing. How this data can be used? What kind of interesting insights can we get from the data. The SPARQL queries provided are basic ones and it fails to give any insights into the data.
+
+
+",,,,,
+2832,"The application report systematizes the findings from more almost two decades of research on the Sampo portals, which focus on the domains of cultural heritage (CH) and the digital humanities (DH). As the main conceptual contribution, the author proposes (1) a set of design principles for semantic portals and (2) a description of three technology generations. The article also provides an excellent entry point to the literature on the Sampo portals. 
+
+The article extends a short paper published in the DH Nordic conference proceedings. There is little overlap with this prior publication, however. Both texts present an overview of selected Sampo projects, but the article covers more projects and gives additional technical details. More importantly, the discussion of the design principles does not appear in the short paper. The submitted article is also sufficiently independent from other publications on the Sampo model to justify its publication.
+
+As an application report, the submission is not typical since it describes several related semantic portals instead of a single system. This raises the question of the common technological ground of the portals, which the article addresses convincingly by formulating the Sampo design principles. The author mentions that the Sampo model “has evolved gradually over time” but does not not discuss how the principles evolved over time. Nevertheless, it seems possible to extract a timeline by combining the information given in section 3 on individual projects with the dates from table 2. 
+
+P1 (= data linking) in 2004, MuseumFinland
+P2 (= shared ontologies) and P4 (= multiple perspectives) in 2008, CultureSampo 
+P6 (= separation of data services and UI) in 2015, WarSampo 
+P5 (= faceted search) and P3 (= knowledge discovery) in 2019 BiographySampo
+
+I am not sure whether this timeline is correct. In any case, it would be interesting for the reader to learn in which order the principles have been adopted and how the principles map onto the three technology generations of semantic portals. P1 and P2 are general principles implemented by virtually all LOD projects – not just the Sampo portals. That makes them candidates for first generation systems (data aggregation and exploration). In contrast, P3 is the principle introduced most recently and least explored in the Sampo portal series. P3 also marks ""the next step ahead"" in research, that is, the third generation of semantic portals (knowledge discovery and AI). If such a correspondence between the principles and the technology generations exists, the article should describe it. Optionally, the principles could be renumbered to reflect their chronological position. The current P3 would become the new P6, for instance. 
+
+While this is my main observation, there are minor points that would profit from further clarification.
+
+(1) The author mentions related design principles such as FAIR, but I missed a discussion of the nature of this relation. This is especially relevant with respect to the four LD principles and the 5 star principles. Are P1 and P2 equivalent to the four LD principles? Where exactly do the Sampo principles go beyond the LD or 5 star principles? The four LD principles refer to specific technologies whereas the Sampo principles are stated in technology agnostic form. Do the Sampo principles intend to cover non-RDF knowledge graph technologies as well?
+
+(2) The Sampo model has been designed for CH and DH applications. It is yet difficult to see how the principles reflect that origin. I asked myself whether different principles would have emerged from a series of projects focusing on, say, genetic epidemiology. To put it differently: what in the Sampo model is specific to the way humanity scholars collect, systematize and analyze historical sources? The article should mention if the design principles of the Sampo model address research challenges in the humanities.
+
+(3) With 20 years of operation, the Sampo series of semantic portals provides a unique opportunity to study issues of LD preservation. Have there been lessons learned beyond the fact that data needs to curation? What are the challenges (and costs) of maintenance of the portals? 
+The application report is well structured, points to the relevant references and gives an adequate discussion of related work. The author clearly succeeds in demonstrating impact, which is a central requirement for systems described in a SWJ application report. There are few LD systems in the domains of CH and DH that have attracted a larger user base over such a long period than the Sampo portals.
+
+In summary, I believe that all points raised can addressed by minor revisions.
+
+
+Open Science Data
+
+The SemanticComputing Github provides the long-term stable link to the resources. Some of the projects mentioned in table 2 do not appear in this Github, however. In addition, an access link is missing to some of the semantic portals or the link given in the footnote is defective. This should be resolved before publication. 
+
+Not in the SemanticComputing Github
+MuseumFinland, CultureSampo, BookSampo, Norssit Alumni, Mapping Manuscript Migrations
+
+no link given
+Norssit Alumni, U.S. Legislator Proso[po]grapher
+
+404 error
+WarVictimSampo (footnote 28), AcademySampo (footnote 31)
+
+
+Typos
+
+Please, check carefully for spelling errors, as the following list is incomplete.
+
+page 1, line 23, abstract : War[V]ictimSampo
+page 2, line 41: infra[structure]
+page 4, line 35 : m[o]del
+page 7, line 14, table 2 : Proso[po]grapher
+
+",,,,,
+2846,"This paper presents and discusses a new implementation of the known Relational Graph Convolutional Networks (RGCNs) with the Deep Learning framework PyTorch. The authors reproduced the experiments of the original paper achieving similar results, released the source code of the new implementation, developed a more efficient algorithm for the message passage layer, developed two new configurations for RGCNs with less parameters and stated useful lessons learnt during this reimplementation.
+
+The paper is well written and clearly shows that this new implementation brings similar results to the original one. Moreover, the authors extended the original version of RGCNs with a new one with less parameters and, therefore, with a faster training time. I also appreciated the lessons learnt about the small dataset and the parameter statistic between the new implementation and the original one. However, this manuscript was submitted as 'full paper' but, as the focus is on the implementation of a known architecture and the originality is limited to the parameters reduction (achieving lower performance with respect to the new implementation) and a new efficient algorithm for the message passing layer, I suggest to submit again the paper as a 'Reports on tools and systems' category. I think that the paper already satisfies the requirements for this category.
+
+I also recommend addressing the following concerns mostly related to the presentation and the results.
+
+The presentation could be improved by better describing the idea of a message passing algorithm and how it is implemented with the convolution operation in a Neural Network before the presentation of the equations. Examples would ease the comprehension of the main concepts. To this extent, I think the paper would benefit if lines 5-8 at page 4 and lines 12-15 at page 18 will be moved before Eq. 1.
+
+The comparison of the two implementation would be stronger, and fairer, if the results for the link prediction task would include also the original datasets FB-15k and FB15k-237.
+
+In addition, the appendix is short and therefore can be included in the rest of the paper. 
+
+Regarding the results, I would include in tables 2, 5, 6 also the number of parameters of the models and the computational training time. I am aware that TF-RGCN and Torch-RGCN did not run on the same hardware and therefore are not comparable. However, this stresses the fact that Torch-RGCN is useful as it fully leverages all the GPUs potential. I would also include some results from the state-of-the-art such as the reader can better recognize that RGCNs for link prediction have good performance but are still too costly. I appreciate the idea underlying Table 4, however, comparing the two implementation using statistics is not easy nor effective. Statistical significance tests would be more effective in this perspective.
+
+Other concerns:
+• Page 1, line 38: older platforms -> old platforms
+• Related work: I would expand this section maybe adding other works that use RGCN [1,2,3] or other works for KGE with different methods such as Neural Tensor Networks with Logical Knowledge [4].
+• Page 4, line 23: can extended -> can be extended.
+• Page 8, line 42: \mathcal{AX} -> AX.
+• Page 10,  line 42: please uniform the notation K or C for the number of classes: K is used in Eq 10 but Fig 5 uses C.
+• Page 12, line 50: Did you sampled the 30,000 edges from WN18? And how many samples from FB-Toy? Why this specific number?
+• Page 13, line 21: used an input -> used as an input.
+• Page 13, Fig 6: it is not clear where you took the relational embeddings. As they are not an output of RGCN, did you train another KGE? Are these embeddings provided with the datasets?
+• Section 6.2: why did you use 7,000 epochs and no early stopping?
+• Page 14, line 35: WordNet the graph -> WordNet, the graph
+
+[1] Mylavarapu, S., Sandhu, M., Vijayan, P., Krishna, K. M., Ravindran, B., & Namboodiri, A. (2020, January). Towards accurate vehicle behaviour classification with multi-relational graph convolutional networks. In 2020 IEEE Intelligent Vehicles Symposium (IV) (pp. 321-327). IEEE.
+[2] Hu, X., Fan, H., Noskov, A., Wang, Z., Zipf, A., Gu, F., & Shang, J. (2021). Room semantics inference using random forest and relational graph convolutional networks: A case study of research building. Transactions in GIS, 25(1), 71-111.
+[3] Chen, J., Pan, L., Wei, Z., Wang, X., Ngo, C. W., & Chua, T. S. (2020, April). Zero-shot ingredient recognition by multi-relational graph convolutional network. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 34, No. 07, pp. 10542-10550).
+[4] Donadello, I., & Serafini, L. (2019, July). Compensating supervision incompleteness with prior knowledge in semantic image interpretation. In 2019 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE.",,,,,
+2861,"Review swj2861
+
+
+This paper describes parts of a pipeline aimed to achieve a formal understanding of commands given in natural language. 
+The topic is interesting to SWJ and the paper addresses problems that have received attention in robotics for many years, like symbol grounding, or in more recent research, like the use of image schema for planning. 
+The research question is explicitly stated: “how can we use ontological knowledge to extract and evaluate parameters from a natural language instruction in order to simulate it formally?” and the evaluation of the result is done via simulation in a virtual environment previously developed, at least in part, by the authors themselves. This kind of evaluation is suitable for the given research question and the paper content. Yet, more information should be provided to make the material accessible and reusable to the community. I must confess that at times I'm confused about what is assumed to be true in general and what is true because of the way the system elaborates the available data. This might explain some of the points I make below.
+
+The paper’s title and the research question address instructions in natural language but the examples in the paper are about commands. The capability of the pipeline to manage instructions in a proper sense is unclear. For example, a food recipe is made of instructions but goes beyond the cases discussed in the paper: usually a recipe includes positive and negative commands, alternative suggestions, motivations and other kinds of explanatory text. Which of these the proposed pipeline covers is not clear to me.
+
+The abstract should be expanded to better situate the research and to give a more informative description of the paper’s content, in particular the pipeline structure. 
+Also, the paper is entirely focused (motivations, development and simulation) on the robot scenario. If not the title, at least the keywords should include pointers to robotics or robotic applications.
+
+The choice to evaluate the results via simulation in a virtual environment is suitable due to the domain of application. I would suggest to add also checks internal to the pipeline, e.g., a theoretical validation that all input receivable by a node in the pipeline is processable by that node; and I guess some check of consistency across annotations in the same scene might be useful: what happens if I have two objects dubbed fridge in the overall assumption that there is only one fridge in the kitchen?
+
+My other concern is that the simulation case is limited with respect of the variety of possible commands. What is the outcome of the pipeline when the command itself presents some ambiguity? E.g., “Put the chair on the table” (where the chair is used by mistake while meaning the bowl previously put on it); “Take the cheese out with the bottle” (perhaps having said earlier “take the bottle out of the fridge”); “Put the bottle back” (meaning: back to the fridge).
+It is unclear which of these cases are out of scope and how the others are managed by the system. For the first, information should be stated clearly from the start. For the latter, I believe more simulations are needed to verify if and up to which point the system works correctly.
+In short, the research question asks how we can solve a general problem but the paper remains unclear about the restrictions assumed for the pipeline to solve the problem, and the evaluation section does not clarify this either.
+
+I had to guess what is assumed at the different stages of the information flow. Overall the pipeline makes sense at first sight but what kind of input is assumed at each step with respect to a real scene, what kind of information is manipulated at each step and what is the result is only suggested (notwithstanding the Listing 1-4). I suggest a more systematic presentation of the information flowchart.
+
+The authors could be clearer on the parts of the pipeline which are newly introduced (if any) and those that are preexisting it. This can be easily shown using thick boundaries (say for the new parts) and thin boundaries (for the old) to mark the nodes of Fig. 1.
+
+Fig.1: in the legend for Data flow and Annotation put just the arrows (drop the slots). 
+According to the figure, the DLU ontology is sending annotation to context (d) without any input regarding the Scene which is really weird, how is this actually working? 
+In the caption of Listing 2 rephrase in natural language the content.
+
+Similarly, in Listing 3 we have 
+<urn:Cup> ref:type dlu:Cup
+<urn:cup_0> ref:type dlu:Cup
+<urn:Cup> ref:type soma:DesignedContainer
+<urn:cup_0> ref:type soma:DesignedContainer
+where one is a symbol and the other an object.
+In which sense are these of the same type?
+
+Why the uuid used in listing 2 is not one of the identifiers occurring in Fig.3? Is there a reason?
+
+The authors should clarify further the use of the term context as introduced in Sect 3.3. Apparently it is the scene but practically it seems to be the scene and the set of sentences parsed so far, that is, the internal representation of the knowledge of the scene at this point in time. Yet, the text uses also ‘context description’ as if the two notions should be kept apart. 
+
+
+pg. 4 suddenly restricts information to a special type of commands: “For a command to be executed, an environment with objects to manipulate is mandatory.”
+Is this excluding commands of type “Go near the fridge”, “Stay away of the cooker” and “Check if the pot is on the burner” where no manipulation (except of itself) is needed nor expected?
+
+It is unclear whether this claim “Each object in the kitchen scene is internally annotated with unique identifiers and semantic labels aligned with SOMA” is a prerequisite for the system to apply or an observation of how the input provided by component (f) is. In other words, can it happen that an object has no semantic label? What happens in this case?
+(I must confess that I have this kind of reading problem across the paper especially when referring to the pipeline: statements are given as they were isolated which does not help to understand whether they are derived by the system or assumed to be true at that stage even though it might not be the case while running the system.)
+I wonder whether the claim “a semantic map is assumed to be provided” trivializes the earlier discussion and the grounding problem itself. This should be clarified.
+
+Sect. 3.4: Is the mapping btw objects and symbols bidirectional? All the other maps are described as being unidirectional.
+
+I would be interesting to know where the heuristic of Table 1 fails. Could you add some examples. Are there checks for these cases?
+
+In fig. 3, I have hard time making sense of links like this
+id:8e065… (a trajectory) dul:classifies id:18b08.. (a cup)
+Please, add more information on how they should be read.
+
+",,,,,
+2873,"The paper considers an application of an ontology-based solution for the automated support of a system’s security life cycle and multiple analysis types. The topic is highly relevant nowadays. The authors developed the novel framework implementing the proposed solution. It is open-source and available on GitHub.
+The paper is well-written and well-structured. 
+The paper provides the comprehensive review of the related research and clearly describes the place of the proposed solution.
+The provided results are original and significant, and contribute to the system's security life cycle analysis.
+
+Some remarks:
+1.	It would be nice to highlight contribution and novelty in the introduction.
+2.	Section 2 – Working example – Connection with industrial systems is not clear.
+3.	It is interesting how exactly system model is constructed: as I understood the general ontology is generated manually. How does it instantiated? Based on the events analysis? Or is it out of scope of the paper?
+4.	In section 3 the requirements do not include requirements to the big data processing or operation time. If ontology is instantiated in dynamics based on the events processing it seems essential. 
+5.	It is not clear if the set of requirements is complete.
+6.	Table 2 is not filled for the proposed framework (for qualitative comparison). It would be nice to do it in Section 7. For the proposed framework all ellipses will be filled, will they? 
+7.	Section 5 – Please clear, should policies for the analysis be manually processed and represented as ontology first?
+8.	Fig-s 11 and 15 are hard to read in the printed form
+9.	Fig. 12 – please explain the results: the assets provided on the right do not satisfy to the policies represented on the left, do they?
+10.	Section 7 – what are the evaluation tests?
+11.	In section 7 the second tested environment is mentioned. In Fig. 16 only its hardware part is represented. As soon as the solution is for the industrial systems, the architecture of the second tested environment and its description is very interesting.
+
+Some typos:
+1.	P. 2, row 20: Allocation of analysis types to LCS phases. -> Allocation of analysis types to SLC phases.
+2.	P.10, rows 44-45: Workers listen to the topics of the tasks they can fulfil -> Workers listen to the topics of the tasks they can fulfill
+3.	P. 16, rows 21-23: Thereby the framework focusses on the automation of highly flexible model generation, extension and analysis -> Thereby the framework focuses on the automation of highly flexible model generation, extension and analysis.
+
+The data file provided by the authors under “Long-term stable URL for resources” is available on the GitHub, well organized and contains a README file. The provided resources appear to be complete for replication of experiments. ",,,,,
+2898,"The changes made have significantly improved the paper. 
+ 
+As an addition to my previous suggestions and those of my colleagues, as well to the improvements made by authors, I have only one minor issue, and that is:
+
+The linked_ted-mdb files (@ Long-term Stable Link to Resources) do not open in Microsoft Excel (Mac version 16.52). However, I can open them in LibreOffice. It must be something small. Please give them a second look and improve them. 
+
+Otherwise, the rest fits.
+",,,,,
+2904,"
+Overall impression
+-------------------------
+The article presents a dataset description of aggregated statistical data on diseases related to a Canadian locality. Although the topic is interesting and could have potential, the dataset presented is only a fragment of the main dataset, that has been transformed to RDF, which does not necessarily show a real contribution to state of art. The article neither shows the impact of published data in RDF,  nor demonstrates its use with utility by third parties. The relationship between the authors and the generators or maintainers of the data is not described either. Finally, in my opinion there are technical deficiencies in the specification of the dataset.
+
+
+Positive aspects
+---------------------
+As example, use cases based on SPARQL query logic, based on pattern matching are presented. Also, the basic aspects to be specified in a description dataset are presented, such as name, URL, version date and number, licensing, availability,
+
+Negative aspects
+-----------------------
+Quality and stability of the dataset
+==========================
+No evidence is presented on how the authors are involved in the generation or maintenance of the dataset, or with the consent of these people.
+
+Usefulness of the dataset
+====================
+There is a missing contribution of weight that justifies the necessary impact to be published in the journal.
+The dataset does not present growth potential, in fact the data present is up to 2017, nor is there a SPARQL endpoint where to execute the queries.
+No evidence of use of the data by third parties is shown.
+
+Clarity and completeness of the descriptions
+==================================
+There are no explanatory diagrams of the data model used, nor the way in which the referenced vocabularies are related. 
+The vocabularies and ontologies are vaguely described.
+Interlinking mechanisms are not presented to make 5 stars linked open data.
+The URI scheme used and the other type of specifications such as Shape Expressions (ShEx or SHACL) is not described.
+Although minor, There are typographical and formatting errors, also unfinished paragraphs (example the first paragraph of the conclusions)
+",,,,,
+2911,"This manuscript presents the Intelligent Energy Systems Ontology (IESO), which provides semantic interoperability within a society of multi-agent systems (MAS) in the frame of power and energy systems.
+
+The manuscript is very well written, thank you.
+
+Major Comments
+Lines 299 to 301. 
+The manuscript highlights a limitation identified by reference [69]. “Plus, publicly available models may also become unavailable, making our model obsolete. Furthermore, importing ontologies from cross domains may cause inconsistencies due to heterogeneous definitions of the same concepts, different granularities, among others.” 
+This is a significant departure from many developed approaches. In fact, reference [69] integrates existing ontologies in order to form a new ontology for a specified purpose. The approach taken in the manuscript under review is not substantiated by the work that follows in section 3. 
+The key weakness in this manuscript results from the absence of sufficient detail when designing the new ontology. A cohesive and comprehensive description of the requirements that the ontology must fulfil is not provided, references 45 and 46 are listed but only a surface level description of requirements is provided. This manuscript currently describes some business processes and tools but does not describe the information required by these tools in terms of objects and properties, for example: the turtle file provided at the link in footnote 9 only contains 9 properties. The sum of these information requirements would underpin the ontology. 
+
+Section 3.2: Why have you taken this approach and not just reused the BOT ontology? From a building geometry perspective the relationships are confusing particularly in terms of geometric topology. Zones can exist over multiple storeys. 
+
+From a demand response perspective, is HVAC not important? Please consider the BRICK ontology.
+
+Case study 
+This section is missing the value proposition for the new ontology. Yes, the IESO ontology can be used in the ways described but how does this use case compare with business as usual? Does this IESO ontology work better in some way than the solutions that are currently available?
+
+The case study would also significantly benefit from a process diagram that shows the full range of tools and data exchanges that occur.
+
+Conclusion summarises the developments and demonstrator but is missing a key paragraph that describes what this new ontology does for the world. In other words how is this domain better off now that this ontology has been created and demonstrated?
+
+Minor comments:
+35: unnecessary comma between references 1 & 2.
+80: wording is incorrect, “provides semantic reasoning” should change to “enables semantic reasoning”
+",,,,,
+2913,"The paper describes an ontology about mapping languages that captures the commonalities between different mapping languages and technologies like R2RML, XSPARQL, CSVW, ShExML, etc. 
+
+Given that the paper has been submitted as an ontology description, I will use the criteria defined by the journal to assess these papers.
+
+(1) Quality and relevance of the described ontology. 
+
+The ontology has been defined to give support to the problem of categorizing different mapping technologies that have appeared in the last years. The exercise of defining this ontology can shed light on this topic and is relevant as it can improve existing approaches. 
+
+The ontology has been developed following a well-established methodology and the ontology itself follows best practices. 
+
+One possible drawback is that the ontology seems to have been defined by members of the same research group, without a proper consensus work involving external stakeholders which could help improve the acceptance of the ontology. 
+
+In the discussion, the authors say that “we guarantee that the ontology will evolve incorporating new features of the mapping languages, ensuring transparency and the correct translation among them. For example, at the moment of writing, the RML mapping language is evolving towards an updated specification throughout the W3C Community Group on Knowledge Graph Construction.” Although that is indeed a very good ambition, there is no clear evidence about it. It would be more natural that the ontology could already handle the different extensions and proposals that are being discussed in the Community Group. In that sense, it would be great if it was possible to add some provenance information to the concepts included in the ontology to the discussions about those concepts in the Community group or in other venues, or at least some mechanism to track the relationship between them.
+
+(2) Illustration, clarity and readability of the describing paper. 
+
+Overall, the paper is very readable and the ontology has been defined following a sound methodological approach. The ontology has been published using tools like Widoco and Ontoology and has a dereferentiable URI at: http://vocab.linkeddata.es/def/conceptual-mapping#
+
+The ontology is available under a github repository and contains a README, although the README contains only a picture of the ontolog. I would recommend the authors to improve the quality of the README adding more information about how to contribute to the ontology, what methodology has been used, some examples, etc.
+
+There is not enough information about which ontology patterns have been used in the design of the ontology. 
+
+The authors indicate that they have been using competency questions and statements that have been validated by the stakeholders, however, I couldn’t find information about which competency questions were used or which stakeholders have been participating in the process. 
+
+They also say that the ontology was evaluated with OOPS! And that some minor issues were found and fixed. It would be nice if those issues or new issues appeared in the github repository and in general, if the ontology development process followed some practices commonly employed for open source projects using github issues. At the moment of this writing, I could only find one issue…I encourage the author to keep maintaining the ontology and creating more issues documenting that process.
+
+The authors declare that a real use case is the development of the GTFS-Madrid-Bench where different mapping languages have been used. However, it is not clear if the authors have also used the ontology instances that define those mappings and if there could be some translation between those ontology instances and the real mappings. In my opinion, the github repo could improve if it contained some examples of those mappings defined as ontology instances and converted to the real mappings.
+
+(4) whether the provided data artifacts are complete. 
+
+In my opinion this ontology is a first version of an ontology proposal which has not yet been reviewed or discussed by the community and the stakeholders. Although the idea may be interesting, it would be important to define some tools that could be used to translate instances using the ontology to real mapping scripts, which could help assess the completeness of the concepts represented in the ontology.
+
+The approach followed by the authors based on the creation of an ontology instead of a mapping language is interesting but it is not clear what are the advantages of this approach over other approaches in practice. I mean, although having a common ontology to define the different mapping concepts is beneficial to understand better the domain, it would also help if there were some tools that could convert existing mapping languages to instances of that ontology, and vice versa, from instances of that ontology to some existing mappings.
+
+Some minor typos/comments:
+Figure 3.b contains “La Coruña” while table 3.c contains “A Coruña”. I am not sure if the authors provide some tools to unify both names which would also be interesting, or it is just a typo.
+In page 11, the authors say that a source frame corresponds to a data source and defines which is the data in the source that is retrieved and how it is fragmented with expression using XPath, JsonPath, etc…how are those different expression languages distinguished? Would the ontology need another property to declare the language employed in those expressions?
+Page 13, the mapping use<s> the data sources…
+Page 14, listing 9 uses the prefix cmf in, for example, cmf:concat, however, I think the prefix cmf is not declared in the ontology
+In the discussion section, the authors say that conceptual mapping can ease the knowledge graph generation process. However, it is not clear why the instances of the conceptual mapping ontology like, for example, the running example in listing 9 and 10, could be more usable than the ShEXML example in listing 3. Maybe, the authors could add some discussion about how to improve the usability of those mapping languages.
+The authors also declare that the GTFS-Madrid-Bench uses mappings in R2RML, RML, CSVW and xR2RML that were created manually and that having tools that allow translation between those languages would facilitate those tasks…however, the current proposal seems to be only an ontology. Are the authors considering creating such translators between the ontology instances to those mappings? If it is still work-in-progress, I am not sure if the authors consider a better approach to use an ontology or if they have considered defining an intermediate language instead of the ontology, which could be easier to manage than ontology instances in RDF. Maybe, some discussion about alternatives to solve this issue could improve the paper.
+Reference 2 contains J. E. L. Gayo, when it should better be J. E. Labra-Gayo and  Reference 10 lack the authors.
+",,,,,
+2915,"The paper presents the output of the beArchaeo project, which includes the formalization of an ontological structure that extends the capabilities of cultural heritage models associated to CIDOC-CRM, especially CRMSci and CRMArchaeo, to encompass other aspects of the praxis of archaeoogical investigation such as archaometrics, and by extension their reach into other related disciplines such as chemistry. The model is enjoying adoption within the beArchaeo community and alignments with well-known controlled vocabularies like AAT.
+
+There is a prior version of this paper that was reviewed earlier. Compared to that version, it appears that the authors have put a lot of effort into heeding the comments of the reviewers and I agree that the paper is in much better shape right now, therefore I will only highlight the last few changes required and elaborate on the new content.
+
+The ontology description has been given adequate space and structure and now elaborates on the characteristics that a reader of this journal, even on a domain-specific special issue, will find themselves comfortable with. The structure of this section is, in fact, so detailed that it makes me wish other sections were similarly structured: particularly, Section 3 is very long and, since there is a perceived sequencing of the phases of the data curation model, perhaps numbered subsections reflecting these phases would be more inline with the ontology section structure.
+
+The authors have provided the methodological underpinnings of their development process: the choice of the NeOn methodology makes perfect sense, however, in the interest of having the paper as self-describing as possible, it would be useful to spend a few words reminding the reader what the scenarios are about. It's enough to just quote the scenario title from the NeOn book (e.g. ""Scenario 2: Reusing and re-engineering non-ontological resources"") and let the reader look it up for more details.
+
+I also observe that it is now much clearer in which ways the beArchaeo ontologies relate to other models like ArCo and thesauri like AAT. What I find myself less comfortable with is the choice of how to represent alignments. The authors have opted for bespoke terms for the vocabulary to refer to (e.g. hasGettyAATMaterial): this is one of the possible ways to do it and is used for e.g. authority control in Wikidata, but there are concerns about the flexibility of this model as it fuels the expectation that the ontology will need to be extended should another vocabulary, say GND, be incorporated. An alternative way would be to use a single hasMaterial property that may reference values in AAT, beArchaeo and other indistinctly, and attach provenance information to these alignments as needed (though that might be best achieved using more recent methods of annotating statements like RDF*).
+
+I am also interested to know if the authors have looked into how basic knowledge patterns of what they modelled in beArchaeo, if any, have been represented in foundational ontologies (e.g. how measurements, regions and parameters are modelled in DOLCE/DUL) and if subsuming concepts from these ontologies could be considered.
+
+What seems to be the most important addition to this new version is a preliminary evaluation section. This is largely based on a discourse that is part qualitative, part describing how beArchaeo is situated in its research network. Obviously, it would have been unrealistic to expect that a full-fledged user evaluation be scheduled and carried out between revisions of the paper, so on that basis the provided content may even suffice. I still wonder if some more context could be provided to substantiate important statements like ""The archaeologists have found the model accurate"": for example, with a few quantitative data about the size and nature of the group that gave such feedback, or if the process to reach such accuracy (did they also argue about completeness by the way?) was iterative and based on multiple feedback rounds or not. Within the boundaries of what is sensible to expect, the more concrete this section can be made the better.
+
+For a stable resource link, the authors have supplied the URL of an OWL/XML document that imports the entire ontology structure. This is acceptable as the authors have also generated LODE documentation as requested and provided its URL in the paper: perhaps the authors could clarify if the entire parent directory http://www.di.unito.it/~vincenzo/ontologies/beArchaeo/ is a relevant reference for the paper content as well?
+
+Several footnotes (those linking to CRMsci, CRMarchaeo, ArCo and others) have corresponding publications, journal/conference papers as well as white/technical papers: please turn as many of these as possible into bibliographical references.
+
+More detailed things to look into (notation in page:line range)
+* 3:14-15 - including representations of specific domains is not a job of the Semantic Web paradigm, please rephrase (one possible way is to replace ""pardigm"" with ""schema coverage"" but there might be a better formulation)
+* 10:44-46 - ""the beArchaeo ontology comprises three modules: [...]""
+* 10:48 - ""non-ontological sources""
+* 10:17 - ""NeOn"" is capitalized like this
+* 11:10 - rather than providing a human-readable version of the ontology, LODE automatically produces ontology documentation.
+* 12:32 - I understand the reason for an isEqualTo propety separated from ontological equivalence, but perhaps the property could be renamed to reflect that the equivalence relation is that of belonging to the same stratum
+* 14:32: capitalized as PROV-O
+* 15:37 - shouldn't it be ""thermoluminescence"" with an 'h'?
+* 17:29-30 - ""[...] that are being used for interpretation and will be the basis for the final exhibition.""
+* 17:44 - ""Some interesting issues also rose"" (or ""were also raised"")
+* 18:46 - ""The conceptual model _is_ the outcome"" (or ""was"")
+* 18:32-35 - that this is the first born-Semantic archaeological approach is a rather bold statement: would one argue that prior projects like Pelagios do not apply? I would advise a scrutiny of the state of the art in e.g. the Digital Classicist wiki at https://wiki.digitalclassicist.org/Category:Linked_open_data (by the way, pleae make sure to be there).",,,,,
+2918,"The paper describes a method to generate RDF datasets for historical maps, whose topological features change over time. The method was evaluated over a selection of US historical map data.
+
+Having reviewed the previously submitted version of this paper, I may observe that this version contains the necessary improvements without introducing further issues. The authors have addressed my remarks both in the paper itself and in the author response, and have even addressed my ""curiosity"" comment in the concluding section. They have relicensed the data properly, made a release and improved its findability. In the future, they might consider separate releases for the data and for the code, although they will need to keep sharing the GitHub repository so as not to invalidate the stability of the supplied URL.
+
+I have no further recommendation for this paper and believe it is ready for publishing. Good work.",,,,,
+2920,"This paper proposes a meta model that can integrate various forms of heterogeneous data. The motivation of this model is the author’s claim that data aggregation can improve the predictive power of models learnt from that data.
+
+The paper was well written and easy to read.
+
+The motivation seems to have sound foundations as data aggregation in competitions such as the Netflix prize greatly increased the F-Measure of models. The literature review seems a little brief and covers the usual suspects. I would have expected that agricultural machinery would have formed part of the data of the sources that you would have wanted to integrate. Therefore I would have expected to have seen ADAPT in the literature review. Most of the resources mentioned are produced by non-profit organizations or NGOs, and therefore have excluded the big industry players, and therefore we can’t be sure that these resources are actually used by agricultural organizations that this product is targeting.
+
+The main issue I have with this paper is the exclusion of industry or at least no mention of industry involvement. The lack of industry involvement in the development of standards or models will condemn the standard to obsolescence. In the development of the case studies I would expect more than just “domain experts” which infers the usual suspects from NGOs and academia. I would be grateful if you could provide a more detailed description of the people that you consulted. I appreciate that it was applied to an EU project, however the project does not contain any of the large industry actors such as Syngenta.  Therefore I feel that this a top down approach which imposes a structure on potential end users rather than a bottom-up approach which creates a model that the majority of industry will use.
+
+The user requirements are a little light. I would have liked to have known how participants were selected, their profile and how conflicting requirements were dealt with. Without knowing the profile of the users, it is difficult to know if these use cases are relevant or just edge cases.
+
+The rest of the paper is an in depth description of the  model, and I have no real complaints about it. My main concern is that once the project is over, that this model will simply not be used.  If you could give a more robust explanation about the user requirements, and who participated I think that this paper could be a good candidate for acceptance into the journal.
+",,,,,
+2926,"The Nagoya protocol on Access and Benefit Sharing defines the legal processes constraining both the collection and reuse of data in Biodiversity studies. To find information regarding the existing studies and the administrative processes to collect and reuse the data requires to retrieve information from various heterogeneous databases and documents. It becomes particularly complex if you consider studies in regions of the world for which sovereignty is unclear as in the case of the United Kingdom and their external territories. 
+The authors are presenting in this paper a proof-of-principle ontology designed to improve the current situation by supporting the implementation of the FAIR principles. The NagO ontology is a cross domain ontology which aggregates ontologies for biodiversity, geography together with additional terms describing organizational and legal aspects of the Nagoya protocol and the different stakeholders involved. The ontology follows the OBO Foundry principles making it interoperable with the biodiversity relevant ontologies and some geographical ontologies. These various ontologies are aligned under the Basic Formal Ontology which provide a consistent semantic and logical framework. 
+	
+The paper is well written and provides a clear overview of the context and the problems the ontology aims to address as well as a seemingly exhaustive list of the relevant data sources. The general design process of the ontology is clearly described with few exceptions that I list as minor comments below. This ontology is definitely relevant for the domain. However, I have several major concerns regarding the article, the ontology and the related data. 
+
+First, although the context is clear, the work is not supported by concrete use-cases from the domain which would illustrate the purpose and usage of the ontology. In section 5, usage scenarios seems to be more prospective scenarios than real tested ones. This definitely undermines the presentation of the work. I would suggest the authors to revise the paper to add concrete examples of use which would ground the work in practice and provide more clarity on practical challenges and added value for non-expert readers. These examples should provide both the related competency questions used for the design and the associated SPARQL queries to support the testing and exploration for new users. These queries could be shared on the github together with the ontology. Based on my understanding of the ontology and the context, I would suggest the authors to enhance the content of the ABS Clearing House (accessible through an API) to provide the missing link between the external territories and their sovereign country. This could be done by leveraging the Nagoya Look Up service mentioned in the article and developed by the authors. 
+
+My second major concern is related to the ontology itself. A lot of effort has been put to import biodiversity related ontologies such as ENVO or even the NCBITaxon while the main addition of the ontology focuses on the legal and organizational aspects of the information as shown by the example patterns used to illustrate the ontology. The paper does not actually show the connection between this organizational aspect of the ontology and the biodiversity, geographical aspects. This raises the question of the relevance to import these ontologies. Furthermore, as the author acknowledge in the paper, the ontology is actually really narrow while its scope is quite large. I would suggest the authors to extend it to at least other European countries such as France or the Netherlands which also have external territories and to consider at least one conflicted area. This would definitely enhance the usefulness of the ontology and also extend the ontology for governmental and sovereignty concepts.
+ 
+My second major concerns about the ontology is related to the shortcuts used to build this first version of the ontology. First these shortcuts are not clearly explained in the paper. To understand the explanations, one needs to be an expert on the BFO and RO ontologies. I would suggest to clarify the text. In addition, one of these shortcuts implies that signatory roles are actual subclasses of “Homo Sapiens”. First this is semantically and logically wrong and second I am wondering about the need to describe persons based on their species. Why not using existing terms to describe persons? This issue actually would have an impact on the usage in applications. 
+
+My final set of major concerns is related to the data. The author are sharing the ontology on github. However, it is hard to understand which ontology file to use. The readme provides little documentation on the various files (e.g nago-base.owl, nago-full.owl, nago.owl). A first analysis of the ontology using Protégé revealed that none of these file includes both the additional NagO classes and their associated instances. After some digging I found the “complete” ontology in the src folder named nago-edit.owl. This is really cumbersome for interested users. It seems this particular github structure is tightly linked with the use of the ontology starter kit. I would recommend the authors to revise their README file to provide more information about its content. In addition, the ontology has little descriptive metadata (missing authors, contributor, description of the scope, …) and the link http://obofoundry.org/ontology/nago is broken.  
+
+Although this work is of high interest to support the enforcement of the Nagoya protocol and the implementation of the FAIR principles within this context, as presented here the ontology is clearly incomplete and would benefit from additional work. 
+
+Minor concerns
+-	Section 2 – Background
+o	Page 2 – column 2 line 31: “NagO aims to connect the vocabulary of different topics”. Should be “vocabularies” as many are existing and considered
+o	Page 3 – column 1 line 3-7: “The challenge is transforming (…) the observed data discrepancies”: this sentence is unclear, please rewrite
+-	Section 3 – Approach
+o	Page 3 – column 1 line 13 – “NagO was created (…)”: it follows the OBO principle and leverage the logical framework of the Basic Formal Ontology as Top level ontology. You should also mention that the ontology has 5 branches here. 
+o	Page 3 – column 1 line 23-24 – “A general overview was developed and then extended with document terminology as well as Nagoya protocol processes and involved instance”: A general overview of what? What do you mean by document terminology? 
+o	Page 3 – column 1 line 33 – “Very few of the necessary vocabulary (…)”: replace vocabulary by terms 
+o	Page 3 – column 2 line 1-3 – “The consensus between all researched (…) as an overlap of definitions”: this sentence is not clear. Could you please rewrite? 
+o	Page 3 – column 2 line 24-25 – “In order to put these terms into perspective they were looked at in a broader context”: Are referring to the people, document and process? This sentence is not clear to me. Please clarify.
+o	Page 3 – column 2 line 44-48 – “However, the ABS Clearing House itself provides openly accessible information on the role of genetic material (…) protocol text.”: What do you mean by “the role of genetic material”? 
+-	Section 4 – Key features
+o	Page 4 – column 1 line 3 – “ There are five branches which NagO consolidates: (…)”: As the authors used already the term of branches for the describing the different part of the ontology, I would suggest finding a new term. This is confusing to the reader. 
+o	Page 5 – column 1 line 30 – column 2 line 4 – “In summary, NagO combines (…) for business stakeholders”: this sentence does not make sense. Please rewrite.
+o	Figure 3 – shortcut relation is missing.
+o	Page 6 – column 2 line 11 – “(…) have been chosen very consciously”: replace by cautiously? 
+o	Page 6 – column 2 line 12-15 – “For example, while (…) as these axioms”: this sentence is unclear. Please reformulate.
+o	Page 6 – column 2 line 16 – “Rather than creating BFO roles for terms”: what do you mean? 
+o	Page 7 – table 1 – The table is not mentioned in the article. It can be removed. 
+-	Section 5 – Usage scenarios 
+-	Section 9 – Annex: the list of concept seems to be incomplete.
+",,,,,
+2949,"The paper suggests an ontology called MOntCS (Modular Ontology for Common Sense) to represent knowledge with a goal to resolve some issues in other knowledge bases. In particular they target two issues they identify in ConceptNet's ontology, relation ambiguity and lack of structure.
+
+The paper has a careful discussion of many of the aspects that influence the choice of relations and entity representation, and lands on a set of relations trying to strike a good balance. There is also good comparisons to various other approaches (although AMR could also have been discussed?).
+
+As a test case, they rewrite the WorldTree knowledge base in this ontology, using a mixture of automatic (for some tables) and manual methods. They take the largest connected component as the KB (that could presumably be relaxed if need be), available for download in a github repository, and show that this is more dense and clustered than other KBs like ConceptNet and TupleKB. Finally they evaluate the KB by incorporating it into a QA-GNN model, measuring answer accuracy on the WorldTree question set.
+
+On the positive side, the descriptions, discussions and comparisons are clear, and a concrete KB has been constructed and shared.
+
+However, the utility of this ontology is not so convincing with the current evidence:
+
+ - Evaluating on WorldTree QA accuracy is very indirect (and ""unfair"" as the WorldTree KB focuses only on knowledge for the correct answers, not the distractor options, giving strong bias towards the correct answer). One motivation in the paper is to provide better explanations - it would be great to see at least qualitative explorations of this, if not some quantitative measures (which can be tricky).
+
+ - Applying the suggested ontology only to WorldTree is a bit narrow, it would be good to also discuss to what extent other knowledge sources, like ConceptNet, could be coerced into this ontology. How much would be covered, how much would be lost, etc? Also, calling WorldTree just ""common sense"" is a bit of a stretch, since it specifically tries to target elementary scientific principles as well.
+
+ - Although some types of ambiguity is resolved with this ontology, there are others that remain. E.g., word sense ambiguity could be an issue (two meanings of ""bat"" exist in the WT graph, e.g.), and the granularity of the connections might lead to incorrect paths. E.g., the ""eat"" node has many different agents (like ""carnivore"", ""scavenger"", ""producer"") and patients (like ""acorn"", ""animal"", ""plant""), and only some of these are actually compatible (though these are indirectly specified in other links, like [""carnivore eat animal"", structural-patient, ""animal""]). 
+
+ - Some more specific limitations are also mentioned in the paper, such as a lack of ability to easily express negation, comparison - it is good that this is explicitly discussed (with some ""workarounds""), but these do seem to limit the universality of the proposal.
+
+
+In summary, while the motivation of the paper is good, the current proposal does not seem all that convincing. Still, there are worthwhile ideas and suggestions throughout, and it could be more convincing with more concrete evidence from applying to other KBs or showing promise in generating useful explanations.
+",,,,,
+2957,"* Summary: the article describes SHAPEness, an open-source Java-based desktop software application that is a SHACL-driven visual editor for creating and validating RDF graphs.
+It combines in a single user interface, 3 different types of views (graph-based, form-based, and tree-based).  The paper describes the application's features, architecture, and usability in the context of the European Plate Observing System.
+
+
+* Overall Evaluation (ranging from 0-100):
+[Criterion 1]
+	[Q]+ Quality: 75
+	[R]+ Importance/Relevance: 80
+	[I]+ Impact: 80
+	[N]+ Novelty: 85
+[Criterion 2]
+	[W]+ Clarity, illustration, and readability: 88
+[Criterion 3]
+	[S]+ Stability: 100
+	[U]+ Usefulness: 95
+[Perspective]
+	[P]+ Impression score: 88
+
+
+* Dimensions for research contributions (ranging from 0-100):
+(1) Originality (QRN): 80
+(2) Significance of the results (ISU): 92
+(3) Quality of writing (QWP): 84
+
+
+* Overall Impression (1,2,3): 85
+* Suggested Decision: [Major Revision]
+
+
+* General Comments:
+- SHAPEness is a Java-based desktop application.
+- It's a useful SHACL-driven visual editor.
+- It has proper user documentation and material.
+- The tool's architecture should be improved (see points below).
+- Also, the source code could have a better design on the parametrization of constant values (configuration/settings), such as namespaces (prefixes and IRIs).
+
+
+* Major points for improvements:
+{
+(a) From (pag. 09 / algo. #2), it seems that not all SHACL definitions/constraints are handled by the application.  Rather, only basic SHACL constraints.
+What about more complex SHACL constructs such as ""alternative paths"", ""zero-or-more"", ""SPARQL-based constraints"", etc.?
+The authors should clarify precisely what kind of SHACL constraints are supported by the desktop application.
+In the conclusions section (pag. 15), the authors claim that ""... SHAPEness ... meet SHACL compliance requirements"".  If all SHACL constraints are not supported this is not true.
+
+(b) pag. 09: Why the JavaBean class was named ""Person"" in Figure 8 rather than ""ex_PersonShape""? The naming scheme should be explained in detail.
+
+(c) pag. 10: It would help a lot to include a proper representation of the Engine's components' design complexity, such as a UML class diagram.
+
+(d) pag. 10: Where is the SHAPEness data model? There is only one mention about the ""superclass Node"". Is that all? Again, this ""data model"" should be clearly defined and expressed properly, for example, as a UML class diagram that could capture the main structure.
+
+(e) pag. 10 / sec. 4.2.3: ""Each node has its own... behaviors (actions...)"", can you explain more about these actions? The shown example (fig. 8) only presents setters/getters actions.  What other actions are there?
+
+(f) pag. 15 / sec. 7: The authors claim that ""... SHAPEness ... meet SHACL compliance requirements of RDF data faster and more accurately"".  Faster and more accurately compared to what other tools? Was this tested/analysed? If not, this claim is not supported by any evidence.  The authors should rephrase or remove this claim.
+
+(g) secs. 3 and 7: the paper claims that the application can take ""as input a set of SHACL constraints"".  If this is true, how the application combines multiple SHACLs into one single ""schema""? This would be a very important feature.  An algorithm explaining how the application performs this combination of multiple SHACLs should be presented/explained.
+}
+
+
+* About the data files and related software artifacts: (“Long-term stable URL for resources”)
+(A) ""[code] files are well organized and contain a README file which makes it easy to assess the [code]"": [YES].
+(B) ""the provided resources appear to be complete for replication of experiments"": [YES.  COMPLETE]
+(C) ""the chosen repository is appropriate for long-term repository discoverability"": [YES. GitHub + Zenodo]
+(D) ""the provided [code] artifacts are complete"": [YES]
+
+
+* Minor corrections:
+pag. 01: ""The validation of the structure of RDF graphs"" ==> ""The validation of the RDF graphs structure""
+pag. 02 / [Schímatos]: ""The software is available to download as a React.js application"".
+pag. 04: ""compact IRI expressed as prefix:suffix"" ==> ""compact IRI expressed as prefix:localPart"", following the W3C XML NS spec (https://www.w3.org/TR/xml-names/).
+pag. 09 / alg. 02 / Line 11: it's better ""get existing JavaBean class""; ""sh:maxcount"" ==> ""sh:maxCount""; ""sh:mincount"" ==> ""sh:minCount"";
+pag. 12: ""e.g. use office, excel..."" ==> what is *office*?, should it be ""Microsoft Office Suite""? (which includes ""excel"").
+pag. 13 / sec. 6.3.2: ""listed in Table 1: a)...; b)..."" ==> it should be ""Table 1... and Table 2...""
+pag. 14 / tab. 1 / [T4, ""User's comments""]: ""not clear why and ID is needed"" ==> ""not clear why an ID is needed""
+pag. 17 / [26]: ""S.R. Méndez"" ==> ""S. Rodríguez Méndez""; ""O.P."" ==> ""P. Omran""; ""Schimatos"" ==> ""Schímatos""
+replacements: ""web"" ==> ""Web""; ""Schimatos"" ==> ""Schímatos"";
+
+
+* Others:
+{
++ The Google Form Questionnaire presented in section 6.2 should be included in a specific location (folder) on the GitHub repo.
+
++ pag. 13-15 / sec. 6.3: The analysis presented is based only on six different users.  For sure, more users would be suitable for a proper user testing analysis.
+Based on reference [20], it seems that the software has been used at least since 2019.  It is recommended to broader the usability analysis by considering more users, especially for the other 2 missing user groups. Although this is explained/covered in section 7, the authors should've considered broader the usability analysis before submitting the paper.
+}
+",,,,,
+2984,"--------
+Overview
+--------
+
+The paper proposes the Helio framework as a standard pipeline that generalizes the building and publishing of KGs around the following main tasks: KG Creation, Hosting, Curation, and Deployment. The paper elicits a set of core requirements for the Helio framework around the KG lifecycle which are also shown to be incorporated. The usage of Helio in various endeavors including research projects, scholarly articles, and bachelor thesis shows its impact and usefulness in the community. Such a framework is also the first of its kind.
+
+---------
+Strengths
+---------
+
+*It explicitly elicits the stages of knowledge graph creation and concretizes it as software that implements the pipeline. This work is somehow the first-of-its-kind.
+
+*The pipeline handles the following the five stages: Knowledge graph creation; Knowledge graph hosting; Knowledge graph curation; and Knowledge graph deployment. Each step carefully addresses and satisfies the set of requirements elicited in prior work [1] from their surveyistic observations of the KG life cycle.
+
+*The software is quite user-friendly even though it handles a set of tasks that have generally been implemented via adhoc implementations in the community. This goes to say that the authors have well surveyed the field to engineer and design the essential characteristics for this software.  
+
+------------------------
+Questions to the authors
+------------------------
+
+*Could it be explicitly specified somewhere the input file formats that will hold the specifications for the various modules? It would be beneficial to see a few samples (maybe in Appendix) of use-cases when one module is already satisfied, i.e. perhaps no data conversion is needed, and just one other module needs to be implemented, e.g. data publishing, etc.
+
+*Are there some modules that are indispensable to each other where one could work without the other but not the other way around? E.g., data hosting and data publishing, where data hosting would work without data publishing, but not vice versa.
+
+*Are there some modules in Helio that are mandatory to specify?
+
+*Are there are some test units in place to check that the specifications provided conform to those programmed in Helio? If so, a new section discussing the Helio Test Suite would also be very informative to the reader in my view.
+
+-----------------
+Typos and writing
+-----------------
+
+The paper would need to be proof-read for the final version. I noted a few typos in the text. Some of them are listed below.
+
+Line 38, column 1, page 1: “growth” -> “grown”
+Line 6, column 1, page 2: “pipe lines” -> “pipelines”
+Line 41, column 1, page 2: “relayed” -> “relied”
+Line 25, column 2, page 2: the semicolon seems misplaced
+Line 1, column 1, page 3: “during” -> “During”
+Line 8, column 1, page 3: “practitioners” -> “Practitioners”
+Note Line 3, column 1, page 7 reads “Hosting Module,” but Figure 2 reads “Host Module.” Similarly, Line 12, column 1, page 7 reads “Curation Module,” but Figure 2 reads “Curator Module.” My suggestion would be for the corresponding labels to match.
+Line 39, column 2, page 8: “uniquely” -> “unique”
+I stop here, but again my recommendation to the authors would be to have their paper proof-read thoroughly for minor writing grammar errors and typos. 
+
+
+----------
+References
+----------
+1.	Fensel, Dieter, et al. Knowledge graphs. Springer International Publishing, 2020.",,,,,
+2997,"Thank authors for considering and addressing most of my previous comments in the prevision review round. The current version includes additional Background section, the search method, the significance in the introduction section, and limitation of the study. Review results table is better presented now and made accessible for other researchers. I think the current manuscript looks suitable to publish and will contribute to the field. However, there are some changes or improvement need to be made:
+
+The quality (resolution) of Fig 1. PRISMA flow diagram is too low to read.
+In the result section, the reviewed papers were presented in detail but I miss the connections. Can they be compared or contrasted with each other (differences or similarities?)
+The General Recommendations will be very helpful for the researchers in the field. In my opinion, it can be more explicit and elaborate on more concrete actions. For example, according to “confidentiality, privacy and provenance mechanisms should coexist in favor of an in-depth privacy compliance solution for health data handling”, what is recommended to do then?
+It would be better if “The limitation of the study” goes to the Discussion section. What are the potential impacts of these limitations? 
+In general, the current manuscript is much more complete and structured after revision. I think it can be published after minor changes. Thanks.",,,,,
+3024,"This manuscript was submitted as 'full paper' and should be reviewed along the usual dimensions for research contributions which include (1) originality, (2) significance of the results, and (3) quality of writing. Please also assess the data file provided by the authors under “Long-term stable URL for resources”. In particular, assess (A) whether the data file is well organized and in particular contains a README file which makes it easy for you to assess the data, (B) whether the provided resources appear to be complete for replication of experiments, and if not, why, (C) whether the chosen repository, if it is not GitHub, Figshare or Zenodo, is appropriate for long-term repository discoverability, and (4) whether the provided data artifacts are complete. Please refer to the <a href=""/reviewers"" target=""_blank"">reviewer instructions</a> and the <a href=""/faq"" target=""_blank"">FAQ</a> for further information.
+
+Originality: good
+Significance of the results: weak
+Quality of writing: fair
+
+The paper ""Deploying Ontology-based Reasoning in Collaborative Manufacturing"" focuess on the knowledge representation and reasoning (KRR) in the manufacturing domain of collaboration of human and robot behaviors. It extends an ontology SOHO (Sharework Ontology for Human Robot Collaboration) and introduces a ""knowledge extraction procedure"" to automate the synthesis of Artificial Intelligence plan-based controllers. The topic is very interesting and has certain novelty, but there exist multiple confusions that diminish the value of the paper. Thus, I recommend ""Major Revision"".
+
+Motivation
+The motivation of semantic model and reasoning for human-robot-collaboration is clear from the big picture, but it is not specifically clarified in this paper.
+The paper claims ""Classical control processes that usually rely on static models of robot capabilities and production dynamics are  today obsolete since they do not provide robotic systems ... to support dynamic production enviornments."" 
+It may be too bold to say classic control processes relying on static models are already obsolete, as I (with current industrial connection) observe the good old systems are still the main stream in the manufacturing industry, especially considering that the term ""static"" and ""dynamic"" are insufficiently explained in the paper.
+The paper continues with the narrative that ""uncertainty"" is present and thus robots with ""cognitive capabilities"" are requiered, and the paper introduces the KRR technologies and concludes that ""Semantic technologies are crucial"". I totally agree with these points, but in this work the connection between semantic technologies and the ""uncertain"" and ""dynamic"" manufacturing systems are not particularly clear stated. More discussion is need on: how would the new ""perceive-reason-act"" paradigm benefit from semantic technologies, what excact changes that semantic technologies are enforcing (new robot control algorithm? system?), and what are the contrary situation without semantic technologies? What concrete challenges (more detailed than the general uncertainty and flexibility) need to be solved? These vital connections that close the last link of the storyline are missing or insufficiently clear.
+
+
+Evaluation
+The paper has elaborated on several industrial scenarios and give illustrative examples about how the proposed methods work in these scenarios. This is quite nice. What's unclear to me is how the knowledge representation of the scenarios with the proposed approach function as technological methods/systems/solutions, in another word, what ""tangible impact"" has the proposed approach brought onto the industrial cases, reflected by e.g., problem solving, KPI improvement, positive user feedbacks. The evaluation of the proposed approach could be improved by ontology quality verification, empirical quantitative comparison, success story telling, etc.
+
+Presentation
+The paper would enjoy the appreciation of a broader range of audience if its presentation is improved in several aspects:
+Some terms are used before a clear explaination, like the aforementioned ""static model"" and ""dynamic production environments"". 
+The term ""control model"" is crutial to understand the second major contribution of the paper, 
+the ""knowledge reasoning mechanism that contextualize production knowledge and synthesize plan-based control models"", but it is unsufficiently explained.
+Many figures (e.g., Fig. 4, Fig.6, Fig. 8, Fig. 10) have rich content but the text in them are too small. Besides, their main messages are also inadequately clarified and their contribution of the overall porpose of the paper is also not particularly clear.
+
+In summary, the paper has overall interesting topic and content, but should be improved in various aspects before it is accepted. Thus, I recommend a ""Major Revision"".
+
+",,,,,
+3034,"The author has submitted a thoroughly revised version of the original article, which all the minor issues I had pointed out. 
+
+In particular, the description of the Sampo design principles has been improved considerably by adding futher explanations and by changing the order of presentation. More detail is given on the technology generations and it becomes much clearer how they relate to the design principles. Finally, the SemanticComputing Github, which provides the long-term stable link to the resources, has been updated as asked for to meet the journal's Open Science Data policy. 
+
+I recommend the manuscript for publication.",,,,,
+3037,"In this manuscript the Authors present the Materials Design Ontology (MDO), a domain ontology to support interoperability of databases for solid-state calculations.
+
+Next, they address the MDO extension, applying a method (and a tool) that extracts candidates for additional concepts from a corpus of journal abstracts and enables domain experts to evaluate them. Finally, they present a proof-of-concept system using MDO to query multiple databases from the OPTIMADE initiative and evaluate its performance in comparison with other two systems.
+
+The manuscript builds on previous work from the Authors, that is extended here; both the ontology and the information to set up the server are publicly available (https://w3id.org/mdo/full/1.0/ and https://github.com/LiUSemWeb/OBG-gen). 
+
+The topic is timely, the manuscript is well written and rich of details to support reproducibility, therefore I do recommend it for publication in the Semantic Web journal.
+
+Below I give some questions and comments I would like the Authors to consider in their revised version before publication.
+
+-----------------------------------------------------------------------------------------------
+
+Questions/Comments
+
+1) Some ontologies for materials are listed in the manuscript (Table 1): how have these ontologies been found/selected? It would be useful to add a brief comment about this in the text, especially if they were found systematically. 
+
+2) The ""xsd:string"" type is used also for cases that could be further specified, for example as URI (e.g., DOI and URL properties of ReferenceAgent in the Provenance module). Please add a comment about this choice.
+
+3) In MDO, ""Physical property"" and ""calculated property"" are disjoint, it seems ""Physical"" stays for ""measured"" (experimentally). Note that other authors take the view that certain properties can be ""computed/calculated"" or ""measured"", but they are anyway in both cases
+""physical"" quantities, as opposed, for example, to numerical parameters that do not affect the physics of the system. A note could be added to point out what is meant with ""physical"" in MDO.
+
+4) On competency questions and restrictions.
+4a) CQ11 vs CQ13? Does CQ13 refer to software that is compatible with the one used to obtain the results? Please clarify. 
+4b) AR2 vs AR6? Does this exclude the possibility of using a combination of computational methods for materials? Please clarify. 
+
+5) Table 3: It is not clear how the ""Original TopMine"" and ""TopMine without stemming"" methods (columns two and three) differ from each other. Please explain it briefly in the text and/or point to a reference for details.
+
+6) The concept of ""High-quality frequent phrases"" could be clarified better and sooner. It is explained with an example, but I think a concise sentence could be added beforehand. For example, saying that a phrase that is also part of (contained in) a frequent one will not be counted.
+
+7) Is the ontology extension tool (snapshots in Figs 2,3,4,5) available, or is there a plan to make it available? In case, please add a comment in the manuscript.
+
+8) Current and future scope and connections
+8a) As clarified by UC1, ""materials"" and ""materials calculations"" in MDO are intended for solids, in the context of solid-state physics and condensed-matter theory. A note on this could be added in the introduction and conclusions, to stress the focus of MDO also there. If, on the contrary, there is a plan for MDO to be extended to address also other phases and areas of physics/modelling, this should be said.
+
+8b) For future work, in line with the mentioned OntoCommons demonstrator where connections to other ontologies will be explored, I would suggest, for the ""Calculation"" module, looking into recent and ongoing work within VIMMP Ontologies, in particular VISO-electronic (for definition of methods, parameters etc) [https://gitlab.com/vimmp-semantics/vimmp-ontologies/-/blob/master/viso/viso-electronic.ttl]. Similarly, another (work-in-progress) relevant ontology is EMMO-CIF [https://github.com/emmo-repo/CIF-ontology].
+
+8c) Sec 3.4: The current connection to EMMO and CHEBI is only via two individual concepts. A comment could be added on the reason for these choices (e.g., since EMMO is a TLO, more concepts can probably be reused, but I am aware that EMMO is still being actively developed and it could make sense to wait for it to be stable before drawing more connections).
+
+Minor points:
+
+9) ""Topic model"" approach and ""Latent Dirichlet Allocation"": please add references.
+
+10) Please add a sentence (and a reference) about Yago. Add a reference for MatML.
+
+11) Unless they are universally known, please expand acronyms in the main text when they first appear (e.g., OQMD = Open Quantum Materials Database, NOMAD=Novel Materials Discovery, etc).
+
+12) Introduction: EMMO name, please update ""Elemental"" -> ""Elementary"" 
+
+13) Page 5, line 51: Additional Restrictions -> please add ""(AR)"", since it is used afterwards 
+
+14) ""ODGSG"" is used in Fig 19, 20 and not defined. Obviously it refers to the OBG-gen server, but the acronym should be introduced in the text.
+
+15) Section 5: ""The 37 concepts of MDO were used as search phrases ..."". Was the search run on titles AND abstracts? I guess so, but please clarify for reproducibility.
+
+16) Typo: ""has exact one composition"" -> has exactly ...
+
+17) Patterns: In Sec. 3 it is first said ""we did not use existing ontology design patterns (scenario 7), as the only one we are aware of in the materials science field is about materials
+transformation [42] that is not covered by MDO."" then later on in the same section it is said
+""We identified a pattern related to provenance information in the repository of Ontology Design Patterns (ODPs) that could be reused or re-engineered for MDO."" Please clarify. 
+
+18) ""TopMine generates frequent phrases"": I understand it is meant to point out the ""output"" of the code, but ""identifies"" seems more appropriate.
+
+19) Page 16: ""generated topics"": Please add a brief sentence to say what a ""topic"" is in this context (e.g, as a clusters of phrases).
+
+-----------------------------------------------------------------------------------------------
+
+Note: In Long-term Stable Link to Resources, the Authors provided this link: https://github.com/LiUSemWeb/Materials-Design-Ontology
+Probably also this other link should be given https://github.com/LiUSemWeb/OBG-gen
+",,,,,
