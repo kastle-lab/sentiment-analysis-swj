@@ -326,12 +326,12 @@ More detailed things to look into (notation in page:line range)
 * 17:29-30 - ""[...] that are being used for interpretation and will be the basis for the final exhibition.""
 * 17:44 - ""Some interesting issues also rose"" (or ""were also raised"")
 * 18:46 - ""The conceptual model _is_ the outcome"" (or ""was"")
-* 18:32-35 - that this is the first born-Semantic archaeological approach is a rather bold statement: would one argue that prior projects like Pelagios do not apply? I would advise a scrutiny of the state of the art in e.g. the Digital Classicist wiki at https://wiki.digitalclassicist.org/Category:Linked_open_data (by the way, pleae make sure to be there).",ir5,
+* 18:32-35 - that this is the first born-Semantic archaeological approach is a rather bold statement: would one argue that prior projects like Pelagios do not apply? I would advise a scrutiny of the state of the art in e.g. the Digital Classicist wiki at https://wiki.digitalclassicist.org/Category:Linked_open_data (by the way, pleae make sure to be there).",ir5,Neutral
 2918,"The paper describes a method to generate RDF datasets for historical maps, whose topological features change over time. The method was evaluated over a selection of US historical map data.
 
 Having reviewed the previously submitted version of this paper, I may observe that this version contains the necessary improvements without introducing further issues. The authors have addressed my remarks both in the paper itself and in the author response, and have even addressed my ""curiosity"" comment in the concluding section. They have relicensed the data properly, made a release and improved its findability. In the future, they might consider separate releases for the data and for the code, although they will need to keep sharing the GitHub repository so as not to invalidate the stability of the supplied URL.
 
-I have no further recommendation for this paper and believe it is ready for publishing. Good work.",ir5,
+I have no further recommendation for this paper and believe it is ready for publishing. Good work.",ir5,Positive
 2920,"This paper proposes a meta model that can integrate various forms of heterogeneous data. The motivation of this model is the author’s claim that data aggregation can improve the predictive power of models learnt from that data.
 
 The paper was well written and easy to read.
@@ -343,7 +343,7 @@ The main issue I have with this paper is the exclusion of industry or at least n
 The user requirements are a little light. I would have liked to have known how participants were selected, their profile and how conflicting requirements were dealt with. Without knowing the profile of the users, it is difficult to know if these use cases are relevant or just edge cases.
 
 The rest of the paper is an in depth description of the  model, and I have no real complaints about it. My main concern is that once the project is over, that this model will simply not be used.  If you could give a more robust explanation about the user requirements, and who participated I think that this paper could be a good candidate for acceptance into the journal.
-",ir5,
+",ir5,Negative
 2926,"The Nagoya protocol on Access and Benefit Sharing defines the legal processes constraining both the collection and reuse of data in Biodiversity studies. To find information regarding the existing studies and the administrative processes to collect and reuse the data requires to retrieve information from various heterogeneous databases and documents. It becomes particularly complex if you consider studies in regions of the world for which sovereignty is unclear as in the case of the United Kingdom and their external territories. 
 The authors are presenting in this paper a proof-of-principle ontology designed to improve the current situation by supporting the implementation of the FAIR principles. The NagO ontology is a cross domain ontology which aggregates ontologies for biodiversity, geography together with additional terms describing organizational and legal aspects of the Nagoya protocol and the different stakeholders involved. The ontology follows the OBO Foundry principles making it interoperable with the biodiversity relevant ontologies and some geographical ontologies. These various ontologies are aligned under the Basic Formal Ontology which provide a consistent semantic and logical framework. 
 	
@@ -380,7 +380,7 @@ o	Page 6 – column 2 line 16 – “Rather than creating BFO roles for terms”
 o	Page 7 – table 1 – The table is not mentioned in the article. It can be removed. 
 -	Section 5 – Usage scenarios 
 -	Section 9 – Annex: the list of concept seems to be incomplete.
-",ir5,
+",ir5,Negative
 2949,"The paper suggests an ontology called MOntCS (Modular Ontology for Common Sense) to represent knowledge with a goal to resolve some issues in other knowledge bases. In particular they target two issues they identify in ConceptNet's ontology, relation ambiguity and lack of structure.
 
 The paper has a careful discussion of many of the aspects that influence the choice of relations and entity representation, and lands on a set of relations trying to strike a good balance. There is also good comparisons to various other approaches (although AMR could also have been discussed?).
@@ -401,7 +401,7 @@ However, the utility of this ontology is not so convincing with the current evid
 
 
 In summary, while the motivation of the paper is good, the current proposal does not seem all that convincing. Still, there are worthwhile ideas and suggestions throughout, and it could be more convincing with more concrete evidence from applying to other KBs or showing promise in generating useful explanations.
-",ir5,
+",ir5,Neutral
 2957,"* Summary: the article describes SHAPEness, an open-source Java-based desktop software application that is a SHACL-driven visual editor for creating and validating RDF graphs.
 It combines in a single user interface, 3 different types of views (graph-based, form-based, and tree-based).  The paper describes the application's features, architecture, and usability in the context of the European Plate Observing System.
 
@@ -486,7 +486,7 @@ replacements: ""web"" ==> ""Web""; ""Schimatos"" ==> ""Schímatos"";
 + pag. 13-15 / sec. 6.3: The analysis presented is based only on six different users.  For sure, more users would be suitable for a proper user testing analysis.
 Based on reference [20], it seems that the software has been used at least since 2019.  It is recommended to broader the usability analysis by considering more users, especially for the other 2 missing user groups. Although this is explained/covered in section 7, the authors should've considered broader the usability analysis before submitting the paper.
 }
-",ir5,
+",ir5,Neutral
 2984,"--------
 Overview
 --------
@@ -535,14 +535,14 @@ I stop here, but again my recommendation to the authors would be to have their p
 ----------
 References
 ----------
-1.	Fensel, Dieter, et al. Knowledge graphs. Springer International Publishing, 2020.",ir5,
+1.	Fensel, Dieter, et al. Knowledge graphs. Springer International Publishing, 2020.",ir5,Positive
 2997,"Thank authors for considering and addressing most of my previous comments in the prevision review round. The current version includes additional Background section, the search method, the significance in the introduction section, and limitation of the study. Review results table is better presented now and made accessible for other researchers. I think the current manuscript looks suitable to publish and will contribute to the field. However, there are some changes or improvement need to be made:
 
 The quality (resolution) of Fig 1. PRISMA flow diagram is too low to read.
 In the result section, the reviewed papers were presented in detail but I miss the connections. Can they be compared or contrasted with each other (differences or similarities?)
 The General Recommendations will be very helpful for the researchers in the field. In my opinion, it can be more explicit and elaborate on more concrete actions. For example, according to “confidentiality, privacy and provenance mechanisms should coexist in favor of an in-depth privacy compliance solution for health data handling”, what is recommended to do then?
 It would be better if “The limitation of the study” goes to the Discussion section. What are the potential impacts of these limitations? 
-In general, the current manuscript is much more complete and structured after revision. I think it can be published after minor changes. Thanks.",ir5,
+In general, the current manuscript is much more complete and structured after revision. I think it can be published after minor changes. Thanks.",ir5,Positive
 3024,"This manuscript was submitted as 'full paper' and should be reviewed along the usual dimensions for research contributions which include (1) originality, (2) significance of the results, and (3) quality of writing. Please also assess the data file provided by the authors under “Long-term stable URL for resources”. In particular, assess (A) whether the data file is well organized and in particular contains a README file which makes it easy for you to assess the data, (B) whether the provided resources appear to be complete for replication of experiments, and if not, why, (C) whether the chosen repository, if it is not GitHub, Figshare or Zenodo, is appropriate for long-term repository discoverability, and (4) whether the provided data artifacts are complete. Please refer to the <a href=""/reviewers"" target=""_blank"">reviewer instructions</a> and the <a href=""/faq"" target=""_blank"">FAQ</a> for further information.
 
 Originality: good
@@ -570,12 +570,12 @@ Many figures (e.g., Fig. 4, Fig.6, Fig. 8, Fig. 10) have rich content but the te
 
 In summary, the paper has overall interesting topic and content, but should be improved in various aspects before it is accepted. Thus, I recommend a ""Major Revision"".
 
-",ir5,
+",ir5,Negative
 3034,"The author has submitted a thoroughly revised version of the original article, which all the minor issues I had pointed out. 
 
 In particular, the description of the Sampo design principles has been improved considerably by adding futher explanations and by changing the order of presentation. More detail is given on the technology generations and it becomes much clearer how they relate to the design principles. Finally, the SemanticComputing Github, which provides the long-term stable link to the resources, has been updated as asked for to meet the journal's Open Science Data policy. 
 
-I recommend the manuscript for publication.",ir5,
+I recommend the manuscript for publication.",ir5,Positive
 3037,"In this manuscript the Authors present the Materials Design Ontology (MDO), a domain ontology to support interoperability of databases for solid-state calculations.
 
 Next, they address the MDO extension, applying a method (and a tool) that extracts candidates for additional concepts from a corpus of journal abstracts and enables domain experts to evaluate them. Finally, they present a proof-of-concept system using MDO to query multiple databases from the OPTIMADE initiative and evaluate its performance in comparison with other two systems.
@@ -644,4 +644,4 @@ transformation [42] that is not covered by MDO."" then later on in the same sect
 
 Note: In Long-term Stable Link to Resources, the Authors provided this link: https://github.com/LiUSemWeb/Materials-Design-Ontology
 Probably also this other link should be given https://github.com/LiUSemWeb/OBG-gen
-",ir5,
+",ir5,Positive
